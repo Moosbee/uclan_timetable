@@ -1,5 +1,5 @@
 use scraper::selectable::Selectable;
-use std::{collections::HashSet, fmt};
+use std::{collections::HashSet, fmt, fs};
 
 const MAIN_URL: &str = "https://apps.uclan.ac.uk/MvcRoomTimetable/";
 
@@ -181,7 +181,55 @@ fn main() {
             .then_with(|| a.start_time.cmp(&b.start_time))
     });
 
-    for event in all_events {
+    let course_ids = all_events
+        .iter()
+        .flat_map(|event| {
+            event
+                .courses
+                .iter()
+                .map(|course| (course.code.clone(), course.title.clone()))
+        })
+        .collect::<HashSet<_>>();
+
+    let mut course_ids = course_ids.into_iter().collect::<Vec<_>>();
+
+    course_ids.sort();
+
+    println!("\n\n\n\n");
+
+    for course in course_ids {
+        println!("{}  ---  {}", course.0, course.1);
+    }
+
+    println!("\n\n\n\n");
+
+    for event in &all_events {
+        println!("{}", event);
+    }
+
+    let blacklist = fs::read_to_string("course_blacklist.txt").unwrap();
+    let blacklist = blacklist
+        .split('\n')
+        .map(|f| f.split_once("  ---  ").unwrap().0.to_string())
+        .collect::<HashSet<_>>();
+
+    let filtered_events = all_events
+        .into_iter()
+        .filter(|event| match &event.event_type {
+            EventType::Teaching { category, delivery } => {
+                category.contains("Lecture")
+                    && event
+                        .courses
+                        .iter()
+                        .all(|course| !blacklist.contains(&course.code))
+            }
+            _ => false,
+        })
+        .collect::<Vec<_>>();
+
+    println!("\n\n\n\n");
+
+    for event in &filtered_events {
         println!("{}", event);
     }
 }
