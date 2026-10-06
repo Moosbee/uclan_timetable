@@ -1,0 +1,6874 @@
+{
+  "buildings": [
+    {
+      "url": "AB/",
+      "name": "Adelphi Building"
+    },
+    {
+      "url": "AL/",
+      "name": "Allen Building"
+    },
+    {
+      "url": "AO/",
+      "name": "Alston Observatory"
+    },
+    {
+      "url": "ALT/",
+      "name": "Altitude"
+    },
+    {
+      "url": "AC/",
+      "name": "Arts Centre"
+    },
+    {
+      "url": "33Es/",
+      "name": "B/33 Edward Street"
+    },
+    {
+      "url": "BB/",
+      "name": "Brook Building"
+    },
+    {
+      "url": "BU/",
+      "name": "Burnley Campus"
+    },
+    {
+      "url": "CM/",
+      "name": "C & T Building"
+    },
+    {
+      "url": "DB/",
+      "name": "Darwin Building"
+    },
+    {
+      "url": "EB/",
+      "name": "Edward Building"
+    },
+    {
+      "url": "EIC/",
+      "name": "Engineering Innovation Centre"
+    },
+    {
+      "url": "E/",
+      "name": "External"
+    },
+    {
+      "url": "FB/",
+      "name": "Foster Building"
+    },
+    {
+      "url": "FGH/",
+      "name": "Furness General Hospital"
+    },
+    {
+      "url": "GR/",
+      "name": "Greenbank Building"
+    },
+    {
+      "url": "HR/",
+      "name": "Hanover Building"
+    },
+    {
+      "url": "HA/",
+      "name": "Harrington Building"
+    },
+    {
+      "url": "HB/",
+      "name": "Harris Building"
+    },
+    {
+      "url": "HH/",
+      "name": "Heatley House"
+    },
+    {
+      "url": "Innovation Centre/",
+      "name": "Innovation Centre"
+    },
+    {
+      "url": "IW/",
+      "name": "Iron Works"
+    },
+    {
+      "url": "JBF/",
+      "name": "JB Firth Building"
+    },
+    {
+      "url": "JFY/",
+      "name": "John Fyfe Building"
+    },
+    {
+      "url": "KM/",
+      "name": "Kirkham Building"
+    },
+    {
+      "url": "LE/",
+      "name": "Leighton Building"
+    },
+    {
+      "url": "LIB/",
+      "name": "Library"
+    },
+    {
+      "url": "MB/",
+      "name": "Maudland Building"
+    },
+    {
+      "url": "ME/",
+      "name": "Media Factory"
+    },
+    {
+      "url": "MY/",
+      "name": "Myerscough"
+    },
+    {
+      "url": "NTM/",
+      "name": "Newtown Mill"
+    },
+    {
+      "url": "ON/",
+      "name": "Online"
+    },
+    {
+      "url": "9/",
+      "name": "Preston Campus"
+    },
+    {
+      "url": "PC/",
+      "name": "Preston College"
+    },
+    {
+      "url": "SGM/",
+      "name": "Sandygate Mill"
+    },
+    {
+      "url": "SVM/",
+      "name": "School of Veterinary Medicine"
+    },
+    {
+      "url": "STF/",
+      "name": "Sir Tom Finney Sports Centre"
+    },
+    {
+      "url": "SPC/",
+      "name": "St Peters Court"
+    },
+    {
+      "url": "STU/",
+      "name": "Student Centre"
+    },
+    {
+      "url": "SU/",
+      "name": "Student Union"
+    },
+    {
+      "url": "SUM/",
+      "name": "Summer Grove"
+    },
+    {
+      "url": "USA/",
+      "name": "UCLan Sports Arena"
+    },
+    {
+      "url": "VE/",
+      "name": "Vernon Building"
+    },
+    {
+      "url": "VB/",
+      "name": "Victoria Building"
+    },
+    {
+      "url": "VM/",
+      "name": "Victoria Mill"
+    },
+    {
+      "url": "WL/",
+      "name": "Westlakes"
+    },
+    {
+      "url": "WB/",
+      "name": "Wharf Building"
+    }
+  ],
+  "rooms": [
+    {
+      "building_url": "AB/",
+      "room_url": "AB012",
+      "room_name": "AB012 (Adelphi)"
+    },
+    {
+      "building_url": "AB/",
+      "room_url": "AB012",
+      "room_name": "AB012 (Adelphi)"
+    },
+    {
+      "building_url": "AB/",
+      "room_url": "AB012",
+      "room_name": "AB012 (Adelphi)"
+    },
+    {
+      "building_url": "AB/",
+      "room_url": "AB025",
+      "room_name": "AB025 (Adelphi)"
+    },
+    {
+      "building_url": "AB/",
+      "room_url": "AB025",
+      "room_name": "AB025 (Adelphi)"
+    },
+    {
+      "building_url": "AB/",
+      "room_url": "AB025",
+      "room_name": "AB025 (Adelphi)"
+    },
+    {
+      "building_url": "AB/",
+      "room_url": "AB026",
+      "room_name": "AB026 - SAP Room (Adelphi"
+    },
+    {
+      "building_url": "AB/",
+      "room_url": "AB104",
+      "room_name": "AB104 - Interpreting Suite (Adelphi)"
+    },
+    {
+      "building_url": "AB/",
+      "room_url": "AB106",
+      "room_name": "AB106 - Interpreting Suite (Adelphi)"
+    },
+    {
+      "building_url": "AB/",
+      "room_url": "AB114",
+      "room_name": "AB114 - PC Lab (Adelphi)"
+    },
+    {
+      "building_url": "AB/",
+      "room_url": "AB114",
+      "room_name": "AB114 - PC Lab (Adelphi)"
+    },
+    {
+      "building_url": "AB/",
+      "room_url": "AB128",
+      "room_name": "AB128 - Language Lab (Adelphi)"
+    },
+    {
+      "building_url": "AB/",
+      "room_url": "AB212",
+      "room_name": "AB212 - Committee Room (Adelphi)"
+    },
+    {
+      "building_url": "AB/",
+      "room_url": "AB212",
+      "room_name": "AB212 - Committee Room (Adelphi)"
+    },
+    {
+      "building_url": "AB/",
+      "room_url": "AB226",
+      "room_name": "AB226 - Conference Room (Adelphi)"
+    },
+    {
+      "building_url": "AB/",
+      "room_url": "AB226",
+      "room_name": "AB226 - Conference Room (Adelphi)"
+    },
+    {
+      "building_url": "AB/",
+      "room_url": "ABFOY",
+      "room_name": "ABFOY - Adelphi Foyer (Adelphi)"
+    },
+    {
+      "building_url": "AB/",
+      "room_url": "ABLT1",
+      "room_name": "ABLT1 Adelphi Lecture Theatre 1  (Adelphi)"
+    },
+    {
+      "building_url": "AB/",
+      "room_url": "ABLT1",
+      "room_name": "ABLT1 Adelphi Lecture Theatre 1  (Adelphi)"
+    },
+    {
+      "building_url": "AB/",
+      "room_url": "ABLT2",
+      "room_name": "ABLT2 Adelphi Lecture Theatre 2 (Adelphi)"
+    },
+    {
+      "building_url": "AB/",
+      "room_url": "ABLT2",
+      "room_name": "ABLT2 Adelphi Lecture Theatre 2 (Adelphi)"
+    },
+    {
+      "building_url": "AB/",
+      "room_url": "ABLT3",
+      "room_name": "ABLT3 Adelphi Lecture Theatre 3 (Adelphi)"
+    },
+    {
+      "building_url": "AB/",
+      "room_url": "ABLT3",
+      "room_name": "ABLT3 Adelphi Lecture Theatre 3 (Adelphi)"
+    },
+    {
+      "building_url": "AB/",
+      "room_url": "ABLT4",
+      "room_name": "ABLT4 Adelphi Lecture Theatre 4  (Adelphi)"
+    },
+    {
+      "building_url": "AB/",
+      "room_url": "ABLT4",
+      "room_name": "ABLT4 Adelphi Lecture Theatre 4  (Adelphi)"
+    },
+    {
+      "building_url": "AB/",
+      "room_url": "ABLT5",
+      "room_name": "ABLT5 Adelphi Lecture Theatre 5 (Adelphi)"
+    },
+    {
+      "building_url": "AB/",
+      "room_url": "ABLT5",
+      "room_name": "ABLT5 Adelphi Lecture Theatre 5 (Adelphi)"
+    },
+    {
+      "building_url": "AL/",
+      "room_url": "AL001",
+      "room_name": "AL001 - Dentristry Lab (Allen)"
+    },
+    {
+      "building_url": "AL/",
+      "room_url": "AL004",
+      "room_name": "AL004 (Allen)"
+    },
+    {
+      "building_url": "AL/",
+      "room_url": "AL004",
+      "room_name": "AL004 (Allen)"
+    },
+    {
+      "building_url": "AL/",
+      "room_url": "AL010",
+      "room_name": "AL010 - PBL 2 (Allen)"
+    },
+    {
+      "building_url": "AL/",
+      "room_url": "AL010",
+      "room_name": "AL010 - PBL 2 (Allen)"
+    },
+    {
+      "building_url": "AL/",
+      "room_url": "AL010",
+      "room_name": "AL010 - PBL 2 (Allen)"
+    },
+    {
+      "building_url": "AL/",
+      "room_url": "AL012",
+      "room_name": "AL012 - PBL 3 (Allen)"
+    },
+    {
+      "building_url": "AL/",
+      "room_url": "AL012",
+      "room_name": "AL012 - PBL 3 (Allen)"
+    },
+    {
+      "building_url": "AL/",
+      "room_url": "AL012",
+      "room_name": "AL012 - PBL 3 (Allen)"
+    },
+    {
+      "building_url": "AL/",
+      "room_url": "AL013",
+      "room_name": "AL013 - PBL 4 (Allen)"
+    },
+    {
+      "building_url": "AL/",
+      "room_url": "AL013",
+      "room_name": "AL013 - PBL 4 (Allen)"
+    },
+    {
+      "building_url": "AL/",
+      "room_url": "AL013",
+      "room_name": "AL013 - PBL 4 (Allen)"
+    },
+    {
+      "building_url": "AL/",
+      "room_url": "AL104",
+      "room_name": "AL104 - Human Anatomy Resource & Learning Centre (Allen)"
+    },
+    {
+      "building_url": "AL/",
+      "room_url": "AL108",
+      "room_name": "AL108 Prosthodontics Lab (Allen)"
+    },
+    {
+      "building_url": "AL/",
+      "room_url": "AL110",
+      "room_name": "AL110 Dental Materials Lab (Allen)"
+    },
+    {
+      "building_url": "AL/",
+      "room_url": "AL201",
+      "room_name": "AL201 Dental Clinical Skills Training Lab (Allen)"
+    },
+    {
+      "building_url": "AL/",
+      "room_url": "AL203",
+      "room_name": "AL203 - Phantom Head Room (Allen)"
+    },
+    {
+      "building_url": "AL/",
+      "room_url": "AL205",
+      "room_name": "AL205 - Dental Surgery (Allen)"
+    },
+    {
+      "building_url": "AL/",
+      "room_url": "AL207",
+      "room_name": "AL207 Seminar Room (Allen)"
+    },
+    {
+      "building_url": "AL/",
+      "room_url": "AL207",
+      "room_name": "AL207 Seminar Room (Allen)"
+    },
+    {
+      "building_url": "AL/",
+      "room_url": "AL207",
+      "room_name": "AL207 Seminar Room (Allen)"
+    },
+    {
+      "building_url": "AO/",
+      "room_url": "AO001",
+      "room_name": "AO001 Alston Observatory"
+    },
+    {
+      "building_url": "ALT/",
+      "room_url": "ALT037",
+      "room_name": "ALT037 (Altitude)"
+    },
+    {
+      "building_url": "AC/",
+      "room_url": "AC011",
+      "room_name": "AC011 - St Peter's Arts Centre"
+    },
+    {
+      "building_url": "33Es/",
+      "room_url": "14M001",
+      "room_name": "14M001 Crime Scene Houses (14-16 Maudland Street)"
+    },
+    {
+      "building_url": "BB/",
+      "room_url": "BB007",
+      "room_name": "BB007 Meeting Room (Brook Building)"
+    },
+    {
+      "building_url": "BB/",
+      "room_url": "BB007",
+      "room_name": "BB007 Meeting Room (Brook Building)"
+    },
+    {
+      "building_url": "BB/",
+      "room_url": "BB008",
+      "room_name": "BB008 (Brook Building)"
+    },
+    {
+      "building_url": "BB/",
+      "room_url": "BB008",
+      "room_name": "BB008 (Brook Building)"
+    },
+    {
+      "building_url": "BB/",
+      "room_url": "BB009",
+      "room_name": "BB009 (Brook Building)"
+    },
+    {
+      "building_url": "BB/",
+      "room_url": "BB009",
+      "room_name": "BB009 (Brook Building)"
+    },
+    {
+      "building_url": "BB/",
+      "room_url": "BB009",
+      "room_name": "BB009 (Brook Building)"
+    },
+    {
+      "building_url": "BB/",
+      "room_url": "BB013",
+      "room_name": "BB013 (Brook Building)"
+    },
+    {
+      "building_url": "BB/",
+      "room_url": "BB013",
+      "room_name": "BB013 (Brook Building)"
+    },
+    {
+      "building_url": "BB/",
+      "room_url": "BB015",
+      "room_name": "BB015 (Brook Building)"
+    },
+    {
+      "building_url": "BB/",
+      "room_url": "BB015",
+      "room_name": "BB015 (Brook Building)"
+    },
+    {
+      "building_url": "BB/",
+      "room_url": "BB015",
+      "room_name": "BB015 (Brook Building)"
+    },
+    {
+      "building_url": "BB/",
+      "room_url": "BB016",
+      "room_name": "BB016 (Brook Building)"
+    },
+    {
+      "building_url": "BB/",
+      "room_url": "BB016",
+      "room_name": "BB016 (Brook Building)"
+    },
+    {
+      "building_url": "BB/",
+      "room_url": "BB016",
+      "room_name": "BB016 (Brook Building)"
+    },
+    {
+      "building_url": "BB/",
+      "room_url": "BB018",
+      "room_name": "BB018 - PC Lab (Brook Building)"
+    },
+    {
+      "building_url": "BB/",
+      "room_url": "BB018",
+      "room_name": "BB018 - PC Lab (Brook Building)"
+    },
+    {
+      "building_url": "BB/",
+      "room_url": "BB019",
+      "room_name": "BB019 (Brook Building)"
+    },
+    {
+      "building_url": "BB/",
+      "room_url": "BB019",
+      "room_name": "BB019 (Brook Building)"
+    },
+    {
+      "building_url": "BB/",
+      "room_url": "BB019",
+      "room_name": "BB019 (Brook Building)"
+    },
+    {
+      "building_url": "BB/",
+      "room_url": "BB029",
+      "room_name": "BB029 Clinic (Brook Building)"
+    },
+    {
+      "building_url": "BB/",
+      "room_url": "BB032",
+      "room_name": "BB032 Skills Room 1 (Brook Building)"
+    },
+    {
+      "building_url": "BB/",
+      "room_url": "BB034",
+      "room_name": "BB034 Skills Room 2  (Brook Building)"
+    },
+    {
+      "building_url": "BB/",
+      "room_url": "BB105",
+      "room_name": "BB105  (Brook Building)"
+    },
+    {
+      "building_url": "BB/",
+      "room_url": "BB105",
+      "room_name": "BB105  (Brook Building)"
+    },
+    {
+      "building_url": "BB/",
+      "room_url": "BB105",
+      "room_name": "BB105  (Brook Building)"
+    },
+    {
+      "building_url": "BB/",
+      "room_url": "BB107",
+      "room_name": "BB107 Physio Immersive Suite  (Brook Building)"
+    },
+    {
+      "building_url": "BB/",
+      "room_url": "BB107",
+      "room_name": "BB107 Physio Immersive Suite  (Brook Building)"
+    },
+    {
+      "building_url": "BB/",
+      "room_url": "BB111",
+      "room_name": "BB111  (Brook Building)"
+    },
+    {
+      "building_url": "BB/",
+      "room_url": "BB111",
+      "room_name": "BB111  (Brook Building)"
+    },
+    {
+      "building_url": "BB/",
+      "room_url": "BB111",
+      "room_name": "BB111  (Brook Building)"
+    },
+    {
+      "building_url": "BB/",
+      "room_url": "BB115",
+      "room_name": "BB115  (Brook Building)"
+    },
+    {
+      "building_url": "BB/",
+      "room_url": "BB137",
+      "room_name": "BB137  (Brook Building)"
+    },
+    {
+      "building_url": "BB/",
+      "room_url": "BB137",
+      "room_name": "BB137  (Brook Building)"
+    },
+    {
+      "building_url": "BB/",
+      "room_url": "BB137",
+      "room_name": "BB137  (Brook Building)"
+    },
+    {
+      "building_url": "BB/",
+      "room_url": "BB138",
+      "room_name": "BB138 (Brook Building)"
+    },
+    {
+      "building_url": "BB/",
+      "room_url": "BB138",
+      "room_name": "BB138 (Brook Building)"
+    },
+    {
+      "building_url": "BB/",
+      "room_url": "BB138",
+      "room_name": "BB138 (Brook Building)"
+    },
+    {
+      "building_url": "BB/",
+      "room_url": "BB139",
+      "room_name": "BB139  (Brook Building)"
+    },
+    {
+      "building_url": "BB/",
+      "room_url": "BB139",
+      "room_name": "BB139  (Brook Building)"
+    },
+    {
+      "building_url": "BB/",
+      "room_url": "BB139",
+      "room_name": "BB139  (Brook Building)"
+    },
+    {
+      "building_url": "BB/",
+      "room_url": "BB140",
+      "room_name": "BB140  (Brook Building)"
+    },
+    {
+      "building_url": "BB/",
+      "room_url": "BB140",
+      "room_name": "BB140  (Brook Building)"
+    },
+    {
+      "building_url": "BB/",
+      "room_url": "BB140",
+      "room_name": "BB140  (Brook Building)"
+    },
+    {
+      "building_url": "BB/",
+      "room_url": "BB142",
+      "room_name": "BB142  (Brook Building)"
+    },
+    {
+      "building_url": "BB/",
+      "room_url": "BB142",
+      "room_name": "BB142  (Brook Building)"
+    },
+    {
+      "building_url": "BB/",
+      "room_url": "BB142",
+      "room_name": "BB142  (Brook Building)"
+    },
+    {
+      "building_url": "BB/",
+      "room_url": "BB142a",
+      "room_name": "BB142a  (Brook Building)"
+    },
+    {
+      "building_url": "BB/",
+      "room_url": "BB142a",
+      "room_name": "BB142a  (Brook Building)"
+    },
+    {
+      "building_url": "BB/",
+      "room_url": "BB142a",
+      "room_name": "BB142a  (Brook Building)"
+    },
+    {
+      "building_url": "BB/",
+      "room_url": "BB143",
+      "room_name": "BB143  (Brook Building)"
+    },
+    {
+      "building_url": "BB/",
+      "room_url": "BB143",
+      "room_name": "BB143  (Brook Building)"
+    },
+    {
+      "building_url": "BB/",
+      "room_url": "BB143",
+      "room_name": "BB143  (Brook Building)"
+    },
+    {
+      "building_url": "BB/",
+      "room_url": "BB204a",
+      "room_name": "BB204a - Skills Room 1 (Brook Building)"
+    },
+    {
+      "building_url": "BB/",
+      "room_url": "BB204b",
+      "room_name": "BB204b - Skills Room 2 (Brook Building)"
+    },
+    {
+      "building_url": "BB/",
+      "room_url": "BB213",
+      "room_name": "BB213  (Brook Building)"
+    },
+    {
+      "building_url": "BB/",
+      "room_url": "BB213",
+      "room_name": "BB213  (Brook Building)"
+    },
+    {
+      "building_url": "BB/",
+      "room_url": "BB213",
+      "room_name": "BB213  (Brook Building)"
+    },
+    {
+      "building_url": "BB/",
+      "room_url": "BB240",
+      "room_name": "BB240 - PC Lab  (Brook Building)"
+    },
+    {
+      "building_url": "BB/",
+      "room_url": "BB240",
+      "room_name": "BB240 - PC Lab  (Brook Building)"
+    },
+    {
+      "building_url": "BB/",
+      "room_url": "BB245",
+      "room_name": "BB245  (Brook Building)"
+    },
+    {
+      "building_url": "BB/",
+      "room_url": "BB245",
+      "room_name": "BB245  (Brook Building)"
+    },
+    {
+      "building_url": "BB/",
+      "room_url": "BB245",
+      "room_name": "BB245  (Brook Building)"
+    },
+    {
+      "building_url": "BB/",
+      "room_url": "BB245a",
+      "room_name": "BB245a  (Brook Building)"
+    },
+    {
+      "building_url": "BB/",
+      "room_url": "BB245a",
+      "room_name": "BB245a  (Brook Building)"
+    },
+    {
+      "building_url": "BB/",
+      "room_url": "BB245a",
+      "room_name": "BB245a  (Brook Building)"
+    },
+    {
+      "building_url": "BB/",
+      "room_url": "BB312",
+      "room_name": "BB312  (Brook Building)"
+    },
+    {
+      "building_url": "BB/",
+      "room_url": "BB312",
+      "room_name": "BB312  (Brook Building)"
+    },
+    {
+      "building_url": "BB/",
+      "room_url": "BB312",
+      "room_name": "BB312  (Brook Building)"
+    },
+    {
+      "building_url": "BB/",
+      "room_url": "BB353",
+      "room_name": "BB353 Plinth Room 3 (Brook Building)"
+    },
+    {
+      "building_url": "BB/",
+      "room_url": "BB355",
+      "room_name": "BB355 (Brook Building)"
+    },
+    {
+      "building_url": "BB/",
+      "room_url": "BB355",
+      "room_name": "BB355 (Brook Building)"
+    },
+    {
+      "building_url": "BB/",
+      "room_url": "BB355",
+      "room_name": "BB355 (Brook Building)"
+    },
+    {
+      "building_url": "BB/",
+      "room_url": "BB355a",
+      "room_name": "BB355a (Brook Building)"
+    },
+    {
+      "building_url": "BB/",
+      "room_url": "BB355a",
+      "room_name": "BB355a (Brook Building)"
+    },
+    {
+      "building_url": "BB/",
+      "room_url": "BB355a",
+      "room_name": "BB355a (Brook Building)"
+    },
+    {
+      "building_url": "BB/",
+      "room_url": "BB438",
+      "room_name": "BB438 (Brook Building)"
+    },
+    {
+      "building_url": "BB/",
+      "room_url": "BB438",
+      "room_name": "BB438 (Brook Building)"
+    },
+    {
+      "building_url": "BB/",
+      "room_url": "BB438",
+      "room_name": "BB438 (Brook Building)"
+    },
+    {
+      "building_url": "BB/",
+      "room_url": "BB447",
+      "room_name": "BB447  (Brook Building)"
+    },
+    {
+      "building_url": "BB/",
+      "room_url": "BB447",
+      "room_name": "BB447  (Brook Building)"
+    },
+    {
+      "building_url": "BB/",
+      "room_url": "BB447",
+      "room_name": "BB447  (Brook Building)"
+    },
+    {
+      "building_url": "BU/",
+      "room_url": "SPLUSFFF8CA",
+      "room_name": "Field Trip"
+    },
+    {
+      "building_url": "BU/",
+      "room_url": "SPLUSFFF8CB",
+      "room_name": "Field Trip"
+    },
+    {
+      "building_url": "BU/",
+      "room_url": "C204",
+      "room_name": "C204 PC Lab (Princess Way)"
+    },
+    {
+      "building_url": "BU/",
+      "room_url": "C204",
+      "room_name": "C204 PC Lab (Princess Way)"
+    },
+    {
+      "building_url": "BU/",
+      "room_url": "C205",
+      "room_name": "C205 PC Lab  (Princess Way)"
+    },
+    {
+      "building_url": "BU/",
+      "room_url": "C205",
+      "room_name": "C205 PC Lab  (Princess Way)"
+    },
+    {
+      "building_url": "BU/",
+      "room_url": "C208",
+      "room_name": "C208 PC Lab  (Princess Way)"
+    },
+    {
+      "building_url": "BU/",
+      "room_url": "C208",
+      "room_name": "C208 PC Lab  (Princess Way)"
+    },
+    {
+      "building_url": "BU/",
+      "room_url": "C311",
+      "room_name": "C311 PC Lab (Princess Way)"
+    },
+    {
+      "building_url": "BU/",
+      "room_url": "C311",
+      "room_name": "C311 PC Lab (Princess Way)"
+    },
+    {
+      "building_url": "BU/",
+      "room_url": "C405",
+      "room_name": "C405 - PC Lab  (Princess Way)"
+    },
+    {
+      "building_url": "BU/",
+      "room_url": "C405",
+      "room_name": "C405 - PC Lab  (Princess Way)"
+    },
+    {
+      "building_url": "BU/",
+      "room_url": "Guided Learning BU01",
+      "room_name": "Guided Learning BU01"
+    },
+    {
+      "building_url": "BU/",
+      "room_url": "Guided Learning BU02",
+      "room_name": "Guided Learning BU02"
+    },
+    {
+      "building_url": "BU/",
+      "room_url": "Guided Learning BU03",
+      "room_name": "Guided Learning BU03"
+    },
+    {
+      "building_url": "BU/",
+      "room_url": "Guided Learning BU04",
+      "room_name": "Guided Learning BU04"
+    },
+    {
+      "building_url": "BU/",
+      "room_url": "Guided Learning BU05",
+      "room_name": "Guided Learning BU05"
+    },
+    {
+      "building_url": "BU/",
+      "room_url": "LECTADVB3",
+      "room_name": "Lecturer/ School to Advise Location"
+    },
+    {
+      "building_url": "BU/",
+      "room_url": "LECTADVB4",
+      "room_name": "Lecturer/ School to Advise Location"
+    },
+    {
+      "building_url": "BU/",
+      "room_url": "LECTADVB5",
+      "room_name": "Lecturer/ School to Advise Location"
+    },
+    {
+      "building_url": "BU/",
+      "room_url": "LECTADVB6",
+      "room_name": "Lecturer/ School to Advise Location"
+    },
+    {
+      "building_url": "BU/",
+      "room_url": "Lecturers Office B1",
+      "room_name": "Lecturers Office"
+    },
+    {
+      "building_url": "BU/",
+      "room_url": "Lecturers Office B2",
+      "room_name": "Lecturers Office"
+    },
+    {
+      "building_url": "BU/",
+      "room_url": "Lecturers Office B3",
+      "room_name": "Lecturers Office"
+    },
+    {
+      "building_url": "BU/",
+      "room_url": "Placement09",
+      "room_name": "Placement 09"
+    },
+    {
+      "building_url": "BU/",
+      "room_url": "Placement10",
+      "room_name": "Placement 10"
+    },
+    {
+      "building_url": "BU/",
+      "room_url": "Placement8",
+      "room_name": "Placement"
+    },
+    {
+      "building_url": "CM/",
+      "room_url": "CM006",
+      "room_name": "CM006 - PC Lab  (C&T Building)"
+    },
+    {
+      "building_url": "CM/",
+      "room_url": "CM006",
+      "room_name": "CM006 - PC Lab  (C&T Building)"
+    },
+    {
+      "building_url": "CM/",
+      "room_url": "CM011",
+      "room_name": "CM011 Mobile Computing Lab  (C&T Building)"
+    },
+    {
+      "building_url": "CM/",
+      "room_url": "CM011",
+      "room_name": "CM011 Mobile Computing Lab  (C&T Building)"
+    },
+    {
+      "building_url": "CM/",
+      "room_url": "CM016",
+      "room_name": "CM016 - PC Lab  (C&T Building)"
+    },
+    {
+      "building_url": "CM/",
+      "room_url": "CM016",
+      "room_name": "CM016 - PC Lab  (C&T Building)"
+    },
+    {
+      "building_url": "CM/",
+      "room_url": "CM017",
+      "room_name": "CM017 - PC Lab  (C&T Building)"
+    },
+    {
+      "building_url": "CM/",
+      "room_url": "CM017",
+      "room_name": "CM017 - PC Lab  (C&T Building)"
+    },
+    {
+      "building_url": "CM/",
+      "room_url": "CM018",
+      "room_name": "CM018 Games Development Lab  (C&T Building)"
+    },
+    {
+      "building_url": "CM/",
+      "room_url": "CM019",
+      "room_name": "CM019 - PC Lab  (C&T Building)"
+    },
+    {
+      "building_url": "CM/",
+      "room_url": "CM019",
+      "room_name": "CM019 - PC Lab  (C&T Building)"
+    },
+    {
+      "building_url": "CM/",
+      "room_url": "CM025",
+      "room_name": "CM025 Forensic Computing Lab  (C&T Building)"
+    },
+    {
+      "building_url": "CM/",
+      "room_url": "CM026",
+      "room_name": "CM026 Linux Lab  (C&T Building)"
+    },
+    {
+      "building_url": "CM/",
+      "room_url": "CM026",
+      "room_name": "CM026 Linux Lab  (C&T Building)"
+    },
+    {
+      "building_url": "CM/",
+      "room_url": "CM033",
+      "room_name": "CM033 - PC Lab  (C&T Building)"
+    },
+    {
+      "building_url": "CM/",
+      "room_url": "CM033",
+      "room_name": "CM033 - PC Lab  (C&T Building)"
+    },
+    {
+      "building_url": "CM/",
+      "room_url": "CM034",
+      "room_name": "CM034 Multimedia Lab  (C&T Building)"
+    },
+    {
+      "building_url": "CM/",
+      "room_url": "CM034",
+      "room_name": "CM034 Multimedia Lab  (C&T Building)"
+    },
+    {
+      "building_url": "CM/",
+      "room_url": "CM101",
+      "room_name": "CM101  (C&T Building)"
+    },
+    {
+      "building_url": "CM/",
+      "room_url": "CM101",
+      "room_name": "CM101  (C&T Building)"
+    },
+    {
+      "building_url": "CM/",
+      "room_url": "CM101",
+      "room_name": "CM101  (C&T Building)"
+    },
+    {
+      "building_url": "CM/",
+      "room_url": "CM108",
+      "room_name": "CM108 (C&T Building)"
+    },
+    {
+      "building_url": "CM/",
+      "room_url": "CM108",
+      "room_name": "CM108 (C&T Building)"
+    },
+    {
+      "building_url": "CM/",
+      "room_url": "CM108",
+      "room_name": "CM108 (C&T Building)"
+    },
+    {
+      "building_url": "CM/",
+      "room_url": "CM117",
+      "room_name": "CM117 Interactive Design & People-Centred Computing Lab (C&T Building)"
+    },
+    {
+      "building_url": "CM/",
+      "room_url": "CM119",
+      "room_name": "CM119 Agile Lab (C&T Building)"
+    },
+    {
+      "building_url": "CM/",
+      "room_url": "CM120",
+      "room_name": "CM120 CISCO Networking Lab (C&T Building)"
+    },
+    {
+      "building_url": "CM/",
+      "room_url": "CM125",
+      "room_name": "CM125 Electronic Design Automation Lab (C&T Building)"
+    },
+    {
+      "building_url": "CM/",
+      "room_url": "CM129",
+      "room_name": "CM129 Digital Engineering Lab (C&T Building)"
+    },
+    {
+      "building_url": "CM/",
+      "room_url": "CM130",
+      "room_name": "CM130 Digital Systems Lab (C&T Building)"
+    },
+    {
+      "building_url": "CM/",
+      "room_url": "CM142",
+      "room_name": "CM142 CISCO Networking Lab (C&T Building)"
+    },
+    {
+      "building_url": "CM/",
+      "room_url": "CM143",
+      "room_name": "CM143 Oracle Lab (C&T Building)"
+    },
+    {
+      "building_url": "CM/",
+      "room_url": "CM143",
+      "room_name": "CM143 Oracle Lab (C&T Building)"
+    },
+    {
+      "building_url": "CM/",
+      "room_url": "CM148",
+      "room_name": "CM148"
+    },
+    {
+      "building_url": "CM/",
+      "room_url": "CM148",
+      "room_name": "CM148"
+    },
+    {
+      "building_url": "CM/",
+      "room_url": "CM148",
+      "room_name": "CM148"
+    },
+    {
+      "building_url": "CM/",
+      "room_url": "CM210",
+      "room_name": "CM210 - MSc Computing Lab 1"
+    },
+    {
+      "building_url": "CM/",
+      "room_url": "CM234",
+      "room_name": "CM234 - AI Lab"
+    },
+    {
+      "building_url": "DB/",
+      "room_url": "DB017",
+      "room_name": "DB017 Nutrition & Health Lab  (Darwin Building)"
+    },
+    {
+      "building_url": "DB/",
+      "room_url": "DB017b",
+      "room_name": "DB017b - Strength and Conditioning Room  (Darwin Building)"
+    },
+    {
+      "building_url": "DB/",
+      "room_url": "DB018",
+      "room_name": "DB018 Sports Biomechanics Lab  (Darwin Building)"
+    },
+    {
+      "building_url": "DB/",
+      "room_url": "DB026",
+      "room_name": "DB026 - Sports Physiology Lab   (Darwin Building)"
+    },
+    {
+      "building_url": "DB/",
+      "room_url": "DB028",
+      "room_name": "DB028 CIRCUITS (Darwin Building)"
+    },
+    {
+      "building_url": "DB/",
+      "room_url": "DB114",
+      "room_name": "DB114  (Darwin Building)"
+    },
+    {
+      "building_url": "DB/",
+      "room_url": "DB114",
+      "room_name": "DB114  (Darwin Building)"
+    },
+    {
+      "building_url": "DB/",
+      "room_url": "DB120",
+      "room_name": "DB120 - Language Lab (Darwin Building)"
+    },
+    {
+      "building_url": "DB/",
+      "room_url": "DB131",
+      "room_name": "DB131 Biomechanics PC Lab   (Darwin Building)"
+    },
+    {
+      "building_url": "DB/",
+      "room_url": "DB221",
+      "room_name": "DB221 (Darwin Building)"
+    },
+    {
+      "building_url": "DB/",
+      "room_url": "DB221",
+      "room_name": "DB221 (Darwin Building)"
+    },
+    {
+      "building_url": "DB/",
+      "room_url": "DB240",
+      "room_name": "DB240 Psychology Lab 4  (Darwin Building)"
+    },
+    {
+      "building_url": "DB/",
+      "room_url": "DB241",
+      "room_name": "DB241 Psychology Lab 10  (Darwin Building)"
+    },
+    {
+      "building_url": "DB/",
+      "room_url": "DB242",
+      "room_name": "DB242 Psychology Lab 3  (Darwin Building)"
+    },
+    {
+      "building_url": "DB/",
+      "room_url": "DB243",
+      "room_name": "DB243 Psychology Lab 11  (Darwin Building)"
+    },
+    {
+      "building_url": "DB/",
+      "room_url": "DB244",
+      "room_name": "DB244 Psychology Lab 2  (Darwin Building)"
+    },
+    {
+      "building_url": "DB/",
+      "room_url": "DB245",
+      "room_name": "DB245 Psychology Lab 12  (Darwin Building)"
+    },
+    {
+      "building_url": "DB/",
+      "room_url": "DB246",
+      "room_name": "DB246 Psychology Lab 1   (Darwin Building)"
+    },
+    {
+      "building_url": "DB/",
+      "room_url": "DB247",
+      "room_name": "DB247  (Darwin Building)"
+    },
+    {
+      "building_url": "DB/",
+      "room_url": "DB247",
+      "room_name": "DB247  (Darwin Building)"
+    },
+    {
+      "building_url": "DB/",
+      "room_url": "DB247",
+      "room_name": "DB247  (Darwin Building)"
+    },
+    {
+      "building_url": "DB/",
+      "room_url": "DB252",
+      "room_name": "DB252 Observation Lab  (Darwin Building)"
+    },
+    {
+      "building_url": "DB/",
+      "room_url": "DB253",
+      "room_name": "DB253 Linguistics (Darwin Building)"
+    },
+    {
+      "building_url": "DB/",
+      "room_url": "DB254",
+      "room_name": "DB254  (Darwin Building)"
+    },
+    {
+      "building_url": "DB/",
+      "room_url": "DB254",
+      "room_name": "DB254  (Darwin Building)"
+    },
+    {
+      "building_url": "DB/",
+      "room_url": "DB254",
+      "room_name": "DB254  (Darwin Building)"
+    },
+    {
+      "building_url": "DB/",
+      "room_url": "DB325",
+      "room_name": "DB325 - PC Lab   (Darwin Building)"
+    },
+    {
+      "building_url": "DB/",
+      "room_url": "DB325",
+      "room_name": "DB325 - PC Lab   (Darwin Building)"
+    },
+    {
+      "building_url": "DB/",
+      "room_url": "DBFOY",
+      "room_name": "DBFOY - Darwin Foyer"
+    },
+    {
+      "building_url": "DB/",
+      "room_url": "DBLT",
+      "room_name": "DBLT Darwin Lecture Theatre  (Darwin Building)"
+    },
+    {
+      "building_url": "DB/",
+      "room_url": "DBLT",
+      "room_name": "DBLT Darwin Lecture Theatre  (Darwin Building)"
+    },
+    {
+      "building_url": "EB/",
+      "room_url": "EB004",
+      "room_name": "EB004 Drawing Studio 2 (Edward Building)"
+    },
+    {
+      "building_url": "EB/",
+      "room_url": "EB004a",
+      "room_name": "EB004a Drawing Studio 3 (Edward Building)"
+    },
+    {
+      "building_url": "EB/",
+      "room_url": "EB008",
+      "room_name": "EB008 Drawing Studio 1 (Edward Building)"
+    },
+    {
+      "building_url": "EIC/",
+      "room_url": "EIC001",
+      "room_name": "EIC001 Reception"
+    },
+    {
+      "building_url": "EIC/",
+      "room_url": "EIC010",
+      "room_name": "EIC010 - Motorsports Workshop"
+    },
+    {
+      "building_url": "EIC/",
+      "room_url": "EIC012",
+      "room_name": "EIC012 - Aerospace Workshop"
+    },
+    {
+      "building_url": "EIC/",
+      "room_url": "EIC013",
+      "room_name": "EIC013 - Composite Workshop"
+    },
+    {
+      "building_url": "EIC/",
+      "room_url": "EIC111",
+      "room_name": "EIC111 - High Specification PC Room"
+    },
+    {
+      "building_url": "EIC/",
+      "room_url": "EIC111",
+      "room_name": "EIC111 - High Specification PC Room"
+    },
+    {
+      "building_url": "EIC/",
+      "room_url": "EIC112",
+      "room_name": "EIC112 - Projects 2"
+    },
+    {
+      "building_url": "EIC/",
+      "room_url": "EIC113",
+      "room_name": "EIC113 - Exhibition Space"
+    },
+    {
+      "building_url": "EIC/",
+      "room_url": "EIC201",
+      "room_name": "EIC201 - Robotics Lab"
+    },
+    {
+      "building_url": "EIC/",
+      "room_url": "EIC211",
+      "room_name": "EIC211 - Additive Manufacturing"
+    },
+    {
+      "building_url": "EIC/",
+      "room_url": "EIC216",
+      "room_name": "EIC216 - Intelligent Systems"
+    },
+    {
+      "building_url": "EIC/",
+      "room_url": "EIC301",
+      "room_name": "EIC301 - High Performance PC Lab"
+    },
+    {
+      "building_url": "EIC/",
+      "room_url": "EIC301",
+      "room_name": "EIC301 - High Performance PC Lab"
+    },
+    {
+      "building_url": "EIC/",
+      "room_url": "EIC313",
+      "room_name": "EIC313 - Fire, Oil and Gas"
+    },
+    {
+      "building_url": "EIC/",
+      "room_url": "EIC317",
+      "room_name": "EIC317"
+    },
+    {
+      "building_url": "EIC/",
+      "room_url": "EIC401",
+      "room_name": "EIC401 -  Meeting Room 1"
+    },
+    {
+      "building_url": "EIC/",
+      "room_url": "EIC401",
+      "room_name": "EIC401 -  Meeting Room 1"
+    },
+    {
+      "building_url": "EIC/",
+      "room_url": "EIC402",
+      "room_name": "EIC402 -  Meeting Room 2"
+    },
+    {
+      "building_url": "EIC/",
+      "room_url": "EIC402",
+      "room_name": "EIC402 -  Meeting Room 2"
+    },
+    {
+      "building_url": "EIC/",
+      "room_url": "EIC405",
+      "room_name": "EIC405 - The Boardroom"
+    },
+    {
+      "building_url": "EIC/",
+      "room_url": "EICLG07",
+      "room_name": "EICLG07 - Flight Simulation Suite"
+    },
+    {
+      "building_url": "EIC/",
+      "room_url": "EICLG14",
+      "room_name": "EICLG14 - CNC Manufacturing"
+    },
+    {
+      "building_url": "EIC/",
+      "room_url": "EICLG19",
+      "room_name": "EICLG19 - Workshop Build Area"
+    },
+    {
+      "building_url": "E/",
+      "room_url": "SPLUSB80217",
+      "room_name": "WCH - West Cumberland Hospital"
+    },
+    {
+      "building_url": "E/",
+      "room_url": "SPLUSB80218",
+      "room_name": "WCH - West Cumberland Hospital"
+    },
+    {
+      "building_url": "E/",
+      "room_url": "SPLUSB80219",
+      "room_name": "WCH - West Cumberland Hospital"
+    },
+    {
+      "building_url": "E/",
+      "room_url": "DEC Acc1",
+      "room_name": "Dental Education Centre"
+    },
+    {
+      "building_url": "E/",
+      "room_url": "DEC Acc2",
+      "room_name": "Dental Education Centre"
+    },
+    {
+      "building_url": "E/",
+      "room_url": "DEC BPool1",
+      "room_name": "Dental Education Centre"
+    },
+    {
+      "building_url": "E/",
+      "room_url": "DEC BPool2",
+      "room_name": "Dental Education Centre"
+    },
+    {
+      "building_url": "E/",
+      "room_url": "DEC Car1",
+      "room_name": "Dental Education Centre"
+    },
+    {
+      "building_url": "E/",
+      "room_url": "DEC Car2",
+      "room_name": "Dental Education Centre"
+    },
+    {
+      "building_url": "E/",
+      "room_url": "DEC Mor1",
+      "room_name": "Dental Education Centre"
+    },
+    {
+      "building_url": "E/",
+      "room_url": "DEC Mor2",
+      "room_name": "Dental Education Centre"
+    },
+    {
+      "building_url": "E/",
+      "room_url": "DEC01",
+      "room_name": "Dental Education Centre"
+    },
+    {
+      "building_url": "E/",
+      "room_url": "DEC02",
+      "room_name": "Dental Education Centre"
+    },
+    {
+      "building_url": "E/",
+      "room_url": "DEC03",
+      "room_name": "Dental Education Centre"
+    },
+    {
+      "building_url": "E/",
+      "room_url": "DEC04",
+      "room_name": "Dental Education Centre"
+    },
+    {
+      "building_url": "E/",
+      "room_url": "DEC05",
+      "room_name": "Dental Education Centre"
+    },
+    {
+      "building_url": "E/",
+      "room_url": "DEC06",
+      "room_name": "Dental Education Centre"
+    },
+    {
+      "building_url": "E/",
+      "room_url": "DEC07",
+      "room_name": "Dental Education Centre"
+    },
+    {
+      "building_url": "E/",
+      "room_url": "DEC08",
+      "room_name": "Dental Education Centre"
+    },
+    {
+      "building_url": "E/",
+      "room_url": "DEC09",
+      "room_name": "Dental Education Centre"
+    },
+    {
+      "building_url": "E/",
+      "room_url": "DEC10",
+      "room_name": "Dental Education Centre"
+    },
+    {
+      "building_url": "E/",
+      "room_url": "DEC11",
+      "room_name": "Dental Education Centre"
+    },
+    {
+      "building_url": "E/",
+      "room_url": "DEC12",
+      "room_name": "Dental Education Centre"
+    },
+    {
+      "building_url": "E/",
+      "room_url": "DEC13",
+      "room_name": "Dental Education Centre"
+    },
+    {
+      "building_url": "E/",
+      "room_url": "DEC14",
+      "room_name": "Dental Education Centre"
+    },
+    {
+      "building_url": "E/",
+      "room_url": "DEC15",
+      "room_name": "Dental Education Centre"
+    },
+    {
+      "building_url": "E/",
+      "room_url": "DEC16",
+      "room_name": "Dental Education Centre"
+    },
+    {
+      "building_url": "E/",
+      "room_url": "DEC17",
+      "room_name": "Dental Education Centre"
+    },
+    {
+      "building_url": "E/",
+      "room_url": "DEC18",
+      "room_name": "Dental Education Centre"
+    },
+    {
+      "building_url": "E/",
+      "room_url": "DEC19",
+      "room_name": "Dental Education Centre"
+    },
+    {
+      "building_url": "E/",
+      "room_url": "DEC20",
+      "room_name": "Dental Education Centre"
+    },
+    {
+      "building_url": "E/",
+      "room_url": "DEC21",
+      "room_name": "Dental Education Centre"
+    },
+    {
+      "building_url": "E/",
+      "room_url": "DEC22",
+      "room_name": "Dental Education Centre"
+    },
+    {
+      "building_url": "E/",
+      "room_url": "DEC23",
+      "room_name": "Dental Education Centre"
+    },
+    {
+      "building_url": "E/",
+      "room_url": "EC01",
+      "room_name": "EC01 Preston Business Centre Seminar Room 1"
+    },
+    {
+      "building_url": "E/",
+      "room_url": "EC02",
+      "room_name": "EC02 Preston Business Centre Seminar Room 2"
+    },
+    {
+      "building_url": "E/",
+      "room_url": "EC03",
+      "room_name": "EC03 Preston Business Centre Seminar Room 3"
+    },
+    {
+      "building_url": "E/",
+      "room_url": "EC04",
+      "room_name": "EC04 Preston Business Centre Seminar Room 4"
+    },
+    {
+      "building_url": "E/",
+      "room_url": "ELTH",
+      "room_name": "ELHT - East Lancashire Health Trust"
+    },
+    {
+      "building_url": "E/",
+      "room_url": "ETP1",
+      "room_name": "ETP1 Enhanced Training Practice 1"
+    },
+    {
+      "building_url": "E/",
+      "room_url": "ETP2",
+      "room_name": "ETP Clinic - Enhanced Training Practice"
+    },
+    {
+      "building_url": "E/",
+      "room_url": "Myerscough",
+      "room_name": "Myerscough College"
+    },
+    {
+      "building_url": "E/",
+      "room_url": "T001",
+      "room_name": "T001 - TRACES"
+    },
+    {
+      "building_url": "E/",
+      "room_url": "WCH",
+      "room_name": "WCH - West Cumberland Hospital"
+    },
+    {
+      "building_url": "FB/",
+      "room_url": "FB068",
+      "room_name": "FB068 - Activities Room (Foster Building)"
+    },
+    {
+      "building_url": "FB/",
+      "room_url": "FB083",
+      "room_name": "Foster Social Space"
+    },
+    {
+      "building_url": "FB/",
+      "room_url": "FB104",
+      "room_name": "FB104 (Foster Building)"
+    },
+    {
+      "building_url": "FB/",
+      "room_url": "FB104",
+      "room_name": "FB104 (Foster Building)"
+    },
+    {
+      "building_url": "FB/",
+      "room_url": "FB104",
+      "room_name": "FB104 (Foster Building)"
+    },
+    {
+      "building_url": "FB/",
+      "room_url": "FB110",
+      "room_name": "FB110 (Foster Building)"
+    },
+    {
+      "building_url": "FB/",
+      "room_url": "FB110",
+      "room_name": "FB110 (Foster Building)"
+    },
+    {
+      "building_url": "FB/",
+      "room_url": "FB110",
+      "room_name": "FB110 (Foster Building)"
+    },
+    {
+      "building_url": "FB/",
+      "room_url": "FB111",
+      "room_name": "FB111 (Foster Building)"
+    },
+    {
+      "building_url": "FB/",
+      "room_url": "FB111",
+      "room_name": "FB111 (Foster Building)"
+    },
+    {
+      "building_url": "FB/",
+      "room_url": "FB111",
+      "room_name": "FB111 (Foster Building)"
+    },
+    {
+      "building_url": "FB/",
+      "room_url": "FB113",
+      "room_name": "FB113 (Foster Building)"
+    },
+    {
+      "building_url": "FB/",
+      "room_url": "FB113",
+      "room_name": "FB113 (Foster Building)"
+    },
+    {
+      "building_url": "FB/",
+      "room_url": "FB113",
+      "room_name": "FB113 (Foster Building)"
+    },
+    {
+      "building_url": "FB/",
+      "room_url": "FB116",
+      "room_name": "FB116 (Foster Building)"
+    },
+    {
+      "building_url": "FB/",
+      "room_url": "FB116",
+      "room_name": "FB116 (Foster Building)"
+    },
+    {
+      "building_url": "FB/",
+      "room_url": "FB116",
+      "room_name": "FB116 (Foster Building)"
+    },
+    {
+      "building_url": "FB/",
+      "room_url": "FB117",
+      "room_name": "FB117 (Foster Building)"
+    },
+    {
+      "building_url": "FB/",
+      "room_url": "FB117",
+      "room_name": "FB117 (Foster Building)"
+    },
+    {
+      "building_url": "FB/",
+      "room_url": "FB117",
+      "room_name": "FB117 (Foster Building)"
+    },
+    {
+      "building_url": "FB/",
+      "room_url": "FB120",
+      "room_name": "FB120 (Foster Building)"
+    },
+    {
+      "building_url": "FB/",
+      "room_url": "FB120",
+      "room_name": "FB120 (Foster Building)"
+    },
+    {
+      "building_url": "FB/",
+      "room_url": "FB120",
+      "room_name": "FB120 (Foster Building)"
+    },
+    {
+      "building_url": "FB/",
+      "room_url": "FBB17",
+      "room_name": "FBB17 Wellness Centre (Foster Building)"
+    },
+    {
+      "building_url": "FB/",
+      "room_url": "FBFOY",
+      "room_name": "FBFOY - Foster Building Foyer (outside FBLT1)"
+    },
+    {
+      "building_url": "FB/",
+      "room_url": "FBLT1",
+      "room_name": "FBLT1 - Foster Lecture Theatre 1 (Mitchell and Kenyon Cinema)  (Foster Building)"
+    },
+    {
+      "building_url": "FB/",
+      "room_url": "FBLT1",
+      "room_name": "FBLT1 - Foster Lecture Theatre 1 (Mitchell and Kenyon Cinema)  (Foster Building)"
+    },
+    {
+      "building_url": "FB/",
+      "room_url": "FBLT2",
+      "room_name": "Foster Lecture Theatre 2 (Foster Building)"
+    },
+    {
+      "building_url": "FB/",
+      "room_url": "FBLT2",
+      "room_name": "Foster Lecture Theatre 2 (Foster Building)"
+    },
+    {
+      "building_url": "FB/",
+      "room_url": "FBLT3",
+      "room_name": "Foster Lecture Theatre 3 (Foster Building)"
+    },
+    {
+      "building_url": "FB/",
+      "room_url": "FBLT3",
+      "room_name": "Foster Lecture Theatre 3 (Foster Building)"
+    },
+    {
+      "building_url": "FB/",
+      "room_url": "FBLT4",
+      "room_name": "Foster Lecture Theatre 4 (Foster Building)"
+    },
+    {
+      "building_url": "FB/",
+      "room_url": "FBLT4",
+      "room_name": "Foster Lecture Theatre 4 (Foster Building)"
+    },
+    {
+      "building_url": "FB/",
+      "room_url": "FBLTFOY",
+      "room_name": "FBLTFOY - Foster Lecture Theatre Foyer (outside FBLT's 2,3,4)"
+    },
+    {
+      "building_url": "FGH/",
+      "room_url": "FGH01",
+      "room_name": "Furness General Hospital"
+    },
+    {
+      "building_url": "GR/",
+      "room_url": "GR001",
+      "room_name": "GR001 Ward 1a & 1b (Greenbank Building)"
+    },
+    {
+      "building_url": "GR/",
+      "room_url": "GR001",
+      "room_name": "GR001 Ward 1a & 1b (Greenbank Building)"
+    },
+    {
+      "building_url": "GR/",
+      "room_url": "GR031",
+      "room_name": "GR031 Veterinary Clinical Skills (Greenbank Building)"
+    },
+    {
+      "building_url": "GR/",
+      "room_url": "GR034",
+      "room_name": "GR034 Flex Consultation (Greenbank Building)"
+    },
+    {
+      "building_url": "GR/",
+      "room_url": "GR035",
+      "room_name": "GR035 Flex Brief Debrief (Greenbank Building)"
+    },
+    {
+      "building_url": "GR/",
+      "room_url": "GR036",
+      "room_name": "GR036 Flex Brief Debrief (Greenbank Building)"
+    },
+    {
+      "building_url": "GR/",
+      "room_url": "GR037",
+      "room_name": "GR037 Consultation LC (Greenbank Building)"
+    },
+    {
+      "building_url": "GR/",
+      "room_url": "GR038",
+      "room_name": "GR038 Flex Consultation (Greenbank Building)"
+    },
+    {
+      "building_url": "GR/",
+      "room_url": "GR039",
+      "room_name": "GR039 Brief Debrief (Greenbank Building)"
+    },
+    {
+      "building_url": "GR/",
+      "room_url": "GR040",
+      "room_name": "GR040 Flex Consultation (Greenbank Building)"
+    },
+    {
+      "building_url": "GR/",
+      "room_url": "GR041",
+      "room_name": "GR041 Brief Debrief (Greenbank Building)"
+    },
+    {
+      "building_url": "GR/",
+      "room_url": "GR042",
+      "room_name": "GR042 Flex Brief Debrief (Greenbank Building)"
+    },
+    {
+      "building_url": "GR/",
+      "room_url": "GR043",
+      "room_name": "GR043  Consultation FF (Greenbank Building)"
+    },
+    {
+      "building_url": "GR/",
+      "room_url": "GR045",
+      "room_name": "GR045 Brief Debrief (Greenbank Building)"
+    },
+    {
+      "building_url": "GR/",
+      "room_url": "GR047",
+      "room_name": "GR047  Consultation FF (Greenbank Building)"
+    },
+    {
+      "building_url": "GR/",
+      "room_url": "GR049",
+      "room_name": "GR049 Brief Debrief (Greenbank Building)"
+    },
+    {
+      "building_url": "GR/",
+      "room_url": "GR051",
+      "room_name": "GR051 Consultation LC (Greenbank Building)"
+    },
+    {
+      "building_url": "GR/",
+      "room_url": "GR053",
+      "room_name": "GR053  Physical Rehabilitation Suite (Greenbank Building)"
+    },
+    {
+      "building_url": "GR/",
+      "room_url": "GR054",
+      "room_name": "GR054 Veterinary Clinical Skills ( Greenbank Building)"
+    },
+    {
+      "building_url": "GR/",
+      "room_url": "GR056",
+      "room_name": "GR056  Mock Theatre 2 (Greenbank Building)"
+    },
+    {
+      "building_url": "GR/",
+      "room_url": "GR058",
+      "room_name": "GR058  Mock Theatre 1 (Greenbank Building)"
+    },
+    {
+      "building_url": "GR/",
+      "room_url": "GR059",
+      "room_name": "GR059 Veterinary Dentistry Suite  (Greenbank Building)"
+    },
+    {
+      "building_url": "GR/",
+      "room_url": "GR060",
+      "room_name": "GR060 X-Ray, Ultrasound & Diagnostics Suite (Greenbank Building)"
+    },
+    {
+      "building_url": "GR/",
+      "room_url": "GR061",
+      "room_name": "GR061 Veterinary Pharmacy Suite (Greenbank Building)"
+    },
+    {
+      "building_url": "GR/",
+      "room_url": "GR069",
+      "room_name": "GR069 Radio Studio 4 (Greenbank Building)"
+    },
+    {
+      "building_url": "GR/",
+      "room_url": "GR070",
+      "room_name": "GR070 Radio Studio 2 (Greenbank Building)"
+    },
+    {
+      "building_url": "GR/",
+      "room_url": "GR071",
+      "room_name": "GR071 Radio Studio 3 (Greenbank Building)"
+    },
+    {
+      "building_url": "GR/",
+      "room_url": "GR075",
+      "room_name": "GR075 Radio Studio 1A (Greenbank Building)"
+    },
+    {
+      "building_url": "GR/",
+      "room_url": "GR076",
+      "room_name": "GR076 Radio Studio 1 (Greenbank Building)"
+    },
+    {
+      "building_url": "GR/",
+      "room_url": "GR077",
+      "room_name": "GR077 Radio Studio 1B (Greenbank Building)"
+    },
+    {
+      "building_url": "GR/",
+      "room_url": "GR078",
+      "room_name": "GR078 - TV Studio Gallery (Greenbank Building)"
+    },
+    {
+      "building_url": "GR/",
+      "room_url": "GR079",
+      "room_name": "GR079 - Broadcast Newsroom (Greenbank Building)"
+    },
+    {
+      "building_url": "GR/",
+      "room_url": "GR080",
+      "room_name": "GR080 - Broadcast Newsroom (Greenbank Building)"
+    },
+    {
+      "building_url": "GR/",
+      "room_url": "GR081",
+      "room_name": "GR081 TV Studio (Greenbank Building)"
+    },
+    {
+      "building_url": "GR/",
+      "room_url": "GR102B",
+      "room_name": "GR102b Ward 2 (Greenbank Building)"
+    },
+    {
+      "building_url": "GR/",
+      "room_url": "GR102B",
+      "room_name": "GR102b Ward 2 (Greenbank Building)"
+    },
+    {
+      "building_url": "GR/",
+      "room_url": "GR109a",
+      "room_name": "GR109a Bay 1 (Greenbank Building)"
+    },
+    {
+      "building_url": "GR/",
+      "room_url": "GR109a",
+      "room_name": "GR109a Bay 1 (Greenbank Building)"
+    },
+    {
+      "building_url": "GR/",
+      "room_url": "GR109b",
+      "room_name": "GR109b Ambulance  (Greenbank Building)"
+    },
+    {
+      "building_url": "GR/",
+      "room_url": "GR109b",
+      "room_name": "GR109b Ambulance  (Greenbank Building)"
+    },
+    {
+      "building_url": "GR/",
+      "room_url": "GR111",
+      "room_name": "GR111 Bay 2 (Greenbank Building)"
+    },
+    {
+      "building_url": "GR/",
+      "room_url": "GR111",
+      "room_name": "GR111 Bay 2 (Greenbank Building)"
+    },
+    {
+      "building_url": "GR/",
+      "room_url": "GR115",
+      "room_name": "GR115 Children and Young Persons Ward (Greenbank Building)"
+    },
+    {
+      "building_url": "GR/",
+      "room_url": "GR115",
+      "room_name": "GR115 Children and Young Persons Ward (Greenbank Building)"
+    },
+    {
+      "building_url": "GR/",
+      "room_url": "GR117",
+      "room_name": "GR117 Simulation Suite (Greenbank Building)"
+    },
+    {
+      "building_url": "GR/",
+      "room_url": "GR117",
+      "room_name": "GR117 Simulation Suite (Greenbank Building)"
+    },
+    {
+      "building_url": "GR/",
+      "room_url": "GR119",
+      "room_name": "GR119 Assesment Unit (Greenbank Building)"
+    },
+    {
+      "building_url": "GR/",
+      "room_url": "GR119",
+      "room_name": "GR119 Assesment Unit (Greenbank Building)"
+    },
+    {
+      "building_url": "GR/",
+      "room_url": "GR163",
+      "room_name": "GR163 Meeting Room (Greenbank)"
+    },
+    {
+      "building_url": "GR/",
+      "room_url": "GR170",
+      "room_name": "GR170 Midwifery and Neonatal Suite (Greenbank Building)"
+    },
+    {
+      "building_url": "GR/",
+      "room_url": "GR170",
+      "room_name": "GR170 Midwifery and Neonatal Suite (Greenbank Building)"
+    },
+    {
+      "building_url": "GR/",
+      "room_url": "GR171",
+      "room_name": "GR171 Community Hub (Greenbank Building)"
+    },
+    {
+      "building_url": "GR/",
+      "room_url": "GR171A",
+      "room_name": "GR171a Immersive Suite ( Greenbank Building)"
+    },
+    {
+      "building_url": "GR/",
+      "room_url": "GR173a",
+      "room_name": "GR173a Meeting Room (Greenbank)"
+    },
+    {
+      "building_url": "GR/",
+      "room_url": "GR173a",
+      "room_name": "GR173a Meeting Room (Greenbank)"
+    },
+    {
+      "building_url": "GR/",
+      "room_url": "GR174a",
+      "room_name": "GR174a Flat 174a (Greenbank Building)"
+    },
+    {
+      "building_url": "GR/",
+      "room_url": "GR174b",
+      "room_name": "GR174b Telemedicine Suite (Greenbank Building)"
+    },
+    {
+      "building_url": "GR/",
+      "room_url": "GR175",
+      "room_name": "GR175 Anatomage Skills Lab"
+    },
+    {
+      "building_url": "GR/",
+      "room_url": "GR177",
+      "room_name": "GR177 Surgical Suite"
+    },
+    {
+      "building_url": "GR/",
+      "room_url": "GR179",
+      "room_name": "GR179 Consultation Room 2"
+    },
+    {
+      "building_url": "GR/",
+      "room_url": "GR182",
+      "room_name": "GR182 Consultation Room 1 (Greenbank Building)"
+    },
+    {
+      "building_url": "GR/",
+      "room_url": "GR202",
+      "room_name": "GR202 (Greenbank Building)"
+    },
+    {
+      "building_url": "GR/",
+      "room_url": "GR202",
+      "room_name": "GR202 (Greenbank Building)"
+    },
+    {
+      "building_url": "GR/",
+      "room_url": "GR202",
+      "room_name": "GR202 (Greenbank Building)"
+    },
+    {
+      "building_url": "GR/",
+      "room_url": "GR203",
+      "room_name": "GR203 Sports Analysis (Greenbank Building)"
+    },
+    {
+      "building_url": "GR/",
+      "room_url": "GR204",
+      "room_name": "GR204 (Greenbank Building)"
+    },
+    {
+      "building_url": "GR/",
+      "room_url": "GR204",
+      "room_name": "GR204 (Greenbank Building)"
+    },
+    {
+      "building_url": "GR/",
+      "room_url": "GR204",
+      "room_name": "GR204 (Greenbank Building)"
+    },
+    {
+      "building_url": "GR/",
+      "room_url": "GR268",
+      "room_name": "GR268"
+    },
+    {
+      "building_url": "GR/",
+      "room_url": "GR268",
+      "room_name": "GR268"
+    },
+    {
+      "building_url": "GR/",
+      "room_url": "GR268",
+      "room_name": "GR268"
+    },
+    {
+      "building_url": "GR/",
+      "room_url": "GR269",
+      "room_name": "GR269 (Greenbank Building)"
+    },
+    {
+      "building_url": "GR/",
+      "room_url": "GR269",
+      "room_name": "GR269 (Greenbank Building)"
+    },
+    {
+      "building_url": "GR/",
+      "room_url": "GR269",
+      "room_name": "GR269 (Greenbank Building)"
+    },
+    {
+      "building_url": "GR/",
+      "room_url": "GR270",
+      "room_name": "GR270 - Newsroom (Greenbank Building)"
+    },
+    {
+      "building_url": "GR/",
+      "room_url": "GR273",
+      "room_name": "GR273 (Greenbank Building)"
+    },
+    {
+      "building_url": "GR/",
+      "room_url": "GR273",
+      "room_name": "GR273 (Greenbank Building)"
+    },
+    {
+      "building_url": "GR/",
+      "room_url": "GR273",
+      "room_name": "GR273 (Greenbank Building)"
+    },
+    {
+      "building_url": "GR/",
+      "room_url": "GR274",
+      "room_name": "GR274 - Sports Analysis Lab (Greenbank Building)"
+    },
+    {
+      "building_url": "GR/",
+      "room_url": "GR275",
+      "room_name": "GR275 - Newsroom (Greenbank Building)"
+    },
+    {
+      "building_url": "GR/",
+      "room_url": "GR276",
+      "room_name": "GR276"
+    },
+    {
+      "building_url": "GR/",
+      "room_url": "GR276",
+      "room_name": "GR276"
+    },
+    {
+      "building_url": "GR/",
+      "room_url": "GR276",
+      "room_name": "GR276"
+    },
+    {
+      "building_url": "GR/",
+      "room_url": "GR277",
+      "room_name": "GR277 - Digital Newsroom (Greenbank Building)"
+    },
+    {
+      "building_url": "GR/",
+      "room_url": "GR278",
+      "room_name": "GR278 - Broadcast Newsroom (Greenbank Building)"
+    },
+    {
+      "building_url": "GR/",
+      "room_url": "GR279",
+      "room_name": "GR279 - AVID Suite (Greenbank Building)"
+    },
+    {
+      "building_url": "GR/",
+      "room_url": "GR341",
+      "room_name": "GR341 Meeting Room (Greenbank)"
+    },
+    {
+      "building_url": "GR/",
+      "room_url": "GR342",
+      "room_name": "GR342 Meeting Room (Greenbank)"
+    },
+    {
+      "building_url": "GR/",
+      "room_url": "GR347",
+      "room_name": "GR347 (Greenbank Building)"
+    },
+    {
+      "building_url": "GR/",
+      "room_url": "GR347",
+      "room_name": "GR347 (Greenbank Building)"
+    },
+    {
+      "building_url": "GR/",
+      "room_url": "GR347",
+      "room_name": "GR347 (Greenbank Building)"
+    },
+    {
+      "building_url": "GR/",
+      "room_url": "GR348",
+      "room_name": "GR348 (Greenbank Building)"
+    },
+    {
+      "building_url": "GR/",
+      "room_url": "GR348",
+      "room_name": "GR348 (Greenbank Building)"
+    },
+    {
+      "building_url": "GR/",
+      "room_url": "GR348",
+      "room_name": "GR348 (Greenbank Building)"
+    },
+    {
+      "building_url": "GR/",
+      "room_url": "GR348a",
+      "room_name": "GR348a (Greenbank Building)"
+    },
+    {
+      "building_url": "GR/",
+      "room_url": "GR348a",
+      "room_name": "GR348a (Greenbank Building)"
+    },
+    {
+      "building_url": "GR/",
+      "room_url": "GR348a",
+      "room_name": "GR348a (Greenbank Building)"
+    },
+    {
+      "building_url": "GR/",
+      "room_url": "GR349",
+      "room_name": "GR349 Meeting Room (Greenbank)"
+    },
+    {
+      "building_url": "GR/",
+      "room_url": "GR349",
+      "room_name": "GR349 Meeting Room (Greenbank)"
+    },
+    {
+      "building_url": "GR/",
+      "room_url": "GR350",
+      "room_name": "GR350 (Greenbank Building)"
+    },
+    {
+      "building_url": "GR/",
+      "room_url": "GR350",
+      "room_name": "GR350 (Greenbank Building)"
+    },
+    {
+      "building_url": "GR/",
+      "room_url": "GR350",
+      "room_name": "GR350 (Greenbank Building)"
+    },
+    {
+      "building_url": "GR/",
+      "room_url": "GR354",
+      "room_name": "GR354"
+    },
+    {
+      "building_url": "GR/",
+      "room_url": "GR354",
+      "room_name": "GR354"
+    },
+    {
+      "building_url": "GR/",
+      "room_url": "GR354",
+      "room_name": "GR354"
+    },
+    {
+      "building_url": "GR/",
+      "room_url": "GR355",
+      "room_name": "GR355 (Greenbank Building)"
+    },
+    {
+      "building_url": "GR/",
+      "room_url": "GR355",
+      "room_name": "GR355 (Greenbank Building)"
+    },
+    {
+      "building_url": "GR/",
+      "room_url": "GR355",
+      "room_name": "GR355 (Greenbank Building)"
+    },
+    {
+      "building_url": "GR/",
+      "room_url": "GR356",
+      "room_name": "GR356 - PC Lab"
+    },
+    {
+      "building_url": "GR/",
+      "room_url": "GR356",
+      "room_name": "GR356 - PC Lab"
+    },
+    {
+      "building_url": "GR/",
+      "room_url": "GR357",
+      "room_name": "GR357 (Greenbank Building)"
+    },
+    {
+      "building_url": "GR/",
+      "room_url": "GR357",
+      "room_name": "GR357 (Greenbank Building)"
+    },
+    {
+      "building_url": "GR/",
+      "room_url": "GR357",
+      "room_name": "GR357 (Greenbank Building)"
+    },
+    {
+      "building_url": "GR/",
+      "room_url": "GR358",
+      "room_name": "GR358 (Greenbank Building)"
+    },
+    {
+      "building_url": "GR/",
+      "room_url": "GR358",
+      "room_name": "GR358 (Greenbank Building)"
+    },
+    {
+      "building_url": "GR/",
+      "room_url": "GR358",
+      "room_name": "GR358 (Greenbank Building)"
+    },
+    {
+      "building_url": "GR/",
+      "room_url": "GR359",
+      "room_name": "GR359 (Greenbank Building)"
+    },
+    {
+      "building_url": "GR/",
+      "room_url": "GR359",
+      "room_name": "GR359 (Greenbank Building)"
+    },
+    {
+      "building_url": "GR/",
+      "room_url": "GR359",
+      "room_name": "GR359 (Greenbank Building)"
+    },
+    {
+      "building_url": "GR/",
+      "room_url": "GRFOY",
+      "room_name": "GRFOY - Greenbank Building Foyer"
+    },
+    {
+      "building_url": "GR/",
+      "room_url": "GRLT",
+      "room_name": "GRLT Greenbank Lecture Theatre (Greenbank Building)"
+    },
+    {
+      "building_url": "GR/",
+      "room_url": "GRLT",
+      "room_name": "GRLT Greenbank Lecture Theatre (Greenbank Building)"
+    },
+    {
+      "building_url": "HR/",
+      "room_url": "HR002",
+      "room_name": "HR002 Fine Art Studio"
+    },
+    {
+      "building_url": "HR/",
+      "room_url": "HR004",
+      "room_name": "HR004 Metal/Wood Workshop"
+    },
+    {
+      "building_url": "HR/",
+      "room_url": "HR010",
+      "room_name": "HR010 Plaster Workshop"
+    },
+    {
+      "building_url": "HR/",
+      "room_url": "HR014",
+      "room_name": "HR014 Bench Workshop"
+    },
+    {
+      "building_url": "HR/",
+      "room_url": "HR017",
+      "room_name": "HR017 Drawing Studio"
+    },
+    {
+      "building_url": "HR/",
+      "room_url": "HR021",
+      "room_name": "HR021 3D Students Studio"
+    },
+    {
+      "building_url": "HR/",
+      "room_url": "HR022",
+      "room_name": "HR022 Fashion & Visual Com Students Studio"
+    },
+    {
+      "building_url": "HR/",
+      "room_url": "HR023",
+      "room_name": "HR023 Fine Art  Students Studio"
+    },
+    {
+      "building_url": "HR/",
+      "room_url": "HR103",
+      "room_name": "HR103 Fine Art Studio"
+    },
+    {
+      "building_url": "HR/",
+      "room_url": "HR104",
+      "room_name": "HR104 Fine Art Studio"
+    },
+    {
+      "building_url": "HR/",
+      "room_url": "HR105",
+      "room_name": "HR105 - MAC Suite"
+    },
+    {
+      "building_url": "HR/",
+      "room_url": "HR105",
+      "room_name": "HR105 - MAC Suite"
+    },
+    {
+      "building_url": "HR/",
+      "room_url": "HR108",
+      "room_name": "HR108 Fine Art Studio"
+    },
+    {
+      "building_url": "HR/",
+      "room_url": "HR205",
+      "room_name": "HR205 Fine Art Studio"
+    },
+    {
+      "building_url": "HR/",
+      "room_url": "HR211",
+      "room_name": "HR211 Fine Art Studio"
+    },
+    {
+      "building_url": "HA/",
+      "room_url": "HA031",
+      "room_name": "HA031 Dental Clinic"
+    },
+    {
+      "building_url": "HA/",
+      "room_url": "HA055",
+      "room_name": "Harrington Social Space Annexe (Harrington Building)"
+    },
+    {
+      "building_url": "HA/",
+      "room_url": "HA056",
+      "room_name": "Harrington Social Space (Harrington Building)"
+    },
+    {
+      "building_url": "HA/",
+      "room_url": "HA104",
+      "room_name": "HA104 (Harrington Building)"
+    },
+    {
+      "building_url": "HA/",
+      "room_url": "HA104",
+      "room_name": "HA104 (Harrington Building)"
+    },
+    {
+      "building_url": "HA/",
+      "room_url": "HA104",
+      "room_name": "HA104 (Harrington Building)"
+    },
+    {
+      "building_url": "HA/",
+      "room_url": "HA108",
+      "room_name": "HA108 (Harrington Building)"
+    },
+    {
+      "building_url": "HA/",
+      "room_url": "HA108",
+      "room_name": "HA108 (Harrington Building)"
+    },
+    {
+      "building_url": "HA/",
+      "room_url": "HA108",
+      "room_name": "HA108 (Harrington Building)"
+    },
+    {
+      "building_url": "HA/",
+      "room_url": "HA113",
+      "room_name": "HA113 (Harrington Building)"
+    },
+    {
+      "building_url": "HA/",
+      "room_url": "HA113",
+      "room_name": "HA113 (Harrington Building)"
+    },
+    {
+      "building_url": "HA/",
+      "room_url": "HA113",
+      "room_name": "HA113 (Harrington Building)"
+    },
+    {
+      "building_url": "HA/",
+      "room_url": "HA127",
+      "room_name": "HA127 (Harrington Building)"
+    },
+    {
+      "building_url": "HA/",
+      "room_url": "HA127",
+      "room_name": "HA127 (Harrington Building)"
+    },
+    {
+      "building_url": "HA/",
+      "room_url": "HA127",
+      "room_name": "HA127 (Harrington Building)"
+    },
+    {
+      "building_url": "HA/",
+      "room_url": "HA129",
+      "room_name": "HA129"
+    },
+    {
+      "building_url": "HA/",
+      "room_url": "HA129",
+      "room_name": "HA129"
+    },
+    {
+      "building_url": "HA/",
+      "room_url": "HA129",
+      "room_name": "HA129"
+    },
+    {
+      "building_url": "HA/",
+      "room_url": "HA135",
+      "room_name": "HA135  (Harrington Building)"
+    },
+    {
+      "building_url": "HA/",
+      "room_url": "HA135",
+      "room_name": "HA135  (Harrington Building)"
+    },
+    {
+      "building_url": "HA/",
+      "room_url": "HA135",
+      "room_name": "HA135  (Harrington Building)"
+    },
+    {
+      "building_url": "HA/",
+      "room_url": "HA138a",
+      "room_name": "HA138a Optical Pre-Clinical (Harrington Building)"
+    },
+    {
+      "building_url": "HA/",
+      "room_url": "HA140a",
+      "room_name": "HA140a Optical Pre-Clinical (Harrington Building)"
+    },
+    {
+      "building_url": "HA/",
+      "room_url": "HA142",
+      "room_name": "HA142"
+    },
+    {
+      "building_url": "HA/",
+      "room_url": "HA142",
+      "room_name": "HA142"
+    },
+    {
+      "building_url": "HA/",
+      "room_url": "HA142",
+      "room_name": "HA142"
+    },
+    {
+      "building_url": "HA/",
+      "room_url": "HA142a",
+      "room_name": "HA142a"
+    },
+    {
+      "building_url": "HA/",
+      "room_url": "HA142a",
+      "room_name": "HA142a"
+    },
+    {
+      "building_url": "HA/",
+      "room_url": "HA142a",
+      "room_name": "HA142a"
+    },
+    {
+      "building_url": "HA/",
+      "room_url": "HA201",
+      "room_name": "HA201 Skills (Harrington Building)"
+    },
+    {
+      "building_url": "HA/",
+      "room_url": "HA201",
+      "room_name": "HA201 Skills (Harrington Building)"
+    },
+    {
+      "building_url": "HA/",
+      "room_url": "HA212",
+      "room_name": "HA212  (Harrington Building)"
+    },
+    {
+      "building_url": "HA/",
+      "room_url": "HA212",
+      "room_name": "HA212  (Harrington Building)"
+    },
+    {
+      "building_url": "HA/",
+      "room_url": "HA212",
+      "room_name": "HA212  (Harrington Building)"
+    },
+    {
+      "building_url": "HA/",
+      "room_url": "HA214",
+      "room_name": "HA214 (Harrington Building)"
+    },
+    {
+      "building_url": "HA/",
+      "room_url": "HA214",
+      "room_name": "HA214 (Harrington Building)"
+    },
+    {
+      "building_url": "HA/",
+      "room_url": "HA214",
+      "room_name": "HA214 (Harrington Building)"
+    },
+    {
+      "building_url": "HA/",
+      "room_url": "HA223",
+      "room_name": "HA223 - HARLC 2"
+    },
+    {
+      "building_url": "HA/",
+      "room_url": "HA228",
+      "room_name": "HA228 - Anatomy Lab"
+    },
+    {
+      "building_url": "HA/",
+      "room_url": "HA245a",
+      "room_name": "HA245a Observation Room"
+    },
+    {
+      "building_url": "HA/",
+      "room_url": "HA301",
+      "room_name": "HA301 (Harrington Building)"
+    },
+    {
+      "building_url": "HA/",
+      "room_url": "HA301",
+      "room_name": "HA301 (Harrington Building)"
+    },
+    {
+      "building_url": "HA/",
+      "room_url": "HA301",
+      "room_name": "HA301 (Harrington Building)"
+    },
+    {
+      "building_url": "HA/",
+      "room_url": "HA308",
+      "room_name": "HA308  Eye Clinic"
+    },
+    {
+      "building_url": "HA/",
+      "room_url": "HA313",
+      "room_name": "HA313  Eye Clinic - Instrument Suite 1 (Harrington Building)"
+    },
+    {
+      "building_url": "HA/",
+      "room_url": "HA320",
+      "room_name": "HA320 Eye Clinic  - Instrument Suite 2 (Harrington Building)"
+    },
+    {
+      "building_url": "HA/",
+      "room_url": "HA333",
+      "room_name": "HA333 (Harrington Building)"
+    },
+    {
+      "building_url": "HA/",
+      "room_url": "HA333",
+      "room_name": "HA333 (Harrington Building)"
+    },
+    {
+      "building_url": "HA/",
+      "room_url": "HA333",
+      "room_name": "HA333 (Harrington Building)"
+    },
+    {
+      "building_url": "HA/",
+      "room_url": "HA337",
+      "room_name": "HA337 (Harrington Building)"
+    },
+    {
+      "building_url": "HA/",
+      "room_url": "HA337",
+      "room_name": "HA337 (Harrington Building)"
+    },
+    {
+      "building_url": "HA/",
+      "room_url": "HA337",
+      "room_name": "HA337 (Harrington Building)"
+    },
+    {
+      "building_url": "HA/",
+      "room_url": "HA338",
+      "room_name": "HA338 (Harrington Building)"
+    },
+    {
+      "building_url": "HA/",
+      "room_url": "HA338",
+      "room_name": "HA338 (Harrington Building)"
+    },
+    {
+      "building_url": "HA/",
+      "room_url": "HA338",
+      "room_name": "HA338 (Harrington Building)"
+    },
+    {
+      "building_url": "HA/",
+      "room_url": "HA338a",
+      "room_name": "HA338a (Harrington Building)"
+    },
+    {
+      "building_url": "HA/",
+      "room_url": "HA338a",
+      "room_name": "HA338a (Harrington Building)"
+    },
+    {
+      "building_url": "HA/",
+      "room_url": "HA338a",
+      "room_name": "HA338a (Harrington Building)"
+    },
+    {
+      "building_url": "HA/",
+      "room_url": "HA339",
+      "room_name": "HA339 (Harrington Building)"
+    },
+    {
+      "building_url": "HA/",
+      "room_url": "HA339",
+      "room_name": "HA339 (Harrington Building)"
+    },
+    {
+      "building_url": "HA/",
+      "room_url": "HA339",
+      "room_name": "HA339 (Harrington Building)"
+    },
+    {
+      "building_url": "HA/",
+      "room_url": "HA342",
+      "room_name": "HA342 (Harrington Building)"
+    },
+    {
+      "building_url": "HA/",
+      "room_url": "HA342",
+      "room_name": "HA342 (Harrington Building)"
+    },
+    {
+      "building_url": "HA/",
+      "room_url": "HA342",
+      "room_name": "HA342 (Harrington Building)"
+    },
+    {
+      "building_url": "HA/",
+      "room_url": "HA342b",
+      "room_name": "HA342b Optical Dispensing Lab (Harrington Building)"
+    },
+    {
+      "building_url": "HA/",
+      "room_url": "HA344",
+      "room_name": "HA344 (Harrington Building)"
+    },
+    {
+      "building_url": "HA/",
+      "room_url": "HA344",
+      "room_name": "HA344 (Harrington Building)"
+    },
+    {
+      "building_url": "HA/",
+      "room_url": "HA344",
+      "room_name": "HA344 (Harrington Building)"
+    },
+    {
+      "building_url": "HA/",
+      "room_url": "HA345",
+      "room_name": "HA345 - PC Lab"
+    },
+    {
+      "building_url": "HA/",
+      "room_url": "HA345",
+      "room_name": "HA345 - PC Lab"
+    },
+    {
+      "building_url": "HA/",
+      "room_url": "HALT",
+      "room_name": "HALT Harrington Lecture Theatre (Harrington Building)"
+    },
+    {
+      "building_url": "HA/",
+      "room_url": "HALT",
+      "room_name": "HALT Harrington Lecture Theatre (Harrington Building)"
+    },
+    {
+      "building_url": "HB/",
+      "room_url": "SPLUS970261",
+      "room_name": "HB149 Forensic Photography Kit Collection"
+    },
+    {
+      "building_url": "HB/",
+      "room_url": "HB001",
+      "room_name": "HB001 Moot Court Room"
+    },
+    {
+      "building_url": "HB/",
+      "room_url": "HB010",
+      "room_name": "HB010 (Harris Building)"
+    },
+    {
+      "building_url": "HB/",
+      "room_url": "HB010",
+      "room_name": "HB010 (Harris Building)"
+    },
+    {
+      "building_url": "HB/",
+      "room_url": "HB010",
+      "room_name": "HB010 (Harris Building)"
+    },
+    {
+      "building_url": "HB/",
+      "room_url": "HB014",
+      "room_name": "HB014"
+    },
+    {
+      "building_url": "HB/",
+      "room_url": "HB014",
+      "room_name": "HB014"
+    },
+    {
+      "building_url": "HB/",
+      "room_url": "HB014",
+      "room_name": "HB014"
+    },
+    {
+      "building_url": "HB/",
+      "room_url": "HB015A",
+      "room_name": "HB015a"
+    },
+    {
+      "building_url": "HB/",
+      "room_url": "HB015A",
+      "room_name": "HB015a"
+    },
+    {
+      "building_url": "HB/",
+      "room_url": "HB015A",
+      "room_name": "HB015a"
+    },
+    {
+      "building_url": "HB/",
+      "room_url": "HB015B",
+      "room_name": "HB015b"
+    },
+    {
+      "building_url": "HB/",
+      "room_url": "HB015B",
+      "room_name": "HB015b"
+    },
+    {
+      "building_url": "HB/",
+      "room_url": "HB015B",
+      "room_name": "HB015b"
+    },
+    {
+      "building_url": "HB/",
+      "room_url": "HB017",
+      "room_name": "HB017"
+    },
+    {
+      "building_url": "HB/",
+      "room_url": "HB017",
+      "room_name": "HB017"
+    },
+    {
+      "building_url": "HB/",
+      "room_url": "HB017",
+      "room_name": "HB017"
+    },
+    {
+      "building_url": "HB/",
+      "room_url": "HB018",
+      "room_name": "HB018 Meeting Room"
+    },
+    {
+      "building_url": "HB/",
+      "room_url": "HB018",
+      "room_name": "HB018 Meeting Room"
+    },
+    {
+      "building_url": "HB/",
+      "room_url": "HB108",
+      "room_name": "HB108"
+    },
+    {
+      "building_url": "HB/",
+      "room_url": "HB108",
+      "room_name": "HB108"
+    },
+    {
+      "building_url": "HB/",
+      "room_url": "HB108",
+      "room_name": "HB108"
+    },
+    {
+      "building_url": "HB/",
+      "room_url": "HB110",
+      "room_name": "HB110 Architecture PC Lab (Harris Building)"
+    },
+    {
+      "building_url": "HB/",
+      "room_url": "HB111",
+      "room_name": "HB111"
+    },
+    {
+      "building_url": "HB/",
+      "room_url": "HB111",
+      "room_name": "HB111"
+    },
+    {
+      "building_url": "HB/",
+      "room_url": "HB111",
+      "room_name": "HB111"
+    },
+    {
+      "building_url": "HB/",
+      "room_url": "HB113",
+      "room_name": "HB113 (Harris Building)"
+    },
+    {
+      "building_url": "HB/",
+      "room_url": "HB113",
+      "room_name": "HB113 (Harris Building)"
+    },
+    {
+      "building_url": "HB/",
+      "room_url": "HB113",
+      "room_name": "HB113 (Harris Building)"
+    },
+    {
+      "building_url": "HB/",
+      "room_url": "HB116",
+      "room_name": "HB116 Architecture Workshop"
+    },
+    {
+      "building_url": "HB/",
+      "room_url": "HB126",
+      "room_name": "HB126 Soil Mechanics Laboratory (20)"
+    },
+    {
+      "building_url": "HB/",
+      "room_url": "HB127",
+      "room_name": "HB127 Structures Lab"
+    },
+    {
+      "building_url": "HB/",
+      "room_url": "HB130",
+      "room_name": "HB130 Hydraulics Lab"
+    },
+    {
+      "building_url": "HB/",
+      "room_url": "HB132",
+      "room_name": "HB132 Materials Lab"
+    },
+    {
+      "building_url": "HB/",
+      "room_url": "HB144A",
+      "room_name": "HB144a  PC Lab"
+    },
+    {
+      "building_url": "HB/",
+      "room_url": "HB144A",
+      "room_name": "HB144a  PC Lab"
+    },
+    {
+      "building_url": "HB/",
+      "room_url": "HB144C",
+      "room_name": "HB144c Architecture Design Studio"
+    },
+    {
+      "building_url": "HB/",
+      "room_url": "HB145",
+      "room_name": "HB145 Architecture Studio"
+    },
+    {
+      "building_url": "HB/",
+      "room_url": "HB150",
+      "room_name": "HB150 Forensic Photography"
+    },
+    {
+      "building_url": "HB/",
+      "room_url": "HB155",
+      "room_name": "HB155"
+    },
+    {
+      "building_url": "HB/",
+      "room_url": "HB155",
+      "room_name": "HB155"
+    },
+    {
+      "building_url": "HB/",
+      "room_url": "HB155",
+      "room_name": "HB155"
+    },
+    {
+      "building_url": "HB/",
+      "room_url": "HB158",
+      "room_name": "HB158"
+    },
+    {
+      "building_url": "HB/",
+      "room_url": "HB158",
+      "room_name": "HB158"
+    },
+    {
+      "building_url": "HB/",
+      "room_url": "HB158",
+      "room_name": "HB158"
+    },
+    {
+      "building_url": "HB/",
+      "room_url": "HB159",
+      "room_name": "HB159"
+    },
+    {
+      "building_url": "HB/",
+      "room_url": "HB159",
+      "room_name": "HB159"
+    },
+    {
+      "building_url": "HB/",
+      "room_url": "HB159",
+      "room_name": "HB159"
+    },
+    {
+      "building_url": "HB/",
+      "room_url": "HB201",
+      "room_name": "HB201 Cyber Investigation Lab"
+    },
+    {
+      "building_url": "HB/",
+      "room_url": "HB206",
+      "room_name": "HB206"
+    },
+    {
+      "building_url": "HB/",
+      "room_url": "HB206",
+      "room_name": "HB206"
+    },
+    {
+      "building_url": "HB/",
+      "room_url": "HB206",
+      "room_name": "HB206"
+    },
+    {
+      "building_url": "HB/",
+      "room_url": "HB207",
+      "room_name": "HB207"
+    },
+    {
+      "building_url": "HB/",
+      "room_url": "HB207",
+      "room_name": "HB207"
+    },
+    {
+      "building_url": "HB/",
+      "room_url": "HB207",
+      "room_name": "HB207"
+    },
+    {
+      "building_url": "HB/",
+      "room_url": "HB208",
+      "room_name": "HB208"
+    },
+    {
+      "building_url": "HB/",
+      "room_url": "HB208",
+      "room_name": "HB208"
+    },
+    {
+      "building_url": "HB/",
+      "room_url": "HB208",
+      "room_name": "HB208"
+    },
+    {
+      "building_url": "HB/",
+      "room_url": "HB219",
+      "room_name": "HB219"
+    },
+    {
+      "building_url": "HB/",
+      "room_url": "HB219",
+      "room_name": "HB219"
+    },
+    {
+      "building_url": "HB/",
+      "room_url": "HB219",
+      "room_name": "HB219"
+    },
+    {
+      "building_url": "HB/",
+      "room_url": "HB227",
+      "room_name": "HB227"
+    },
+    {
+      "building_url": "HB/",
+      "room_url": "HB227",
+      "room_name": "HB227"
+    },
+    {
+      "building_url": "HB/",
+      "room_url": "HB227",
+      "room_name": "HB227"
+    },
+    {
+      "building_url": "HB/",
+      "room_url": "HB234",
+      "room_name": "HB234"
+    },
+    {
+      "building_url": "HB/",
+      "room_url": "HB234",
+      "room_name": "HB234"
+    },
+    {
+      "building_url": "HB/",
+      "room_url": "HB234",
+      "room_name": "HB234"
+    },
+    {
+      "building_url": "HB/",
+      "room_url": "HB235",
+      "room_name": "HB235 - PC Lab"
+    },
+    {
+      "building_url": "HB/",
+      "room_url": "HB235",
+      "room_name": "HB235 - PC Lab"
+    },
+    {
+      "building_url": "HB/",
+      "room_url": "HB236",
+      "room_name": "HB236 Fire Computational Lab"
+    },
+    {
+      "building_url": "HB/",
+      "room_url": "HB239",
+      "room_name": "HB239 - PC Lab"
+    },
+    {
+      "building_url": "HB/",
+      "room_url": "HB239",
+      "room_name": "HB239 - PC Lab"
+    },
+    {
+      "building_url": "HB/",
+      "room_url": "HB303",
+      "room_name": "HB303"
+    },
+    {
+      "building_url": "HB/",
+      "room_url": "HB303",
+      "room_name": "HB303"
+    },
+    {
+      "building_url": "HB/",
+      "room_url": "HB303",
+      "room_name": "HB303"
+    },
+    {
+      "building_url": "HB/",
+      "room_url": "HB304",
+      "room_name": "HB304"
+    },
+    {
+      "building_url": "HB/",
+      "room_url": "HB304",
+      "room_name": "HB304"
+    },
+    {
+      "building_url": "HB/",
+      "room_url": "HB304",
+      "room_name": "HB304"
+    },
+    {
+      "building_url": "HB/",
+      "room_url": "HB305",
+      "room_name": "HB305"
+    },
+    {
+      "building_url": "HB/",
+      "room_url": "HB305",
+      "room_name": "HB305"
+    },
+    {
+      "building_url": "HB/",
+      "room_url": "HB305",
+      "room_name": "HB305"
+    },
+    {
+      "building_url": "HB/",
+      "room_url": "HB307",
+      "room_name": "HB307"
+    },
+    {
+      "building_url": "HB/",
+      "room_url": "HB307",
+      "room_name": "HB307"
+    },
+    {
+      "building_url": "HB/",
+      "room_url": "HB307",
+      "room_name": "HB307"
+    },
+    {
+      "building_url": "HB/",
+      "room_url": "HB310",
+      "room_name": "HB310 Meeting Room"
+    },
+    {
+      "building_url": "HB/",
+      "room_url": "HB310",
+      "room_name": "HB310 Meeting Room"
+    },
+    {
+      "building_url": "HB/",
+      "room_url": "HB311",
+      "room_name": "HB311"
+    },
+    {
+      "building_url": "HB/",
+      "room_url": "HB311",
+      "room_name": "HB311"
+    },
+    {
+      "building_url": "HB/",
+      "room_url": "HB311",
+      "room_name": "HB311"
+    },
+    {
+      "building_url": "HB/",
+      "room_url": "HB314",
+      "room_name": "HB314"
+    },
+    {
+      "building_url": "HB/",
+      "room_url": "HB314",
+      "room_name": "HB314"
+    },
+    {
+      "building_url": "HB/",
+      "room_url": "HB315",
+      "room_name": "HB315"
+    },
+    {
+      "building_url": "HB/",
+      "room_url": "HB315",
+      "room_name": "HB315"
+    },
+    {
+      "building_url": "HB/",
+      "room_url": "HB315",
+      "room_name": "HB315"
+    },
+    {
+      "building_url": "HH/",
+      "room_url": "HHB01",
+      "room_name": "HHB01 Heatley House Garage"
+    },
+    {
+      "building_url": "Innovation Centre/",
+      "room_url": "Inspiration",
+      "room_name": "Inspiration"
+    },
+    {
+      "building_url": "IW/",
+      "room_url": "IW001",
+      "room_name": "IW001 (Iron Works)"
+    },
+    {
+      "building_url": "IW/",
+      "room_url": "IW001",
+      "room_name": "IW001 (Iron Works)"
+    },
+    {
+      "building_url": "IW/",
+      "room_url": "IW002",
+      "room_name": "IW002  - Meeting Room"
+    },
+    {
+      "building_url": "IW/",
+      "room_url": "IW002",
+      "room_name": "IW002  - Meeting Room"
+    },
+    {
+      "building_url": "IW/",
+      "room_url": "IW030",
+      "room_name": "IW030  - Meeting Room"
+    },
+    {
+      "building_url": "IW/",
+      "room_url": "IW030",
+      "room_name": "IW030  - Meeting Room"
+    },
+    {
+      "building_url": "IW/",
+      "room_url": "IW031",
+      "room_name": "IW031 (Iron Works)"
+    },
+    {
+      "building_url": "IW/",
+      "room_url": "IW031",
+      "room_name": "IW031 (Iron Works)"
+    },
+    {
+      "building_url": "IW/",
+      "room_url": "IW032",
+      "room_name": "IW032 (Iron Works)"
+    },
+    {
+      "building_url": "IW/",
+      "room_url": "IW032",
+      "room_name": "IW032 (Iron Works)"
+    },
+    {
+      "building_url": "IW/",
+      "room_url": "IW033",
+      "room_name": "IW033  - Meeting Room"
+    },
+    {
+      "building_url": "IW/",
+      "room_url": "IW033",
+      "room_name": "IW033  - Meeting Room"
+    },
+    {
+      "building_url": "JBF/",
+      "room_url": "JBF014",
+      "room_name": "JBF014 Analytical Services Lab"
+    },
+    {
+      "building_url": "JBF/",
+      "room_url": "JBF023",
+      "room_name": "JBF023 NMR Lab (JBFirth)"
+    },
+    {
+      "building_url": "JBF/",
+      "room_url": "JBF112A",
+      "room_name": "JBF112a Science Lab - Part a (JBFirth)"
+    },
+    {
+      "building_url": "JBF/",
+      "room_url": "JBF112B",
+      "room_name": "JBF112b Science Lab - Part b (JBFirth)"
+    },
+    {
+      "building_url": "JBF/",
+      "room_url": "JBF209",
+      "room_name": "JBF209 Science Lab (JBFirth)"
+    },
+    {
+      "building_url": "JFY/",
+      "room_url": "SPLUS0A55B3",
+      "room_name": "JFY017 Meeting Room (Westlakes)"
+    },
+    {
+      "building_url": "JFY/",
+      "room_url": "SPLUS0A55B3",
+      "room_name": "JFY017 Meeting Room (Westlakes)"
+    },
+    {
+      "building_url": "JFY/",
+      "room_url": "JFY004",
+      "room_name": "JFY004 Lecture Theatre  (Westlakes)"
+    },
+    {
+      "building_url": "JFY/",
+      "room_url": "JFY004",
+      "room_name": "JFY004 Lecture Theatre  (Westlakes)"
+    },
+    {
+      "building_url": "JFY/",
+      "room_url": "JFY012",
+      "room_name": "JFY012 Lab (Westlakes)"
+    },
+    {
+      "building_url": "JFY/",
+      "room_url": "JFY013",
+      "room_name": "JFY013 (Westlakes)"
+    },
+    {
+      "building_url": "JFY/",
+      "room_url": "JFY013",
+      "room_name": "JFY013 (Westlakes)"
+    },
+    {
+      "building_url": "JFY/",
+      "room_url": "JFY013",
+      "room_name": "JFY013 (Westlakes)"
+    },
+    {
+      "building_url": "JFY/",
+      "room_url": "JFY014",
+      "room_name": "JFY014  (Westlakes)"
+    },
+    {
+      "building_url": "JFY/",
+      "room_url": "JFY014",
+      "room_name": "JFY014  (Westlakes)"
+    },
+    {
+      "building_url": "JFY/",
+      "room_url": "JFY014",
+      "room_name": "JFY014  (Westlakes)"
+    },
+    {
+      "building_url": "JFY/",
+      "room_url": "JFY015",
+      "room_name": "JFY015 Simulation   (Westlakes)"
+    },
+    {
+      "building_url": "JFY/",
+      "room_url": "JFY105",
+      "room_name": "JFY105 Meeting Room (Westlakes)"
+    },
+    {
+      "building_url": "JFY/",
+      "room_url": "JFY105",
+      "room_name": "JFY105 Meeting Room (Westlakes)"
+    },
+    {
+      "building_url": "JFY/",
+      "room_url": "JFY106",
+      "room_name": "JFY106 (Westlakes)"
+    },
+    {
+      "building_url": "JFY/",
+      "room_url": "JFY106",
+      "room_name": "JFY106 (Westlakes)"
+    },
+    {
+      "building_url": "JFY/",
+      "room_url": "JFY106",
+      "room_name": "JFY106 (Westlakes)"
+    },
+    {
+      "building_url": "JFY/",
+      "room_url": "JFY107",
+      "room_name": "JFY107 Skills Lab (Westlakes)"
+    },
+    {
+      "building_url": "JFY/",
+      "room_url": "JFY107",
+      "room_name": "JFY107 Skills Lab (Westlakes)"
+    },
+    {
+      "building_url": "JFY/",
+      "room_url": "JFY118",
+      "room_name": "JFY118 (Westlakes)"
+    },
+    {
+      "building_url": "JFY/",
+      "room_url": "JFY118",
+      "room_name": "JFY118 (Westlakes)"
+    },
+    {
+      "building_url": "JFY/",
+      "room_url": "JFY118",
+      "room_name": "JFY118 (Westlakes)"
+    },
+    {
+      "building_url": "JFY/",
+      "room_url": "JFY120",
+      "room_name": "JFY120 (Westlakes)"
+    },
+    {
+      "building_url": "JFY/",
+      "room_url": "JFY120",
+      "room_name": "JFY120 (Westlakes)"
+    },
+    {
+      "building_url": "JFY/",
+      "room_url": "JFY120",
+      "room_name": "JFY120 (Westlakes)"
+    },
+    {
+      "building_url": "JFY/",
+      "room_url": "JFY122",
+      "room_name": "JFY122 (Westlakes)"
+    },
+    {
+      "building_url": "JFY/",
+      "room_url": "JFY122",
+      "room_name": "JFY122 (Westlakes)"
+    },
+    {
+      "building_url": "JFY/",
+      "room_url": "JFY122",
+      "room_name": "JFY122 (Westlakes)"
+    },
+    {
+      "building_url": "JFY/",
+      "room_url": "JFY123",
+      "room_name": "JFY123 Clinical Skills (Westlakes)"
+    },
+    {
+      "building_url": "JFY/",
+      "room_url": "JFY123",
+      "room_name": "JFY123 Clinical Skills (Westlakes)"
+    },
+    {
+      "building_url": "JFY/",
+      "room_url": "JFY125",
+      "room_name": "JFY125 (Westlakes)"
+    },
+    {
+      "building_url": "JFY/",
+      "room_url": "JFY125",
+      "room_name": "JFY125 (Westlakes)"
+    },
+    {
+      "building_url": "JFY/",
+      "room_url": "JFY125",
+      "room_name": "JFY125 (Westlakes)"
+    },
+    {
+      "building_url": "KM/",
+      "room_url": "KM006",
+      "room_name": "KM006 (Kirkham)"
+    },
+    {
+      "building_url": "KM/",
+      "room_url": "KM006",
+      "room_name": "KM006 (Kirkham)"
+    },
+    {
+      "building_url": "KM/",
+      "room_url": "KM006",
+      "room_name": "KM006 (Kirkham)"
+    },
+    {
+      "building_url": "KM/",
+      "room_url": "KM011",
+      "room_name": "KM011 Continuing Drama / TV Production (Kirkham)"
+    },
+    {
+      "building_url": "KM/",
+      "room_url": "KM013",
+      "room_name": "KM013 (Kirkham)"
+    },
+    {
+      "building_url": "KM/",
+      "room_url": "KM013",
+      "room_name": "KM013 (Kirkham)"
+    },
+    {
+      "building_url": "KM/",
+      "room_url": "KM013",
+      "room_name": "KM013 (Kirkham)"
+    },
+    {
+      "building_url": "KM/",
+      "room_url": "KM111",
+      "room_name": "KM111 (Kirkham)"
+    },
+    {
+      "building_url": "KM/",
+      "room_url": "KM111",
+      "room_name": "KM111 (Kirkham)"
+    },
+    {
+      "building_url": "KM/",
+      "room_url": "KM111",
+      "room_name": "KM111 (Kirkham)"
+    },
+    {
+      "building_url": "KM/",
+      "room_url": "KMSET",
+      "room_name": "KMSET Filming Set (Kirkham)"
+    },
+    {
+      "building_url": "LE/",
+      "room_url": "LE002",
+      "room_name": "LE002 (Leighton)"
+    },
+    {
+      "building_url": "LE/",
+      "room_url": "LE002",
+      "room_name": "LE002 (Leighton)"
+    },
+    {
+      "building_url": "LE/",
+      "room_url": "LE003",
+      "room_name": "LE003 (Leighton)"
+    },
+    {
+      "building_url": "LE/",
+      "room_url": "LE003",
+      "room_name": "LE003 (Leighton)"
+    },
+    {
+      "building_url": "LE/",
+      "room_url": "LE109",
+      "room_name": "LE109  (Leighton)"
+    },
+    {
+      "building_url": "LE/",
+      "room_url": "LE109",
+      "room_name": "LE109  (Leighton)"
+    },
+    {
+      "building_url": "LE/",
+      "room_url": "LE110",
+      "room_name": "LE110 (Leighton)"
+    },
+    {
+      "building_url": "LE/",
+      "room_url": "LE110",
+      "room_name": "LE110 (Leighton)"
+    },
+    {
+      "building_url": "LE/",
+      "room_url": "LE111",
+      "room_name": "LE111 (Leighton)"
+    },
+    {
+      "building_url": "LE/",
+      "room_url": "LE111",
+      "room_name": "LE111 (Leighton)"
+    },
+    {
+      "building_url": "LE/",
+      "room_url": "LE202",
+      "room_name": "LE202 Nuclear Physics Lab (Leighton)"
+    },
+    {
+      "building_url": "LE/",
+      "room_url": "LE203",
+      "room_name": "LE203 - PC Lab (Leighton)"
+    },
+    {
+      "building_url": "LE/",
+      "room_url": "LE203",
+      "room_name": "LE203 - PC Lab (Leighton)"
+    },
+    {
+      "building_url": "LE/",
+      "room_url": "LE204",
+      "room_name": "LE204 Comp. Physics/ Virtual Instrumentation Lab (Leighton)"
+    },
+    {
+      "building_url": "LE/",
+      "room_url": "LE206",
+      "room_name": "LE206 Optics Lab (Leighton)"
+    },
+    {
+      "building_url": "LE/",
+      "room_url": "LE206A",
+      "room_name": "LE206a Laser Lab (Leighton)"
+    },
+    {
+      "building_url": "LE/",
+      "room_url": "LE207",
+      "room_name": "LE207 Physics Lab (Leighton)"
+    },
+    {
+      "building_url": "LE/",
+      "room_url": "LE303",
+      "room_name": "LE303 Lab (Leighton)"
+    },
+    {
+      "building_url": "LIB/",
+      "room_url": "LIB304",
+      "room_name": "LIB304 Academic Registry / LIS Meeting Room"
+    },
+    {
+      "building_url": "LIB/",
+      "room_url": "LIB304",
+      "room_name": "LIB304 Academic Registry / LIS Meeting Room"
+    },
+    {
+      "building_url": "LIB/",
+      "room_url": "LIB304a",
+      "room_name": "LIB304a Academic Registry / LIS Meeting Room"
+    },
+    {
+      "building_url": "LIB/",
+      "room_url": "LIB304a",
+      "room_name": "LIB304a Academic Registry / LIS Meeting Room"
+    },
+    {
+      "building_url": "LIB/",
+      "room_url": "LIB311",
+      "room_name": "LIB311 Academic Registry / LIS Collaborative Meeting Room (20)"
+    },
+    {
+      "building_url": "LIB/",
+      "room_url": "LIB311",
+      "room_name": "LIB311 Academic Registry / LIS Collaborative Meeting Room (20)"
+    },
+    {
+      "building_url": "LIB/",
+      "room_url": "LIB314 Meeting Room",
+      "room_name": "LIB314 Academic Registry / LIS Meeting Room"
+    },
+    {
+      "building_url": "LIB/",
+      "room_url": "LIB314 Meeting Room",
+      "room_name": "LIB314 Academic Registry / LIS Meeting Room"
+    },
+    {
+      "building_url": "LIB/",
+      "room_url": "LIB315",
+      "room_name": "LIB315 Academic Registry / LIS Meeting Room"
+    },
+    {
+      "building_url": "LIB/",
+      "room_url": "LIB315",
+      "room_name": "LIB315 Academic Registry / LIS Meeting Room"
+    },
+    {
+      "building_url": "MB/",
+      "room_url": "MB041",
+      "room_name": "MB041 - Hydra Plenary Room"
+    },
+    {
+      "building_url": "MB/",
+      "room_url": "MB043",
+      "room_name": "MB043 - Hydra Plenary Room"
+    },
+    {
+      "building_url": "MB/",
+      "room_url": "MB049",
+      "room_name": "MB049 FZ"
+    },
+    {
+      "building_url": "MB/",
+      "room_url": "MB049",
+      "room_name": "MB049 FZ"
+    },
+    {
+      "building_url": "MB/",
+      "room_url": "MB051",
+      "room_name": "MB051"
+    },
+    {
+      "building_url": "MB/",
+      "room_url": "MB051",
+      "room_name": "MB051"
+    },
+    {
+      "building_url": "MB/",
+      "room_url": "MB053",
+      "room_name": "MB053 - PC Lab"
+    },
+    {
+      "building_url": "MB/",
+      "room_url": "MB053",
+      "room_name": "MB053 - PC Lab"
+    },
+    {
+      "building_url": "MB/",
+      "room_url": "MB108",
+      "room_name": "MB108 Anthropology Lab"
+    },
+    {
+      "building_url": "MB/",
+      "room_url": "MB113",
+      "room_name": "MB113 MA Forensic Genetics Lab"
+    },
+    {
+      "building_url": "MB/",
+      "room_url": "MB117",
+      "room_name": "MB117 Forensic Practice/Crime Scene Sci. Lab"
+    },
+    {
+      "building_url": "MB/",
+      "room_url": "MB119",
+      "room_name": "MB119 - Blood Pattern Analysis Lab  (Maudland Building)"
+    },
+    {
+      "building_url": "MB/",
+      "room_url": "MB120",
+      "room_name": "MB120 Criminalistics Lab"
+    },
+    {
+      "building_url": "MB/",
+      "room_url": "MB124",
+      "room_name": "MB124 - Archaeology Teaching Lab"
+    },
+    {
+      "building_url": "MB/",
+      "room_url": "MB143",
+      "room_name": "MB143 PJ  Pharmacy Practice Suite"
+    },
+    {
+      "building_url": "MB/",
+      "room_url": "MB221",
+      "room_name": "MB221"
+    },
+    {
+      "building_url": "MB/",
+      "room_url": "MB221",
+      "room_name": "MB221"
+    },
+    {
+      "building_url": "MB/",
+      "room_url": "MB221",
+      "room_name": "MB221"
+    },
+    {
+      "building_url": "MB/",
+      "room_url": "MB222",
+      "room_name": "MB222 - Meeting Room (14)"
+    },
+    {
+      "building_url": "MB/",
+      "room_url": "MB222",
+      "room_name": "MB222 - Meeting Room (14)"
+    },
+    {
+      "building_url": "MB/",
+      "room_url": "MB226",
+      "room_name": "MB226 Forensic Science Research Lab"
+    },
+    {
+      "building_url": "MB/",
+      "room_url": "MB235",
+      "room_name": "MB235 Science Lab"
+    },
+    {
+      "building_url": "MB/",
+      "room_url": "MB244",
+      "room_name": "MB244 Analytical Services Lab"
+    },
+    {
+      "building_url": "MB/",
+      "room_url": "MB247",
+      "room_name": "MB247 Science Lab"
+    },
+    {
+      "building_url": "MB/",
+      "room_url": "MB248",
+      "room_name": "MB248 Bio-Pharmaceuticals Lab"
+    },
+    {
+      "building_url": "MB/",
+      "room_url": "MB249",
+      "room_name": "MB249 Pharmacy Research Lab"
+    },
+    {
+      "building_url": "MB/",
+      "room_url": "MB302",
+      "room_name": "MB302 Science Lab (inc Cell Culture)"
+    },
+    {
+      "building_url": "MB/",
+      "room_url": "MB305",
+      "room_name": "MB305 Science Lab"
+    },
+    {
+      "building_url": "MB/",
+      "room_url": "MB308",
+      "room_name": "MB308 Science Lab (inc SENS)"
+    },
+    {
+      "building_url": "MB/",
+      "room_url": "MB315",
+      "room_name": "MB315 Science Lab"
+    },
+    {
+      "building_url": "MB/",
+      "room_url": "MB317",
+      "room_name": "MB317 Science Lab"
+    },
+    {
+      "building_url": "MB/",
+      "room_url": "MB320",
+      "room_name": "MB320 Forensic Anthropology & Archaeology Lab (inc. Bone Store)"
+    },
+    {
+      "building_url": "MB/",
+      "room_url": "MB336",
+      "room_name": "MB336 - Histopathology Suite"
+    },
+    {
+      "building_url": "MB/",
+      "room_url": "MB337",
+      "room_name": "MB337 Pharmacy Aseptic Suite/Tutorial Area"
+    },
+    {
+      "building_url": "MB/",
+      "room_url": "MB341",
+      "room_name": "MB341 Pharmacy Lab"
+    },
+    {
+      "building_url": "MB/",
+      "room_url": "MB344a",
+      "room_name": "MB334a - Research Lab"
+    },
+    {
+      "building_url": "MB/",
+      "room_url": "MBFOY",
+      "room_name": "MBFOY - Maudland Building Foyer"
+    },
+    {
+      "building_url": "ME/",
+      "room_url": "SPLUS4429EA",
+      "room_name": "ME109 (Media Factory)"
+    },
+    {
+      "building_url": "ME/",
+      "room_url": "SPLUS4429EA",
+      "room_name": "ME109 (Media Factory)"
+    },
+    {
+      "building_url": "ME/",
+      "room_url": "SPLUS4429EA",
+      "room_name": "ME109 (Media Factory)"
+    },
+    {
+      "building_url": "ME/",
+      "room_url": "ME007",
+      "room_name": "ME007 Main Theatre (Media Factory)"
+    },
+    {
+      "building_url": "ME/",
+      "room_url": "ME010",
+      "room_name": "ME010 Theatre Studio 2 (Media Factory)"
+    },
+    {
+      "building_url": "ME/",
+      "room_url": "ME011",
+      "room_name": "ME011 - Interdisciplinary Room 1 (Media Factory)"
+    },
+    {
+      "building_url": "ME/",
+      "room_url": "ME020",
+      "room_name": "ME020 Dance Studio 2 (Media Factory)"
+    },
+    {
+      "building_url": "ME/",
+      "room_url": "ME035",
+      "room_name": "ME035  Interdisciplinary Room 2 (Media Factory)"
+    },
+    {
+      "building_url": "ME/",
+      "room_url": "ME104",
+      "room_name": "ME104 Theatre Control Room (Media Factory)"
+    },
+    {
+      "building_url": "ME/",
+      "room_url": "ME111",
+      "room_name": "ME111 Ensemble Studio (Media Factory)"
+    },
+    {
+      "building_url": "ME/",
+      "room_url": "ME113",
+      "room_name": "ME113 (Media Factory)"
+    },
+    {
+      "building_url": "ME/",
+      "room_url": "ME113",
+      "room_name": "ME113 (Media Factory)"
+    },
+    {
+      "building_url": "ME/",
+      "room_url": "ME113",
+      "room_name": "ME113 (Media Factory)"
+    },
+    {
+      "building_url": "ME/",
+      "room_url": "ME113a",
+      "room_name": "ME113a - Publishing House (Media Factory)"
+    },
+    {
+      "building_url": "ME/",
+      "room_url": "ME125",
+      "room_name": "ME125 Music Ensemble Studio (Media Factory)"
+    },
+    {
+      "building_url": "ME/",
+      "room_url": "ME203",
+      "room_name": "ME203 Photography Studio (Media Factory)"
+    },
+    {
+      "building_url": "ME/",
+      "room_url": "ME204",
+      "room_name": "ME204 Screening Cinema (Media Factory)"
+    },
+    {
+      "building_url": "ME/",
+      "room_url": "ME207",
+      "room_name": "ME207 MAC Suite (Media Factory)"
+    },
+    {
+      "building_url": "ME/",
+      "room_url": "ME207",
+      "room_name": "ME207 MAC Suite (Media Factory)"
+    },
+    {
+      "building_url": "ME/",
+      "room_url": "ME208",
+      "room_name": "ME208 Project Studio 1 (Media Factory)"
+    },
+    {
+      "building_url": "ME/",
+      "room_url": "ME209",
+      "room_name": "ME209 RWE Edit Suite (Media Factory)"
+    },
+    {
+      "building_url": "ME/",
+      "room_url": "ME210",
+      "room_name": "ME210 Sound Stage (Media Factory)"
+    },
+    {
+      "building_url": "ME/",
+      "room_url": "ME211",
+      "room_name": "ME211 Project Studio 2 (Media Factory)"
+    },
+    {
+      "building_url": "ME/",
+      "room_url": "ME212",
+      "room_name": "ME212 Project Studio 3 (Media Factory)"
+    },
+    {
+      "building_url": "ME/",
+      "room_url": "ME213",
+      "room_name": "ME213 Project Studio 4 (Media Factory)"
+    },
+    {
+      "building_url": "ME/",
+      "room_url": "ME214",
+      "room_name": "ME214 Project Studio 5 (Media Factory)"
+    },
+    {
+      "building_url": "ME/",
+      "room_url": "ME215",
+      "room_name": "ME215 Dance Studio (Media Factory)"
+    },
+    {
+      "building_url": "ME/",
+      "room_url": "ME216",
+      "room_name": "ME216 Audio Studio (Media Factory)"
+    },
+    {
+      "building_url": "ME/",
+      "room_url": "ME218",
+      "room_name": "ME218 Studio Control Room (Media Factory)"
+    },
+    {
+      "building_url": "ME/",
+      "room_url": "ME220",
+      "room_name": "ME220 (Media Factory)"
+    },
+    {
+      "building_url": "ME/",
+      "room_url": "ME220",
+      "room_name": "ME220 (Media Factory)"
+    },
+    {
+      "building_url": "ME/",
+      "room_url": "ME220",
+      "room_name": "ME220 (Media Factory)"
+    },
+    {
+      "building_url": "ME/",
+      "room_url": "ME223",
+      "room_name": "ME233 Foley Edit Suite 1 (Media Factory)"
+    },
+    {
+      "building_url": "ME/",
+      "room_url": "ME226",
+      "room_name": "ME226 Drama Studio (Media Factory)"
+    },
+    {
+      "building_url": "ME/",
+      "room_url": "ME234",
+      "room_name": "ME234 Foley Booth Edit Suite 2 (Media Factory)"
+    },
+    {
+      "building_url": "ME/",
+      "room_url": "ME235",
+      "room_name": "ME235 Foley Edit Suite 2 (Media Factory)"
+    },
+    {
+      "building_url": "ME/",
+      "room_url": "ME236",
+      "room_name": "ME236 Edit Suite (Media Factory)"
+    },
+    {
+      "building_url": "ME/",
+      "room_url": "ME238",
+      "room_name": "ME238 Foley Edit Suite 3 (Media Factory)"
+    },
+    {
+      "building_url": "ME/",
+      "room_url": "ME239",
+      "room_name": "ME239 TV Studio 1 (Media Factory)"
+    },
+    {
+      "building_url": "ME/",
+      "room_url": "ME240",
+      "room_name": "ME240 Foley Edit Suite 4 (Media Factory)"
+    },
+    {
+      "building_url": "ME/",
+      "room_url": "ME241",
+      "room_name": "ME241 Edit Suite (Media Factory)"
+    },
+    {
+      "building_url": "ME/",
+      "room_url": "ME242",
+      "room_name": "ME242 Edit Suite (Media Factory)"
+    },
+    {
+      "building_url": "ME/",
+      "room_url": "ME243",
+      "room_name": "ME243 TV Gallery (Media Factory)"
+    },
+    {
+      "building_url": "ME/",
+      "room_url": "ME244",
+      "room_name": "ME244 Digital Photo MAC Suite (Media Factory)"
+    },
+    {
+      "building_url": "ME/",
+      "room_url": "ME246",
+      "room_name": "ME246 Digital Photo Studio (Media Factory)"
+    },
+    {
+      "building_url": "ME/",
+      "room_url": "ME304",
+      "room_name": "ME304 - Podcast Studio (5) (Media Factory)"
+    },
+    {
+      "building_url": "ME/",
+      "room_url": "ME312",
+      "room_name": "ME312 (Media Factory)"
+    },
+    {
+      "building_url": "ME/",
+      "room_url": "ME312",
+      "room_name": "ME312 (Media Factory)"
+    },
+    {
+      "building_url": "ME/",
+      "room_url": "ME312",
+      "room_name": "ME312 (Media Factory)"
+    },
+    {
+      "building_url": "ME/",
+      "room_url": "ME313",
+      "room_name": "ME313 (Media Factory)"
+    },
+    {
+      "building_url": "ME/",
+      "room_url": "ME313",
+      "room_name": "ME313 (Media Factory)"
+    },
+    {
+      "building_url": "ME/",
+      "room_url": "ME313",
+      "room_name": "ME313 (Media Factory)"
+    },
+    {
+      "building_url": "ME/",
+      "room_url": "ME314",
+      "room_name": "ME314 (Media Factory)"
+    },
+    {
+      "building_url": "ME/",
+      "room_url": "ME314",
+      "room_name": "ME314 (Media Factory)"
+    },
+    {
+      "building_url": "ME/",
+      "room_url": "ME314",
+      "room_name": "ME314 (Media Factory)"
+    },
+    {
+      "building_url": "ME/",
+      "room_url": "ME315",
+      "room_name": "ME315 (Media Factory)"
+    },
+    {
+      "building_url": "ME/",
+      "room_url": "ME315",
+      "room_name": "ME315 (Media Factory)"
+    },
+    {
+      "building_url": "ME/",
+      "room_url": "ME315",
+      "room_name": "ME315 (Media Factory)"
+    },
+    {
+      "building_url": "ME/",
+      "room_url": "ME317",
+      "room_name": "ME317 (Media Factory)"
+    },
+    {
+      "building_url": "ME/",
+      "room_url": "ME317",
+      "room_name": "ME317 (Media Factory)"
+    },
+    {
+      "building_url": "ME/",
+      "room_url": "ME317",
+      "room_name": "ME317 (Media Factory)"
+    },
+    {
+      "building_url": "ME/",
+      "room_url": "ME320",
+      "room_name": "ME320 (Media Factory)"
+    },
+    {
+      "building_url": "ME/",
+      "room_url": "ME320",
+      "room_name": "ME320 (Media Factory)"
+    },
+    {
+      "building_url": "ME/",
+      "room_url": "ME320",
+      "room_name": "ME320 (Media Factory)"
+    },
+    {
+      "building_url": "ME/",
+      "room_url": "ME323",
+      "room_name": "ME323 PC Lab (Media Factory)"
+    },
+    {
+      "building_url": "ME/",
+      "room_url": "ME323",
+      "room_name": "ME323 PC Lab (Media Factory)"
+    },
+    {
+      "building_url": "ME/",
+      "room_url": "ME325",
+      "room_name": "ME325 (Media Factory)"
+    },
+    {
+      "building_url": "ME/",
+      "room_url": "ME325",
+      "room_name": "ME325 (Media Factory)"
+    },
+    {
+      "building_url": "ME/",
+      "room_url": "ME325",
+      "room_name": "ME325 (Media Factory)"
+    },
+    {
+      "building_url": "ME/",
+      "room_url": "ME413",
+      "room_name": "ME413 (Media Factory)"
+    },
+    {
+      "building_url": "ME/",
+      "room_url": "ME413",
+      "room_name": "ME413 (Media Factory)"
+    },
+    {
+      "building_url": "ME/",
+      "room_url": "ME413",
+      "room_name": "ME413 (Media Factory)"
+    },
+    {
+      "building_url": "ME/",
+      "room_url": "ME414",
+      "room_name": "ME414 (Media Factory)"
+    },
+    {
+      "building_url": "ME/",
+      "room_url": "ME414",
+      "room_name": "ME414 (Media Factory)"
+    },
+    {
+      "building_url": "ME/",
+      "room_url": "ME419",
+      "room_name": "ME419 (Media Factory)"
+    },
+    {
+      "building_url": "ME/",
+      "room_url": "ME419",
+      "room_name": "ME419 (Media Factory)"
+    },
+    {
+      "building_url": "ME/",
+      "room_url": "ME420",
+      "room_name": "ME420 (Media Factory)"
+    },
+    {
+      "building_url": "ME/",
+      "room_url": "ME420",
+      "room_name": "ME420 (Media Factory)"
+    },
+    {
+      "building_url": "ME/",
+      "room_url": "ME421",
+      "room_name": "ME421 (Media Factory)"
+    },
+    {
+      "building_url": "ME/",
+      "room_url": "ME421",
+      "room_name": "ME421 (Media Factory)"
+    },
+    {
+      "building_url": "ME/",
+      "room_url": "ME421",
+      "room_name": "ME421 (Media Factory)"
+    },
+    {
+      "building_url": "ME/",
+      "room_url": "ME425",
+      "room_name": "ME425 (Media Factory)"
+    },
+    {
+      "building_url": "ME/",
+      "room_url": "ME425",
+      "room_name": "ME425 (Media Factory)"
+    },
+    {
+      "building_url": "ME/",
+      "room_url": "ME425",
+      "room_name": "ME425 (Media Factory)"
+    },
+    {
+      "building_url": "ME/",
+      "room_url": "ME428",
+      "room_name": "ME428 Enterprise Bridge (Media Factory)"
+    },
+    {
+      "building_url": "ME/",
+      "room_url": "ME429",
+      "room_name": "ME429 (Media Factory)"
+    },
+    {
+      "building_url": "ME/",
+      "room_url": "ME429",
+      "room_name": "ME429 (Media Factory)"
+    },
+    {
+      "building_url": "ME/",
+      "room_url": "ME429",
+      "room_name": "ME429 (Media Factory)"
+    },
+    {
+      "building_url": "MY/",
+      "room_url": "MY01",
+      "room_name": "MY01 Myerscough Equine"
+    },
+    {
+      "building_url": "MY/",
+      "room_url": "MY02",
+      "room_name": "MY02 Myerscough Farm"
+    },
+    {
+      "building_url": "MY/",
+      "room_url": "MY03",
+      "room_name": "MY03 Myerscough Exotic"
+    },
+    {
+      "building_url": "NTM/",
+      "room_url": "NTM101",
+      "room_name": "NTM101 (Newtown Mill)"
+    },
+    {
+      "building_url": "NTM/",
+      "room_url": "NTM101",
+      "room_name": "NTM101 (Newtown Mill)"
+    },
+    {
+      "building_url": "NTM/",
+      "room_url": "NTM101",
+      "room_name": "NTM101 (Newtown Mill)"
+    },
+    {
+      "building_url": "NTM/",
+      "room_url": "NTM102",
+      "room_name": "NTM102 (Newtown Mill)"
+    },
+    {
+      "building_url": "NTM/",
+      "room_url": "NTM102",
+      "room_name": "NTM102 (Newtown Mill)"
+    },
+    {
+      "building_url": "NTM/",
+      "room_url": "NTM102",
+      "room_name": "NTM102 (Newtown Mill)"
+    },
+    {
+      "building_url": "NTM/",
+      "room_url": "NTM103",
+      "room_name": "NTM103 (Newtown Mill)"
+    },
+    {
+      "building_url": "NTM/",
+      "room_url": "NTM103",
+      "room_name": "NTM103 (Newtown Mill)"
+    },
+    {
+      "building_url": "NTM/",
+      "room_url": "NTM103",
+      "room_name": "NTM103 (Newtown Mill)"
+    },
+    {
+      "building_url": "NTM/",
+      "room_url": "NTM106",
+      "room_name": "NTM106 (Newtown Mill)"
+    },
+    {
+      "building_url": "NTM/",
+      "room_url": "NTM106",
+      "room_name": "NTM106 (Newtown Mill)"
+    },
+    {
+      "building_url": "NTM/",
+      "room_url": "NTM106",
+      "room_name": "NTM106 (Newtown Mill)"
+    },
+    {
+      "building_url": "NTM/",
+      "room_url": "NTM107",
+      "room_name": "NTM107 (Newtown Mill)"
+    },
+    {
+      "building_url": "NTM/",
+      "room_url": "NTM107",
+      "room_name": "NTM107 (Newtown Mill)"
+    },
+    {
+      "building_url": "NTM/",
+      "room_url": "NTM107",
+      "room_name": "NTM107 (Newtown Mill)"
+    },
+    {
+      "building_url": "NTM/",
+      "room_url": "NTM115",
+      "room_name": "NTM115 (Newtown Mill)"
+    },
+    {
+      "building_url": "NTM/",
+      "room_url": "NTM115",
+      "room_name": "NTM115 (Newtown Mill)"
+    },
+    {
+      "building_url": "NTM/",
+      "room_url": "NTM115",
+      "room_name": "NTM115 (Newtown Mill)"
+    },
+    {
+      "building_url": "NTM/",
+      "room_url": "NTM207",
+      "room_name": "NTM207"
+    },
+    {
+      "building_url": "NTM/",
+      "room_url": "NTM207",
+      "room_name": "NTM207"
+    },
+    {
+      "building_url": "NTM/",
+      "room_url": "NTM208",
+      "room_name": "NTM208 (Newtown Mill)"
+    },
+    {
+      "building_url": "NTM/",
+      "room_url": "NTM208",
+      "room_name": "NTM208 (Newtown Mill)"
+    },
+    {
+      "building_url": "NTM/",
+      "room_url": "NTM208",
+      "room_name": "NTM208 (Newtown Mill)"
+    },
+    {
+      "building_url": "NTM/",
+      "room_url": "NTM209",
+      "room_name": "NTM209 (Newtown Mill)"
+    },
+    {
+      "building_url": "NTM/",
+      "room_url": "NTM209",
+      "room_name": "NTM209 (Newtown Mill)"
+    },
+    {
+      "building_url": "NTM/",
+      "room_url": "NTM209",
+      "room_name": "NTM209 (Newtown Mill)"
+    },
+    {
+      "building_url": "NTM/",
+      "room_url": "NTM210",
+      "room_name": "NTM210 (Newtown Mill)"
+    },
+    {
+      "building_url": "NTM/",
+      "room_url": "NTM210",
+      "room_name": "NTM210 (Newtown Mill)"
+    },
+    {
+      "building_url": "NTM/",
+      "room_url": "NTM210",
+      "room_name": "NTM210 (Newtown Mill)"
+    },
+    {
+      "building_url": "NTM/",
+      "room_url": "NTM211",
+      "room_name": "NTM211 (Newtown Mill)"
+    },
+    {
+      "building_url": "NTM/",
+      "room_url": "NTM211",
+      "room_name": "NTM211 (Newtown Mill)"
+    },
+    {
+      "building_url": "NTM/",
+      "room_url": "NTM211",
+      "room_name": "NTM211 (Newtown Mill)"
+    },
+    {
+      "building_url": "NTM/",
+      "room_url": "NTMCA",
+      "room_name": "NTMCA Cafe Area"
+    },
+    {
+      "building_url": "NTM/",
+      "room_url": "NTMLG17",
+      "room_name": "NTMLG17 (Newtown Mill)"
+    },
+    {
+      "building_url": "NTM/",
+      "room_url": "NTMLG17",
+      "room_name": "NTMLG17 (Newtown Mill)"
+    },
+    {
+      "building_url": "NTM/",
+      "room_url": "NTMLG17",
+      "room_name": "NTMLG17 (Newtown Mill)"
+    },
+    {
+      "building_url": "NTM/",
+      "room_url": "NTMLG18",
+      "room_name": "NTMLG18 (Newtown Mill)"
+    },
+    {
+      "building_url": "NTM/",
+      "room_url": "NTMLG18",
+      "room_name": "NTMLG18 (Newtown Mill)"
+    },
+    {
+      "building_url": "NTM/",
+      "room_url": "NTMLG18",
+      "room_name": "NTMLG18 (Newtown Mill)"
+    },
+    {
+      "building_url": "NTM/",
+      "room_url": "NTMLG19",
+      "room_name": "NTMLG19 (Newtown Mill)"
+    },
+    {
+      "building_url": "NTM/",
+      "room_url": "NTMLG19",
+      "room_name": "NTMLG19 (Newtown Mill)"
+    },
+    {
+      "building_url": "NTM/",
+      "room_url": "NTMLG19",
+      "room_name": "NTMLG19 (Newtown Mill)"
+    },
+    {
+      "building_url": "NTM/",
+      "room_url": "NTMLG23",
+      "room_name": "NTMLG23 (Newtown Mill)"
+    },
+    {
+      "building_url": "NTM/",
+      "room_url": "NTMLG23",
+      "room_name": "NTMLG23 (Newtown Mill)"
+    },
+    {
+      "building_url": "NTM/",
+      "room_url": "NTMSS",
+      "room_name": "NTMSS Social Space"
+    },
+    {
+      "building_url": "NTM/",
+      "room_url": "NTMUG04",
+      "room_name": "NTMUG04"
+    },
+    {
+      "building_url": "NTM/",
+      "room_url": "NTMUG04",
+      "room_name": "NTMUG04"
+    },
+    {
+      "building_url": "NTM/",
+      "room_url": "NTMUG05",
+      "room_name": "NTMUG05"
+    },
+    {
+      "building_url": "NTM/",
+      "room_url": "NTMUG05",
+      "room_name": "NTMUG05"
+    },
+    {
+      "building_url": "NTM/",
+      "room_url": "NTMUG06",
+      "room_name": "NTMUG06 (Newtown Mill)"
+    },
+    {
+      "building_url": "NTM/",
+      "room_url": "NTMUG06",
+      "room_name": "NTMUG06 (Newtown Mill)"
+    },
+    {
+      "building_url": "NTM/",
+      "room_url": "NTMUG09",
+      "room_name": "NTMUG09 Psychology Lab"
+    },
+    {
+      "building_url": "NTM/",
+      "room_url": "NTMUG09",
+      "room_name": "NTMUG09 Psychology Lab"
+    },
+    {
+      "building_url": "NTM/",
+      "room_url": "NTMUG11",
+      "room_name": "NTMUG11 Psychology Lab"
+    },
+    {
+      "building_url": "NTM/",
+      "room_url": "NTMUG11",
+      "room_name": "NTMUG11 Psychology Lab"
+    },
+    {
+      "building_url": "NTM/",
+      "room_url": "NTMUG13",
+      "room_name": "NTMUG13 (Newtown Mill)"
+    },
+    {
+      "building_url": "NTM/",
+      "room_url": "NTMUG13",
+      "room_name": "NTMUG13 (Newtown Mill)"
+    },
+    {
+      "building_url": "NTM/",
+      "room_url": "NTMUG13",
+      "room_name": "NTMUG13 (Newtown Mill)"
+    },
+    {
+      "building_url": "NTM/",
+      "room_url": "NTMUG19",
+      "room_name": "NTMUG19 (Newtown Mill)"
+    },
+    {
+      "building_url": "NTM/",
+      "room_url": "NTMUG19",
+      "room_name": "NTMUG19 (Newtown Mill)"
+    },
+    {
+      "building_url": "NTM/",
+      "room_url": "NTMUG19",
+      "room_name": "NTMUG19 (Newtown Mill)"
+    },
+    {
+      "building_url": "NTM/",
+      "room_url": "NTMUG27",
+      "room_name": "NTMUG27 (Newtown Mill)"
+    },
+    {
+      "building_url": "NTM/",
+      "room_url": "NTMUG27",
+      "room_name": "NTMUG27 (Newtown Mill)"
+    },
+    {
+      "building_url": "NTM/",
+      "room_url": "NTMUG27",
+      "room_name": "NTMUG27 (Newtown Mill)"
+    },
+    {
+      "building_url": "NTM/",
+      "room_url": "NTMUG31",
+      "room_name": "NTMUG31 (Newtown Mill)"
+    },
+    {
+      "building_url": "NTM/",
+      "room_url": "NTMUG31",
+      "room_name": "NTMUG31 (Newtown Mill)"
+    },
+    {
+      "building_url": "NTM/",
+      "room_url": "NTMUG31",
+      "room_name": "NTMUG31 (Newtown Mill)"
+    },
+    {
+      "building_url": "ON/",
+      "room_url": "SPLUS8DFCD9",
+      "room_name": "Directed Study"
+    },
+    {
+      "building_url": "ON/",
+      "room_url": "SPLUSEF6475",
+      "room_name": "Directed Study"
+    },
+    {
+      "building_url": "ON/",
+      "room_url": "SPLUSEF649F",
+      "room_name": "Directed Study"
+    },
+    {
+      "building_url": "ON/",
+      "room_url": "Blackboard 01",
+      "room_name": "Online via Blackboard"
+    },
+    {
+      "building_url": "ON/",
+      "room_url": "Blackboard 12",
+      "room_name": "Online via Blackboard"
+    },
+    {
+      "building_url": "ON/",
+      "room_url": "Blackboard 13",
+      "room_name": "Online via Blackboard"
+    },
+    {
+      "building_url": "ON/",
+      "room_url": "Blackboard 14",
+      "room_name": "Online via Blackboard"
+    },
+    {
+      "building_url": "ON/",
+      "room_url": "Blackboard 15",
+      "room_name": "Online via Blackboard"
+    },
+    {
+      "building_url": "ON/",
+      "room_url": "Blackboard 17",
+      "room_name": "Online via Blackboard"
+    },
+    {
+      "building_url": "ON/",
+      "room_url": "Blackboard02",
+      "room_name": "Online via Blackboard"
+    },
+    {
+      "building_url": "ON/",
+      "room_url": "Blackboard03",
+      "room_name": "Online via Blackboard"
+    },
+    {
+      "building_url": "ON/",
+      "room_url": "Blackboard04",
+      "room_name": "Online via Blackboard"
+    },
+    {
+      "building_url": "ON/",
+      "room_url": "Blackboard05",
+      "room_name": "Online via Blackboard"
+    },
+    {
+      "building_url": "ON/",
+      "room_url": "Blackboard06",
+      "room_name": "Online via Blackboard"
+    },
+    {
+      "building_url": "ON/",
+      "room_url": "Blackboard08",
+      "room_name": "Online via Blackboard"
+    },
+    {
+      "building_url": "ON/",
+      "room_url": "Directed Study 04",
+      "room_name": "Directed Study"
+    },
+    {
+      "building_url": "ON/",
+      "room_url": "Directed Study 05",
+      "room_name": "Directed Study"
+    },
+    {
+      "building_url": "ON/",
+      "room_url": "Labster01",
+      "room_name": "Online via Labster"
+    },
+    {
+      "building_url": "ON/",
+      "room_url": "Labster02",
+      "room_name": "Online via Labster"
+    },
+    {
+      "building_url": "ON/",
+      "room_url": "Labster03",
+      "room_name": "Online via Labster"
+    },
+    {
+      "building_url": "ON/",
+      "room_url": "LIB",
+      "room_name": "Library"
+    },
+    {
+      "building_url": "ON/",
+      "room_url": "Teams",
+      "room_name": "Online via MS Teams"
+    },
+    {
+      "building_url": "ON/",
+      "room_url": "Teams 101",
+      "room_name": "Online via MS Teams"
+    },
+    {
+      "building_url": "ON/",
+      "room_url": "Teams 102",
+      "room_name": "Online via MS Teams"
+    },
+    {
+      "building_url": "ON/",
+      "room_url": "Teams 103",
+      "room_name": "Online via MS Teams"
+    },
+    {
+      "building_url": "ON/",
+      "room_url": "Teams 104",
+      "room_name": "Online via MS Teams"
+    },
+    {
+      "building_url": "ON/",
+      "room_url": "Teams 105",
+      "room_name": "Online via MS Teams"
+    },
+    {
+      "building_url": "ON/",
+      "room_url": "Teams 121",
+      "room_name": "Online via MS Teams"
+    },
+    {
+      "building_url": "ON/",
+      "room_url": "Teams 123",
+      "room_name": "Online via MS Teams"
+    },
+    {
+      "building_url": "ON/",
+      "room_url": "Teams 124",
+      "room_name": "Online via MS Teams"
+    },
+    {
+      "building_url": "ON/",
+      "room_url": "Teams 125",
+      "room_name": "Online via MS Teams"
+    },
+    {
+      "building_url": "ON/",
+      "room_url": "Teams 126",
+      "room_name": "Online via MS Teams"
+    },
+    {
+      "building_url": "ON/",
+      "room_url": "Teams 127",
+      "room_name": "Online via MS Teams"
+    },
+    {
+      "building_url": "ON/",
+      "room_url": "Teams 129",
+      "room_name": "Online via MS Teams"
+    },
+    {
+      "building_url": "ON/",
+      "room_url": "Teams 132",
+      "room_name": "Online via MS Teams"
+    },
+    {
+      "building_url": "ON/",
+      "room_url": "Teams 178",
+      "room_name": "Online via MS Teams"
+    },
+    {
+      "building_url": "ON/",
+      "room_url": "Teams 179",
+      "room_name": "Online via MS Teams"
+    },
+    {
+      "building_url": "ON/",
+      "room_url": "Teams 180",
+      "room_name": "Online via MS Teams"
+    },
+    {
+      "building_url": "ON/",
+      "room_url": "Teams 182",
+      "room_name": "Online via MS Teams"
+    },
+    {
+      "building_url": "ON/",
+      "room_url": "Teams 187",
+      "room_name": "Online via MS Teams"
+    },
+    {
+      "building_url": "ON/",
+      "room_url": "Teams 263",
+      "room_name": "Online via MS Teams"
+    },
+    {
+      "building_url": "ON/",
+      "room_url": "Teams0",
+      "room_name": "Online via MS Teams"
+    },
+    {
+      "building_url": "ON/",
+      "room_url": "Teams00",
+      "room_name": "Online via MS Teams"
+    },
+    {
+      "building_url": "ON/",
+      "room_url": "Teams000",
+      "room_name": "Online via MS Teams"
+    },
+    {
+      "building_url": "ON/",
+      "room_url": "Teams01",
+      "room_name": "Online via MS Teams"
+    },
+    {
+      "building_url": "ON/",
+      "room_url": "Teams02",
+      "room_name": "Online via MS Teams"
+    },
+    {
+      "building_url": "ON/",
+      "room_url": "Teams03",
+      "room_name": "Online via MS Teams"
+    },
+    {
+      "building_url": "ON/",
+      "room_url": "Teams04",
+      "room_name": "Online via MS Teams"
+    },
+    {
+      "building_url": "ON/",
+      "room_url": "Teams05",
+      "room_name": "Online via MS Teams"
+    },
+    {
+      "building_url": "ON/",
+      "room_url": "Teams06",
+      "room_name": "Online via MS Teams"
+    },
+    {
+      "building_url": "ON/",
+      "room_url": "Teams07",
+      "room_name": "Online via MS Teams"
+    },
+    {
+      "building_url": "ON/",
+      "room_url": "Teams08",
+      "room_name": "Online via MS Teams"
+    },
+    {
+      "building_url": "ON/",
+      "room_url": "Teams09",
+      "room_name": "Online via MS Teams"
+    },
+    {
+      "building_url": "ON/",
+      "room_url": "Teams100",
+      "room_name": "Online via MS Teams"
+    },
+    {
+      "building_url": "ON/",
+      "room_url": "Teams106",
+      "room_name": "Online via MS Teams"
+    },
+    {
+      "building_url": "ON/",
+      "room_url": "Teams107",
+      "room_name": "Online via MS Teams"
+    },
+    {
+      "building_url": "ON/",
+      "room_url": "Teams11",
+      "room_name": "Online via MS Teams"
+    },
+    {
+      "building_url": "ON/",
+      "room_url": "Teams113",
+      "room_name": "Online via MS Teams"
+    },
+    {
+      "building_url": "ON/",
+      "room_url": "Teams114",
+      "room_name": "Online via MS Teams"
+    },
+    {
+      "building_url": "ON/",
+      "room_url": "Teams115",
+      "room_name": "Online via MS Teams"
+    },
+    {
+      "building_url": "ON/",
+      "room_url": "Teams116",
+      "room_name": "Online via MS Teams"
+    },
+    {
+      "building_url": "ON/",
+      "room_url": "Teams117",
+      "room_name": "Online via MS Teams"
+    },
+    {
+      "building_url": "ON/",
+      "room_url": "Teams14",
+      "room_name": "Online via MS Teams"
+    },
+    {
+      "building_url": "ON/",
+      "room_url": "Teams142",
+      "room_name": "Online via MS Teams"
+    },
+    {
+      "building_url": "ON/",
+      "room_url": "Teams151",
+      "room_name": "Online via MS Teams"
+    },
+    {
+      "building_url": "ON/",
+      "room_url": "Teams152",
+      "room_name": "Online via MS Teams"
+    },
+    {
+      "building_url": "ON/",
+      "room_url": "Teams161",
+      "room_name": "Online via MS Teams"
+    },
+    {
+      "building_url": "ON/",
+      "room_url": "Teams163",
+      "room_name": "Online via MS Teams"
+    },
+    {
+      "building_url": "ON/",
+      "room_url": "Teams166",
+      "room_name": "Online via MS Teams"
+    },
+    {
+      "building_url": "ON/",
+      "room_url": "Teams167",
+      "room_name": "Online via MS Teams"
+    },
+    {
+      "building_url": "ON/",
+      "room_url": "Teams168",
+      "room_name": "Online via MS Teams"
+    },
+    {
+      "building_url": "ON/",
+      "room_url": "Teams169",
+      "room_name": "Online via MS Teams"
+    },
+    {
+      "building_url": "ON/",
+      "room_url": "Teams171",
+      "room_name": "Online via MS Teams"
+    },
+    {
+      "building_url": "ON/",
+      "room_url": "Teams172",
+      "room_name": "Online via MS Teams"
+    },
+    {
+      "building_url": "ON/",
+      "room_url": "Teams173",
+      "room_name": "Online via MS Teams"
+    },
+    {
+      "building_url": "ON/",
+      "room_url": "Teams174",
+      "room_name": "Online via MS Teams"
+    },
+    {
+      "building_url": "ON/",
+      "room_url": "Teams175",
+      "room_name": "Online via MS Teams"
+    },
+    {
+      "building_url": "ON/",
+      "room_url": "Teams215",
+      "room_name": "Online via MS Teams"
+    },
+    {
+      "building_url": "ON/",
+      "room_url": "Teams272",
+      "room_name": "Online via MS Teams"
+    },
+    {
+      "building_url": "ON/",
+      "room_url": "Teams28",
+      "room_name": "Online via MS Teams"
+    },
+    {
+      "building_url": "ON/",
+      "room_url": "Teams29",
+      "room_name": "Online via MS Teams"
+    },
+    {
+      "building_url": "ON/",
+      "room_url": "Teams44",
+      "room_name": "Online via MS Teams"
+    },
+    {
+      "building_url": "ON/",
+      "room_url": "Teams47",
+      "room_name": "Online via MS Teams"
+    },
+    {
+      "building_url": "ON/",
+      "room_url": "Teams51",
+      "room_name": "Online via MS Teams"
+    },
+    {
+      "building_url": "ON/",
+      "room_url": "Teams52",
+      "room_name": "Online via MS Teams"
+    },
+    {
+      "building_url": "ON/",
+      "room_url": "Teams53",
+      "room_name": "Online via MS Teams"
+    },
+    {
+      "building_url": "ON/",
+      "room_url": "Teams54",
+      "room_name": "Online via MS Teams"
+    },
+    {
+      "building_url": "ON/",
+      "room_url": "Teams55",
+      "room_name": "Online via MS Teams"
+    },
+    {
+      "building_url": "ON/",
+      "room_url": "Teams59",
+      "room_name": "Online via MS Teams"
+    },
+    {
+      "building_url": "ON/",
+      "room_url": "Teams61",
+      "room_name": "Online via MS Teams"
+    },
+    {
+      "building_url": "ON/",
+      "room_url": "Teams63",
+      "room_name": "Online via MS Teams"
+    },
+    {
+      "building_url": "ON/",
+      "room_url": "Teams65",
+      "room_name": "Online via MS Teams"
+    },
+    {
+      "building_url": "ON/",
+      "room_url": "Teams71",
+      "room_name": "Online via MS Teams"
+    },
+    {
+      "building_url": "ON/",
+      "room_url": "Teams74",
+      "room_name": "Online via MS Teams"
+    },
+    {
+      "building_url": "ON/",
+      "room_url": "Teams83",
+      "room_name": "Online via MS Teams"
+    },
+    {
+      "building_url": "ON/",
+      "room_url": "Teams88",
+      "room_name": "Online via MS Teams"
+    },
+    {
+      "building_url": "ON/",
+      "room_url": "Teams89",
+      "room_name": "Online via MS Teams"
+    },
+    {
+      "building_url": "ON/",
+      "room_url": "Teams95",
+      "room_name": "Online via MS Teams"
+    },
+    {
+      "building_url": "ON/",
+      "room_url": "Teams98",
+      "room_name": "Online via MS Teams"
+    },
+    {
+      "building_url": "ON/",
+      "room_url": "Teams99",
+      "room_name": "Online via MS Teams"
+    },
+    {
+      "building_url": "9/",
+      "room_url": "ER012",
+      "room_name": "ER012 Eden OT Flat"
+    },
+    {
+      "building_url": "9/",
+      "room_url": "ER020",
+      "room_name": "ER020 Eden OT Seminar Room (15)"
+    },
+    {
+      "building_url": "9/",
+      "room_url": "FieldTrip1",
+      "room_name": "Field Trip"
+    },
+    {
+      "building_url": "9/",
+      "room_url": "FieldTrip2",
+      "room_name": "Field Trip"
+    },
+    {
+      "building_url": "9/",
+      "room_url": "FieldTrip3",
+      "room_name": "Field Trip"
+    },
+    {
+      "building_url": "9/",
+      "room_url": "FieldTrip4",
+      "room_name": "Field Trip"
+    },
+    {
+      "building_url": "9/",
+      "room_url": "FieldTrip5",
+      "room_name": "Field Trip"
+    },
+    {
+      "building_url": "9/",
+      "room_url": "Guided Learning 01",
+      "room_name": "Guided Learning 01"
+    },
+    {
+      "building_url": "9/",
+      "room_url": "Guided Learning 02",
+      "room_name": "Guided Learning 02"
+    },
+    {
+      "building_url": "9/",
+      "room_url": "Guided Learning 03",
+      "room_name": "Guided Learning 03"
+    },
+    {
+      "building_url": "9/",
+      "room_url": "Guided Learning 04",
+      "room_name": "Guided Learning 04"
+    },
+    {
+      "building_url": "9/",
+      "room_url": "Guided Learning 05",
+      "room_name": "Guided Learning 05"
+    },
+    {
+      "building_url": "9/",
+      "room_url": "Guided Learning 06",
+      "room_name": "Guided Learning 06"
+    },
+    {
+      "building_url": "9/",
+      "room_url": "Guided Learning 07",
+      "room_name": "Guided Learning 07"
+    },
+    {
+      "building_url": "9/",
+      "room_url": "Guided Learning 08",
+      "room_name": "Guided Learning 08"
+    },
+    {
+      "building_url": "9/",
+      "room_url": "Guided Learning 09",
+      "room_name": "Guided Learning 09"
+    },
+    {
+      "building_url": "9/",
+      "room_url": "Guided Learning 10",
+      "room_name": "Guided Learning 10"
+    },
+    {
+      "building_url": "9/",
+      "room_url": "LECTADV01",
+      "room_name": "Lecturer/ School to Advise Location"
+    },
+    {
+      "building_url": "9/",
+      "room_url": "LECTADV02",
+      "room_name": "Lecturer/ School to Advise Location"
+    },
+    {
+      "building_url": "9/",
+      "room_url": "LECTADV03",
+      "room_name": "Lecturer/ School to Advise Location"
+    },
+    {
+      "building_url": "9/",
+      "room_url": "LECTADV04",
+      "room_name": "Lecturer/ School to Advise Location"
+    },
+    {
+      "building_url": "9/",
+      "room_url": "LECTADV05",
+      "room_name": "Lecturer/ School to Advise Location"
+    },
+    {
+      "building_url": "9/",
+      "room_url": "LECTADV06",
+      "room_name": "Lecturer/ School to Advise Location"
+    },
+    {
+      "building_url": "9/",
+      "room_url": "LECTADV07",
+      "room_name": "Lecturer/ School to Advise Location"
+    },
+    {
+      "building_url": "9/",
+      "room_url": "LECTADV08",
+      "room_name": "Lecturer/ School to Advise Location"
+    },
+    {
+      "building_url": "9/",
+      "room_url": "LECTADV09",
+      "room_name": "Lecturer/ School to Advise Location"
+    },
+    {
+      "building_url": "9/",
+      "room_url": "LECTADV10",
+      "room_name": "Lecturer/ School to Advise Location"
+    },
+    {
+      "building_url": "9/",
+      "room_url": "LECTADV11",
+      "room_name": "Lecturer/ School to Advise Location"
+    },
+    {
+      "building_url": "9/",
+      "room_url": "LECTADV12",
+      "room_name": "Lecturer/ School to Advise Location"
+    },
+    {
+      "building_url": "9/",
+      "room_url": "LECTADV13",
+      "room_name": "Lecturer/ School to Advise Location"
+    },
+    {
+      "building_url": "9/",
+      "room_url": "LECTADV14",
+      "room_name": "Lecturer/ School to Advise Location"
+    },
+    {
+      "building_url": "9/",
+      "room_url": "LECTADV15",
+      "room_name": "Lecturer/ School to Advise Location"
+    },
+    {
+      "building_url": "9/",
+      "room_url": "LECTADV16",
+      "room_name": "Lecturer/ School to Advise Location"
+    },
+    {
+      "building_url": "9/",
+      "room_url": "LECTADV17",
+      "room_name": "Lecturer/ School to Advise Location"
+    },
+    {
+      "building_url": "9/",
+      "room_url": "LECTADV18",
+      "room_name": "Lecturer/ School to Advise Location"
+    },
+    {
+      "building_url": "9/",
+      "room_url": "LECTADV19",
+      "room_name": "Lecturer/ School to Advise Location"
+    },
+    {
+      "building_url": "9/",
+      "room_url": "LECTADV20",
+      "room_name": "Lecturer/ School to Advise Location"
+    },
+    {
+      "building_url": "9/",
+      "room_url": "LECTUREADV10",
+      "room_name": "Lecturers Office"
+    },
+    {
+      "building_url": "9/",
+      "room_url": "LFSA01",
+      "room_name": "LFSA01 Lancashire Forensic Science Academy  (Hutton)"
+    },
+    {
+      "building_url": "9/",
+      "room_url": "ME002",
+      "room_name": "ME002 Theatre Studio 1 (Media Factory)"
+    },
+    {
+      "building_url": "9/",
+      "room_url": "Office3",
+      "room_name": "Lecturers Office"
+    },
+    {
+      "building_url": "9/",
+      "room_url": "Office4",
+      "room_name": "Lecturers Office"
+    },
+    {
+      "building_url": "9/",
+      "room_url": "Office5",
+      "room_name": "Lecturers Office"
+    },
+    {
+      "building_url": "9/",
+      "room_url": "Placement1",
+      "room_name": "Placement"
+    },
+    {
+      "building_url": "9/",
+      "room_url": "Placement11",
+      "room_name": "Placement 11"
+    },
+    {
+      "building_url": "9/",
+      "room_url": "Placement12",
+      "room_name": "Placement 12"
+    },
+    {
+      "building_url": "9/",
+      "room_url": "Placement13",
+      "room_name": "Placement 13"
+    },
+    {
+      "building_url": "9/",
+      "room_url": "placement14",
+      "room_name": "Placement 14"
+    },
+    {
+      "building_url": "9/",
+      "room_url": "Placement15",
+      "room_name": "Placement 15"
+    },
+    {
+      "building_url": "9/",
+      "room_url": "Placement16",
+      "room_name": "Placement 16"
+    },
+    {
+      "building_url": "9/",
+      "room_url": "placement17",
+      "room_name": "Placement 17"
+    },
+    {
+      "building_url": "9/",
+      "room_url": "Placement18",
+      "room_name": "Placement 18"
+    },
+    {
+      "building_url": "9/",
+      "room_url": "Placement19",
+      "room_name": "Placement 19"
+    },
+    {
+      "building_url": "9/",
+      "room_url": "Placement2",
+      "room_name": "Placement"
+    },
+    {
+      "building_url": "9/",
+      "room_url": "Placement3",
+      "room_name": "Placement"
+    },
+    {
+      "building_url": "9/",
+      "room_url": "Placement4",
+      "room_name": "Placement"
+    },
+    {
+      "building_url": "9/",
+      "room_url": "Placement5",
+      "room_name": "Placement"
+    },
+    {
+      "building_url": "9/",
+      "room_url": "Placement6",
+      "room_name": "Placement"
+    },
+    {
+      "building_url": "9/",
+      "room_url": "Placement7",
+      "room_name": "Placement"
+    },
+    {
+      "building_url": "9/",
+      "room_url": "UNSQ",
+      "room_name": "University Square"
+    },
+    {
+      "building_url": "PC/",
+      "room_url": "PC01",
+      "room_name": "PC01 Preston College Classroom 1"
+    },
+    {
+      "building_url": "PC/",
+      "room_url": "PC02",
+      "room_name": "PC02 Preston College Classroom 2"
+    },
+    {
+      "building_url": "PC/",
+      "room_url": "PC03",
+      "room_name": "PC03 Preston College Skills Lab 1"
+    },
+    {
+      "building_url": "PC/",
+      "room_url": "PC04",
+      "room_name": "PC04 Preston College Skills Lab 2"
+    },
+    {
+      "building_url": "SGM/",
+      "room_url": "SPLUSE9C861",
+      "room_name": "SGM102 Meeting Room (Sandygate Mill)"
+    },
+    {
+      "building_url": "SGM/",
+      "room_url": "SGM101",
+      "room_name": "SGM101 Meeting Room (Sandygate Mill)"
+    },
+    {
+      "building_url": "SGM/",
+      "room_url": "SGM101",
+      "room_name": "SGM101 Meeting Room (Sandygate Mill)"
+    },
+    {
+      "building_url": "SVM/",
+      "room_url": "SVM011",
+      "room_name": "SVM011 Dissection Lab (School of Veterinary Medicine)"
+    },
+    {
+      "building_url": "SVM/",
+      "room_url": "SVM113",
+      "room_name": "SVM113 Digital Anatomy Teaching Room (School of Veterinary Medicine)"
+    },
+    {
+      "building_url": "SVM/",
+      "room_url": "SVM115",
+      "room_name": "SVM115 Haptics Suite / Meeting Room (School of Veterinary Medicine)"
+    },
+    {
+      "building_url": "SVM/",
+      "room_url": "SVM117",
+      "room_name": "SVM117 Science/ Microscopy Lab (School of Veterinary Medicine)"
+    },
+    {
+      "building_url": "SVM/",
+      "room_url": "SVM117a",
+      "room_name": "SVM117a Breakout/ Meeting Space (School of Veterinary Medicine)"
+    },
+    {
+      "building_url": "SVM/",
+      "room_url": "SVM216",
+      "room_name": "SVM216 4D Immersive Suite (School of Veterinary Medicine)"
+    },
+    {
+      "building_url": "SVM/",
+      "room_url": "SVM218",
+      "room_name": "SVM218 Seminar Room 5 (School of Veterinary Medicine)"
+    },
+    {
+      "building_url": "SVM/",
+      "room_url": "SVM219",
+      "room_name": "SVM219 Team Based Learning suite (TBL) (School of Veterinary Medicine)"
+    },
+    {
+      "building_url": "SVM/",
+      "room_url": "SVM221",
+      "room_name": "SVM221 Seminar Room 4 (School of Veterinary Medicine)"
+    },
+    {
+      "building_url": "SVM/",
+      "room_url": "SVM223",
+      "room_name": "SVM223 Seminar Room 3 (School of Veterinary Medicine)"
+    },
+    {
+      "building_url": "STF/",
+      "room_url": "STFFS",
+      "room_name": "STFFS - Fitness Suite"
+    },
+    {
+      "building_url": "STF/",
+      "room_url": "STFSH1",
+      "room_name": "STFSH1 Sports Hall 1"
+    },
+    {
+      "building_url": "STF/",
+      "room_url": "STFSH2",
+      "room_name": "STFSH2 Sports Hall 2"
+    },
+    {
+      "building_url": "STF/",
+      "room_url": "STFSQ",
+      "room_name": "STFSQ - Squash Court"
+    },
+    {
+      "building_url": "STF/",
+      "room_url": "STFSTB",
+      "room_name": "STFSTB Studio Blue"
+    },
+    {
+      "building_url": "STF/",
+      "room_url": "STFSTR",
+      "room_name": "STFSTR Studio Red"
+    },
+    {
+      "building_url": "SPC/",
+      "room_url": "SPC",
+      "room_name": "St Peters Flats"
+    },
+    {
+      "building_url": "SPC/",
+      "room_url": "SPC03",
+      "room_name": "Office/Control Room"
+    },
+    {
+      "building_url": "SPC/",
+      "room_url": "SPC03a",
+      "room_name": "Crime Scene Flat 13"
+    },
+    {
+      "building_url": "SPC/",
+      "room_url": "SPC05",
+      "room_name": "Crime Scene Flat 2"
+    },
+    {
+      "building_url": "SPC/",
+      "room_url": "SPC05a",
+      "room_name": "Crime Scene Flat 14"
+    },
+    {
+      "building_url": "SPC/",
+      "room_url": "SPC07",
+      "room_name": "Crime Scene Flat 1"
+    },
+    {
+      "building_url": "SPC/",
+      "room_url": "SPC07a",
+      "room_name": "Crime Scene Flat 15"
+    },
+    {
+      "building_url": "SPC/",
+      "room_url": "SPC34",
+      "room_name": "Crime Scene Flat 3"
+    },
+    {
+      "building_url": "SPC/",
+      "room_url": "SPC34a",
+      "room_name": "Crime Scene Flat 12"
+    },
+    {
+      "building_url": "SPC/",
+      "room_url": "SPC36",
+      "room_name": "Crime Scene Flat 4"
+    },
+    {
+      "building_url": "SPC/",
+      "room_url": "SPC36a",
+      "room_name": "Crime Scene Flat 11"
+    },
+    {
+      "building_url": "SPC/",
+      "room_url": "SPC38",
+      "room_name": "Crime Scene Flat 5"
+    },
+    {
+      "building_url": "SPC/",
+      "room_url": "SPC38a",
+      "room_name": "Crime Scene Flat 10"
+    },
+    {
+      "building_url": "SPC/",
+      "room_url": "SPC40",
+      "room_name": "Crime Scene Flat 6"
+    },
+    {
+      "building_url": "SPC/",
+      "room_url": "SPC40a",
+      "room_name": "Crime Scene Flat 9"
+    },
+    {
+      "building_url": "SPC/",
+      "room_url": "SPC42",
+      "room_name": "Crime Scene Flat 7"
+    },
+    {
+      "building_url": "SPC/",
+      "room_url": "SPC42a",
+      "room_name": "Crime Scene Flat 8"
+    },
+    {
+      "building_url": "SPC/",
+      "room_url": "SPCY",
+      "room_name": "St Peters Courtyard"
+    },
+    {
+      "building_url": "STU/",
+      "room_url": "STU125",
+      "room_name": "STU125 - Student Meeting Room"
+    },
+    {
+      "building_url": "STU/",
+      "room_url": "STU125",
+      "room_name": "STU125 - Student Meeting Room"
+    },
+    {
+      "building_url": "STU/",
+      "room_url": "STU136",
+      "room_name": "STU136 - Student Meeting Room"
+    },
+    {
+      "building_url": "STU/",
+      "room_url": "STU136",
+      "room_name": "STU136 - Student Meeting Room"
+    },
+    {
+      "building_url": "STU/",
+      "room_url": "STU140",
+      "room_name": "STU140 - Student Meeting Room"
+    },
+    {
+      "building_url": "STU/",
+      "room_url": "STU140",
+      "room_name": "STU140 - Student Meeting Room"
+    },
+    {
+      "building_url": "STU/",
+      "room_url": "STU141",
+      "room_name": "STU141 - Student Meeting Room"
+    },
+    {
+      "building_url": "STU/",
+      "room_url": "STU141",
+      "room_name": "STU141 - Student Meeting Room"
+    },
+    {
+      "building_url": "STU/",
+      "room_url": "STU142",
+      "room_name": "STU142 - Student Meeting Room"
+    },
+    {
+      "building_url": "STU/",
+      "room_url": "STU142",
+      "room_name": "STU142 - Student Meeting Room"
+    },
+    {
+      "building_url": "STU/",
+      "room_url": "STU145",
+      "room_name": "STU145 - Student Meeting Room"
+    },
+    {
+      "building_url": "STU/",
+      "room_url": "STU145",
+      "room_name": "STU145 - Student Meeting Room"
+    },
+    {
+      "building_url": "STU/",
+      "room_url": "STU146",
+      "room_name": "STU146  - Student Meeting Room"
+    },
+    {
+      "building_url": "STU/",
+      "room_url": "STU146",
+      "room_name": "STU146  - Student Meeting Room"
+    },
+    {
+      "building_url": "STU/",
+      "room_url": "STU147",
+      "room_name": "STU147  - Student Meeting Room"
+    },
+    {
+      "building_url": "STU/",
+      "room_url": "STU147",
+      "room_name": "STU147  - Student Meeting Room"
+    },
+    {
+      "building_url": "STU/",
+      "room_url": "STULG01a",
+      "room_name": "STULG01a - Student Centre Foyer"
+    },
+    {
+      "building_url": "STU/",
+      "room_url": "STUUG01",
+      "room_name": "STUUG01 - Student Achievement Services Social Space 1"
+    },
+    {
+      "building_url": "STU/",
+      "room_url": "STUUG21",
+      "room_name": "STUUG21 - Welcome Point Student Achievement Services"
+    },
+    {
+      "building_url": "STU/",
+      "room_url": "STUUG28",
+      "room_name": "STUUG28 - Main Space Student Achievement Services"
+    },
+    {
+      "building_url": "STU/",
+      "room_url": "STUUG53",
+      "room_name": "STUUG53 - Social Learning East"
+    },
+    {
+      "building_url": "SU/",
+      "room_url": "SU",
+      "room_name": "Student Union"
+    },
+    {
+      "building_url": "SUM/",
+      "room_url": "SUME001",
+      "room_name": "SUME001 Meeting Room ( Summer Grove)"
+    },
+    {
+      "building_url": "SUM/",
+      "room_url": "SUME001",
+      "room_name": "SUME001 Meeting Room ( Summer Grove)"
+    },
+    {
+      "building_url": "USA/",
+      "room_url": "USAARENA",
+      "room_name": "USAARENA"
+    },
+    {
+      "building_url": "USA/",
+      "room_url": "USAATH",
+      "room_name": "USA Athletics Track"
+    },
+    {
+      "building_url": "USA/",
+      "room_url": "USACP",
+      "room_name": "USA Central 3G Pitch"
+    },
+    {
+      "building_url": "USA/",
+      "room_url": "USACT1",
+      "room_name": "USA Court 1"
+    },
+    {
+      "building_url": "USA/",
+      "room_url": "USACT2",
+      "room_name": "USA Court 2"
+    },
+    {
+      "building_url": "USA/",
+      "room_url": "USACT3",
+      "room_name": "USA Court 3"
+    },
+    {
+      "building_url": "USA/",
+      "room_url": "USACT4",
+      "room_name": "USA Court 4"
+    },
+    {
+      "building_url": "USA/",
+      "room_url": "USACY",
+      "room_name": "USA Cycle Track"
+    },
+    {
+      "building_url": "USA/",
+      "room_url": "USAFIT",
+      "room_name": "USA Fitness Suite"
+    },
+    {
+      "building_url": "USA/",
+      "room_url": "USAGR1",
+      "room_name": "USGR1 - Grass Pitch 1"
+    },
+    {
+      "building_url": "USA/",
+      "room_url": "USAGR2",
+      "room_name": "USGR2 - Grass Pitch 2"
+    },
+    {
+      "building_url": "USA/",
+      "room_url": "USAMTG",
+      "room_name": "USAMTG Meeting Room"
+    },
+    {
+      "building_url": "USA/",
+      "room_url": "USASC",
+      "room_name": "USASC Strength and Conditioning Suite"
+    },
+    {
+      "building_url": "USA/",
+      "room_url": "USATH",
+      "room_name": "USATH USA Training Hall"
+    },
+    {
+      "building_url": "USA/",
+      "room_url": "USAVH",
+      "room_name": "USAVH Valentine House"
+    },
+    {
+      "building_url": "USA/",
+      "room_url": "USAWP",
+      "room_name": "USA West 3G Pitch"
+    },
+    {
+      "building_url": "VE/",
+      "room_url": "VE011",
+      "room_name": "VE011"
+    },
+    {
+      "building_url": "VE/",
+      "room_url": "VE011",
+      "room_name": "VE011"
+    },
+    {
+      "building_url": "VE/",
+      "room_url": "VE011",
+      "room_name": "VE011"
+    },
+    {
+      "building_url": "VE/",
+      "room_url": "VE014",
+      "room_name": "VE014"
+    },
+    {
+      "building_url": "VE/",
+      "room_url": "VE015",
+      "room_name": "VE015"
+    },
+    {
+      "building_url": "VE/",
+      "room_url": "VE016",
+      "room_name": "VE016"
+    },
+    {
+      "building_url": "VE/",
+      "room_url": "VE017",
+      "room_name": "VE017"
+    },
+    {
+      "building_url": "VE/",
+      "room_url": "VE057",
+      "room_name": "VE057"
+    },
+    {
+      "building_url": "VE/",
+      "room_url": "VE060a",
+      "room_name": "VE060a"
+    },
+    {
+      "building_url": "VE/",
+      "room_url": "VE060b",
+      "room_name": "VE060b"
+    },
+    {
+      "building_url": "VE/",
+      "room_url": "VE069",
+      "room_name": "VE069 AUC Skills Lab"
+    },
+    {
+      "building_url": "VE/",
+      "room_url": "VE080",
+      "room_name": "VE080"
+    },
+    {
+      "building_url": "VB/",
+      "room_url": "VB001",
+      "room_name": "VB001 (Victoria Building)"
+    },
+    {
+      "building_url": "VB/",
+      "room_url": "VB001",
+      "room_name": "VB001 (Victoria Building)"
+    },
+    {
+      "building_url": "VB/",
+      "room_url": "VB002",
+      "room_name": "VB002 Animation Edit Suite"
+    },
+    {
+      "building_url": "VB/",
+      "room_url": "VB002A",
+      "room_name": "VB002A Animation Edit Suite"
+    },
+    {
+      "building_url": "VB/",
+      "room_url": "VB002B",
+      "room_name": "VB002B Animation Edit Suite"
+    },
+    {
+      "building_url": "VB/",
+      "room_url": "VB002C",
+      "room_name": "VB002C Animation Edit Suite"
+    },
+    {
+      "building_url": "VB/",
+      "room_url": "VB003A",
+      "room_name": "VB003A Animation Edit Suite"
+    },
+    {
+      "building_url": "VB/",
+      "room_url": "VB003B",
+      "room_name": "VB003B Animation Edit Suite"
+    },
+    {
+      "building_url": "VB/",
+      "room_url": "VB003C",
+      "room_name": "VB003C Animation Edit Suite"
+    },
+    {
+      "building_url": "VB/",
+      "room_url": "VB005b",
+      "room_name": "VB005b Intaglio & Lithographic Studio"
+    },
+    {
+      "building_url": "VB/",
+      "room_url": "VB013",
+      "room_name": "VB013 Silkscreen Studio"
+    },
+    {
+      "building_url": "VB/",
+      "room_url": "VB014",
+      "room_name": "VB014 Printmaking Studio"
+    },
+    {
+      "building_url": "VB/",
+      "room_url": "VB015",
+      "room_name": "VB015 Print Area"
+    },
+    {
+      "building_url": "VB/",
+      "room_url": "VB016",
+      "room_name": "VB016 Photography Studio"
+    },
+    {
+      "building_url": "VB/",
+      "room_url": "VB019a",
+      "room_name": "VB019a - Games Design Studio"
+    },
+    {
+      "building_url": "VB/",
+      "room_url": "VB019b",
+      "room_name": "VB019b - Games Design Studio"
+    },
+    {
+      "building_url": "VB/",
+      "room_url": "VB019c",
+      "room_name": "VB019c - Games Design Studio"
+    },
+    {
+      "building_url": "VB/",
+      "room_url": "VB022",
+      "room_name": "VB022 Animation Film Studio"
+    },
+    {
+      "building_url": "VB/",
+      "room_url": "VB026",
+      "room_name": "VB026 PC Studio"
+    },
+    {
+      "building_url": "VB/",
+      "room_url": "VB026",
+      "room_name": "VB026 PC Studio"
+    },
+    {
+      "building_url": "VB/",
+      "room_url": "VB026a",
+      "room_name": "VB026a MAC Studio"
+    },
+    {
+      "building_url": "VB/",
+      "room_url": "VB026a",
+      "room_name": "VB026a MAC Studio"
+    },
+    {
+      "building_url": "VB/",
+      "room_url": "VB035",
+      "room_name": "VB035 Workshop/Studio"
+    },
+    {
+      "building_url": "VB/",
+      "room_url": "VB047",
+      "room_name": "VB047 Textiles Workshop"
+    },
+    {
+      "building_url": "VB/",
+      "room_url": "VB048",
+      "room_name": "VB048 Ceramics Workshop"
+    },
+    {
+      "building_url": "VB/",
+      "room_url": "VB049",
+      "room_name": "VB049 Ceramics Workshop"
+    },
+    {
+      "building_url": "VB/",
+      "room_url": "VB051",
+      "room_name": "VB051 Ceramics Workshop"
+    },
+    {
+      "building_url": "VB/",
+      "room_url": "VB052",
+      "room_name": "VB052 Workshop"
+    },
+    {
+      "building_url": "VB/",
+      "room_url": "VB055",
+      "room_name": "VB055 Ceramics/Textiles/Design Studio"
+    },
+    {
+      "building_url": "VB/",
+      "room_url": "VB056",
+      "room_name": "VB056 Animation Audio Studio"
+    },
+    {
+      "building_url": "VB/",
+      "room_url": "VB056a",
+      "room_name": "VB056a Animation Audio Studio"
+    },
+    {
+      "building_url": "VB/",
+      "room_url": "VB101",
+      "room_name": "VB101 Packshot Photo Studio"
+    },
+    {
+      "building_url": "VB/",
+      "room_url": "VB103",
+      "room_name": "VB103 Photographic Darkroom 1"
+    },
+    {
+      "building_url": "VB/",
+      "room_url": "VB104",
+      "room_name": "VB104 Photographic Dark Room"
+    },
+    {
+      "building_url": "VB/",
+      "room_url": "VB105",
+      "room_name": "VB105 Photographic Darkroom"
+    },
+    {
+      "building_url": "VB/",
+      "room_url": "VB106",
+      "room_name": "VB106 Wet Processing Room"
+    },
+    {
+      "building_url": "VB/",
+      "room_url": "VB107",
+      "room_name": "VB107 Photographic Darkroom 5"
+    },
+    {
+      "building_url": "VB/",
+      "room_url": "VB108",
+      "room_name": "VB108 Photographic Darkroom 6"
+    },
+    {
+      "building_url": "VB/",
+      "room_url": "VB109",
+      "room_name": "VB109 Animation Edit/Film Studio"
+    },
+    {
+      "building_url": "VB/",
+      "room_url": "VB110",
+      "room_name": "VB110 Animation Edit/Film Studio"
+    },
+    {
+      "building_url": "VB/",
+      "room_url": "VB111",
+      "room_name": "VB111 Animation Edit/Film Studio"
+    },
+    {
+      "building_url": "VB/",
+      "room_url": "VB112",
+      "room_name": "VB112 Film Loading Room"
+    },
+    {
+      "building_url": "VB/",
+      "room_url": "VB113",
+      "room_name": "VB113 Film Loading Room"
+    },
+    {
+      "building_url": "VB/",
+      "room_url": "VB115",
+      "room_name": "VB115 Photography Dry Mounting Room"
+    },
+    {
+      "building_url": "VB/",
+      "room_url": "VB119",
+      "room_name": "VB119 Photography Darkroom"
+    },
+    {
+      "building_url": "VB/",
+      "room_url": "VB120",
+      "room_name": "VB120"
+    },
+    {
+      "building_url": "VB/",
+      "room_url": "VB120",
+      "room_name": "VB120"
+    },
+    {
+      "building_url": "VB/",
+      "room_url": "VB120",
+      "room_name": "VB120"
+    },
+    {
+      "building_url": "VB/",
+      "room_url": "VB120a",
+      "room_name": "VB120a"
+    },
+    {
+      "building_url": "VB/",
+      "room_url": "VB120a",
+      "room_name": "VB120a"
+    },
+    {
+      "building_url": "VB/",
+      "room_url": "VB120a",
+      "room_name": "VB120a"
+    },
+    {
+      "building_url": "VB/",
+      "room_url": "VB201",
+      "room_name": "VB201 Graphic Design Studio"
+    },
+    {
+      "building_url": "VB/",
+      "room_url": "VB204",
+      "room_name": "VB204 Graphic Design Studio"
+    },
+    {
+      "building_url": "VB/",
+      "room_url": "VB208",
+      "room_name": "VB208 MAC Suite"
+    },
+    {
+      "building_url": "VB/",
+      "room_url": "VB208",
+      "room_name": "VB208 MAC Suite"
+    },
+    {
+      "building_url": "VB/",
+      "room_url": "VB209",
+      "room_name": "VB209 MA Studio"
+    },
+    {
+      "building_url": "VB/",
+      "room_url": "VB212",
+      "room_name": "VB212 MA Studio"
+    },
+    {
+      "building_url": "VB/",
+      "room_url": "VB213",
+      "room_name": "VB213 CAD Suite"
+    },
+    {
+      "building_url": "VB/",
+      "room_url": "VB214",
+      "room_name": "VB214 Illustration Studio"
+    },
+    {
+      "building_url": "VB/",
+      "room_url": "VB214A",
+      "room_name": "VB214a Illustration Studio"
+    },
+    {
+      "building_url": "VB/",
+      "room_url": "VB216",
+      "room_name": "VB216 -Photography Project Space"
+    },
+    {
+      "building_url": "VB/",
+      "room_url": "VB220",
+      "room_name": "VB220 - Interior Design Studio"
+    },
+    {
+      "building_url": "VB/",
+      "room_url": "VB225",
+      "room_name": "VB225 Fashion Studio"
+    },
+    {
+      "building_url": "VB/",
+      "room_url": "VB225A",
+      "room_name": "VB225a Graphic Design Studio"
+    },
+    {
+      "building_url": "VB/",
+      "room_url": "VB304",
+      "room_name": "VB304 Sewing Room"
+    },
+    {
+      "building_url": "VB/",
+      "room_url": "VB307",
+      "room_name": "VB307 Fashion Studio"
+    },
+    {
+      "building_url": "VB/",
+      "room_url": "VB308",
+      "room_name": "VB308 Design Studio"
+    },
+    {
+      "building_url": "VB/",
+      "room_url": "VB320",
+      "room_name": "VB320 Textiles Studio"
+    },
+    {
+      "building_url": "VB/",
+      "room_url": "VB325",
+      "room_name": "VB325 MA Surface Pattern & Textiles Studio"
+    },
+    {
+      "building_url": "VB/",
+      "room_url": "VB326",
+      "room_name": "VB326 Fashion Promotion Studio"
+    },
+    {
+      "building_url": "VB/",
+      "room_url": "VB331",
+      "room_name": "VB331 Fashion Design Studio"
+    },
+    {
+      "building_url": "VB/",
+      "room_url": "VB332",
+      "room_name": "VB332 Fashion Design Y4 Studio"
+    },
+    {
+      "building_url": "VB/",
+      "room_url": "VB333",
+      "room_name": "VB333 Fashion Design Y2 Studio"
+    },
+    {
+      "building_url": "VB/",
+      "room_url": "VB334",
+      "room_name": "VB334 IT Studio"
+    },
+    {
+      "building_url": "VB/",
+      "room_url": "VB335",
+      "room_name": "VB335 Fashion Promotion Studio"
+    },
+    {
+      "building_url": "VB/",
+      "room_url": "VB338",
+      "room_name": "VB338 MA Fashion Base Room"
+    },
+    {
+      "building_url": "VB/",
+      "room_url": "VB339",
+      "room_name": "VB339 Mirror Room"
+    },
+    {
+      "building_url": "VM/",
+      "room_url": "VM004",
+      "room_name": "VM004 Lecture Theatre (Victoria Mill)"
+    },
+    {
+      "building_url": "VM/",
+      "room_url": "VM004",
+      "room_name": "VM004 Lecture Theatre (Victoria Mill)"
+    },
+    {
+      "building_url": "VM/",
+      "room_url": "VM009",
+      "room_name": "VM009 Clinical Skills Lab  (Victoria Mill)"
+    },
+    {
+      "building_url": "VM/",
+      "room_url": "VM010",
+      "room_name": "VM010"
+    },
+    {
+      "building_url": "VM/",
+      "room_url": "VM024",
+      "room_name": "VM024 Clinical Skills Lab  (Victoria Mill)"
+    },
+    {
+      "building_url": "VM/",
+      "room_url": "VM024",
+      "room_name": "VM024 Clinical Skills Lab  (Victoria Mill)"
+    },
+    {
+      "building_url": "VM/",
+      "room_url": "VM025",
+      "room_name": "VM025 Simulation Lab  (Victoria Mill)"
+    },
+    {
+      "building_url": "VM/",
+      "room_url": "VM109",
+      "room_name": "VM109 Meeting Room (Victoria Mill)"
+    },
+    {
+      "building_url": "VM/",
+      "room_url": "VM109",
+      "room_name": "VM109 Meeting Room (Victoria Mill)"
+    },
+    {
+      "building_url": "VM/",
+      "room_url": "VM112",
+      "room_name": "VM112"
+    },
+    {
+      "building_url": "VM/",
+      "room_url": "VM112",
+      "room_name": "VM112"
+    },
+    {
+      "building_url": "VM/",
+      "room_url": "VM112",
+      "room_name": "VM112"
+    },
+    {
+      "building_url": "VM/",
+      "room_url": "VM114",
+      "room_name": "VM114"
+    },
+    {
+      "building_url": "VM/",
+      "room_url": "VM114",
+      "room_name": "VM114"
+    },
+    {
+      "building_url": "VM/",
+      "room_url": "VM114",
+      "room_name": "VM114"
+    },
+    {
+      "building_url": "VM/",
+      "room_url": "VM115",
+      "room_name": "VM115  PC Room"
+    },
+    {
+      "building_url": "VM/",
+      "room_url": "VM115",
+      "room_name": "VM115  PC Room"
+    },
+    {
+      "building_url": "VM/",
+      "room_url": "VM116",
+      "room_name": "VM116 - PC Room"
+    },
+    {
+      "building_url": "VM/",
+      "room_url": "VM116",
+      "room_name": "VM116 - PC Room"
+    },
+    {
+      "building_url": "VM/",
+      "room_url": "VM117",
+      "room_name": "VM117  PC Room"
+    },
+    {
+      "building_url": "VM/",
+      "room_url": "VM117",
+      "room_name": "VM117  PC Room"
+    },
+    {
+      "building_url": "VM/",
+      "room_url": "VM119",
+      "room_name": "VM119 Anatomy Lab (Victoria Mill)"
+    },
+    {
+      "building_url": "VM/",
+      "room_url": "VM130",
+      "room_name": "VM130 Clinical Skills Lab  (Victoria Mill)"
+    },
+    {
+      "building_url": "VM/",
+      "room_url": "VM130",
+      "room_name": "VM130 Clinical Skills Lab  (Victoria Mill)"
+    },
+    {
+      "building_url": "VM/",
+      "room_url": "VM132",
+      "room_name": "VM132 Wet Lab (Victoria Mill)"
+    },
+    {
+      "building_url": "VM/",
+      "room_url": "VM136",
+      "room_name": "VM136  Multifunction Hall"
+    },
+    {
+      "building_url": "VM/",
+      "room_url": "VM136",
+      "room_name": "VM136  Multifunction Hall"
+    },
+    {
+      "building_url": "VM/",
+      "room_url": "VM202",
+      "room_name": "VM202"
+    },
+    {
+      "building_url": "VM/",
+      "room_url": "VM202",
+      "room_name": "VM202"
+    },
+    {
+      "building_url": "VM/",
+      "room_url": "VM202",
+      "room_name": "VM202"
+    },
+    {
+      "building_url": "VM/",
+      "room_url": "VM203",
+      "room_name": "VM203 High Spec PC Lab"
+    },
+    {
+      "building_url": "VM/",
+      "room_url": "VM203",
+      "room_name": "VM203 High Spec PC Lab"
+    },
+    {
+      "building_url": "VM/",
+      "room_url": "VM204",
+      "room_name": "VM204"
+    },
+    {
+      "building_url": "VM/",
+      "room_url": "VM204",
+      "room_name": "VM204"
+    },
+    {
+      "building_url": "VM/",
+      "room_url": "VM204",
+      "room_name": "VM204"
+    },
+    {
+      "building_url": "VM/",
+      "room_url": "VM205",
+      "room_name": "VM205 DevLab"
+    },
+    {
+      "building_url": "VM/",
+      "room_url": "VM206",
+      "room_name": "VM206 Clinical Skills Lab  (Victoria Mill)"
+    },
+    {
+      "building_url": "VM/",
+      "room_url": "VM206",
+      "room_name": "VM206 Clinical Skills Lab  (Victoria Mill)"
+    },
+    {
+      "building_url": "VM/",
+      "room_url": "VM216",
+      "room_name": "VM216 Meeting Room (Victoria Mill)"
+    },
+    {
+      "building_url": "VM/",
+      "room_url": "VM216",
+      "room_name": "VM216 Meeting Room (Victoria Mill)"
+    },
+    {
+      "building_url": "VM/",
+      "room_url": "VM301",
+      "room_name": "VM301"
+    },
+    {
+      "building_url": "VM/",
+      "room_url": "VM301",
+      "room_name": "VM301"
+    },
+    {
+      "building_url": "VM/",
+      "room_url": "VM301",
+      "room_name": "VM301"
+    },
+    {
+      "building_url": "VM/",
+      "room_url": "VM302",
+      "room_name": "VM302"
+    },
+    {
+      "building_url": "VM/",
+      "room_url": "VM302",
+      "room_name": "VM302"
+    },
+    {
+      "building_url": "VM/",
+      "room_url": "VM302",
+      "room_name": "VM302"
+    },
+    {
+      "building_url": "VM/",
+      "room_url": "VM303",
+      "room_name": "VM303"
+    },
+    {
+      "building_url": "VM/",
+      "room_url": "VM303",
+      "room_name": "VM303"
+    },
+    {
+      "building_url": "VM/",
+      "room_url": "VM303",
+      "room_name": "VM303"
+    },
+    {
+      "building_url": "VM/",
+      "room_url": "VM304",
+      "room_name": "VM304"
+    },
+    {
+      "building_url": "VM/",
+      "room_url": "VM304",
+      "room_name": "VM304"
+    },
+    {
+      "building_url": "VM/",
+      "room_url": "VM304",
+      "room_name": "VM304"
+    },
+    {
+      "building_url": "VM/",
+      "room_url": "VM305",
+      "room_name": "VM305"
+    },
+    {
+      "building_url": "VM/",
+      "room_url": "VM305",
+      "room_name": "VM305"
+    },
+    {
+      "building_url": "VM/",
+      "room_url": "VM305",
+      "room_name": "VM305"
+    },
+    {
+      "building_url": "VM/",
+      "room_url": "VM307",
+      "room_name": "VM307"
+    },
+    {
+      "building_url": "VM/",
+      "room_url": "VM307",
+      "room_name": "VM307"
+    },
+    {
+      "building_url": "VM/",
+      "room_url": "VM307",
+      "room_name": "VM307"
+    },
+    {
+      "building_url": "VM/",
+      "room_url": "VM308",
+      "room_name": "VM308"
+    },
+    {
+      "building_url": "VM/",
+      "room_url": "VM308",
+      "room_name": "VM308"
+    },
+    {
+      "building_url": "VM/",
+      "room_url": "VM308",
+      "room_name": "VM308"
+    },
+    {
+      "building_url": "VM/",
+      "room_url": "VM309",
+      "room_name": "VM309"
+    },
+    {
+      "building_url": "VM/",
+      "room_url": "VM309",
+      "room_name": "VM309"
+    },
+    {
+      "building_url": "VM/",
+      "room_url": "VM309",
+      "room_name": "VM309"
+    },
+    {
+      "building_url": "VM/",
+      "room_url": "VM313",
+      "room_name": "VM313 Meeting Room (Victoria Mill)"
+    },
+    {
+      "building_url": "VM/",
+      "room_url": "VM313",
+      "room_name": "VM313 Meeting Room (Victoria Mill)"
+    },
+    {
+      "building_url": "VM/",
+      "room_url": "VMA",
+      "room_name": "VMA Atrium"
+    },
+    {
+      "building_url": "VM/",
+      "room_url": "VMFOYER",
+      "room_name": "VMFOY Victoria Mill Foyer"
+    },
+    {
+      "building_url": "VM/",
+      "room_url": "VMSS",
+      "room_name": "VMSS Social Space"
+    },
+    {
+      "building_url": "WL/",
+      "room_url": "Guided Learning WL01",
+      "room_name": "Guided Learning WL01"
+    },
+    {
+      "building_url": "WL/",
+      "room_url": "Guided Learning WL02",
+      "room_name": "Guided Learning WL02"
+    },
+    {
+      "building_url": "WL/",
+      "room_url": "Guided Learning WL03",
+      "room_name": "Guided Learning WL03"
+    },
+    {
+      "building_url": "WL/",
+      "room_url": "Guided Learning WL04",
+      "room_name": "Guided Learning WL04"
+    },
+    {
+      "building_url": "WL/",
+      "room_url": "Guided Learning WL05",
+      "room_name": "Guided Learning WL05"
+    },
+    {
+      "building_url": "WL/",
+      "room_url": "LECTADVWL1",
+      "room_name": "Lecturer/ School to Advise Location"
+    },
+    {
+      "building_url": "WL/",
+      "room_url": "LECTADVWL2",
+      "room_name": "Lecturer/ School to Advise Location"
+    },
+    {
+      "building_url": "WL/",
+      "room_url": "LECTADVWL3",
+      "room_name": "Lecturer/ School to Advise Location"
+    },
+    {
+      "building_url": "WL/",
+      "room_url": "LECTADVWL4",
+      "room_name": "Lecturer/ School to Advise Location"
+    },
+    {
+      "building_url": "WB/",
+      "room_url": "WB011",
+      "room_name": "WB011  Engineering Workshop"
+    },
+    {
+      "building_url": "WB/",
+      "room_url": "WB014",
+      "room_name": "WB014 - Design Workshop"
+    },
+    {
+      "building_url": "WB/",
+      "room_url": "WB020",
+      "room_name": "WB020  Engineering"
+    },
+    {
+      "building_url": "WB/",
+      "room_url": "WB021",
+      "room_name": "WB021 - Wind Tunnel Laboratory"
+    }
+  ]
+}
