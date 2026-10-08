@@ -29,6 +29,8 @@ pub enum Weekday {
     Wed = 2,
     Thu = 3,
     Fri = 4,
+    Sat = 5,
+    Sun = 6,
 }
 
 impl Weekday {
@@ -39,6 +41,8 @@ impl Weekday {
             "Wed" => Some(Self::Wed),
             "Thu" => Some(Self::Thu),
             "Fri" => Some(Self::Fri),
+            "Sat" => Some(Self::Sat),
+            "Sun" => Some(Self::Sun),
             _ => None,
         }
     }
@@ -49,7 +53,7 @@ impl FromStr for Weekday {
 
     fn from_str(value: &str) -> Result<Self, Self::Err> {
         Self::parse(value).ok_or_else(|| {
-            format!("unknown weekday `{value}` (expected Mon, Tue, Wed, Thu, or Fri)")
+            format!("unknown weekday `{value}` (expected Mon, Tue, Wed, Thu, Fri, Sat, or Sun)")
         })
     }
 }
@@ -62,6 +66,8 @@ impl fmt::Display for Weekday {
             Self::Wed => "Wed",
             Self::Thu => "Thu",
             Self::Fri => "Fri",
+            Self::Sat => "Sat",
+            Self::Sun => "Sun",
         })
     }
 }
