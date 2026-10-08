@@ -235,7 +235,7 @@ fn parse_courses_csv(value: &str) -> Vec<Course> {
 
 fn parse_courses_text(value: &str) -> Vec<Course> {
     value
-        .split(", ")
+        .split("; ")
         .filter(|item| !item.trim().is_empty())
         .map(|item| {
             item.split_once(" -> ")
@@ -262,7 +262,7 @@ fn parse_speakers_csv(value: &str) -> Vec<String> {
 
 fn parse_speakers_text(value: &str) -> Vec<String> {
     value
-        .split(", ")
+        .split("; ")
         .map(str::trim)
         .filter(|item| !item.is_empty())
         .map(String::from)
@@ -340,4 +340,212 @@ fn write_courses_text(writer: &mut dyn Write, courses: &CourseMap) -> io::Result
         }
     }
     Ok(())
+}
+
+#[cfg(test)]
+mod tests {
+    use super::*;
+    use std::collections::BTreeSet;
+
+    fn base_event(date: &str, start: &str) -> TimetableEvent {
+        TimetableEvent {
+            room_url: "EIC317".to_string(),
+            building_url: "EIC".to_string(),
+            day: Weekday::Mon,
+            date: date.to_string(),
+            start_time: start.to_string(),
+            end_time: "10:00".to_string(),
+            duration_slots: 2,
+            event_type: EventType::Teaching {
+                category: "Lecture".to_string(),
+                delivery: Some("Seminar".to_string()),
+            },
+            courses: vec![Course {
+                code: "CSC100".to_string(),
+                title: "Computing".to_string(),
+            }],
+            speakers: vec!["Alice".to_string()],
+        }
+    }
+
+    fn non_teaching_event(date: &str, start: &str) -> TimetableEvent {
+        TimetableEvent {
+            event_type: EventType::NonTeaching,
+            courses: vec![],
+            speakers: vec![],
+            ..base_event(date, start)
+        }
+    }
+
+    #[test]
+    fn take_field_extracts_text_between_prefix_and_suffix() {
+        assert_eq!(
+            take_field("Room: EIC317 - Building: EIC", "Room: ", " - Building: "),
+            Some("EIC317")
+        );
+    }
+
+    #[test]
+    fn take_field_returns_rest_of_line_when_suffix_is_empty() {
+        assert_eq!(
+            take_field(" - Speaker: Alice, Bob", " - Speaker: ", ""),
+            Some("Alice, Bob")
+        );
+    }
+
+    #[test]
+    fn take_field_returns_none_when_prefix_or_suffix_is_missing() {
+        assert_eq!(take_field("no prefix here", "Room: ", " - "), None);
+        assert_eq!(take_field("Room: EIC317", "Room: ", " - Missing: "), None);
+    }
+
+    #[test]
+    fn parse_courses_csv_splits_on_semicolon_separator() {
+        let courses = parse_courses_csv("CSC100 - Computing; CSC101 - Programming");
+        assert_eq!(courses.len(), 2);
+        assert_eq!(courses[0].code, "CSC100");
+        assert_eq!(courses[0].title, "Computing");
+        assert_eq!(courses[1].code, "CSC101");
+        assert_eq!(courses[1].title, "Programming");
+    }
+
+    #[test]
+    fn parse_courses_text_splits_on_semicolon_separator() {
+        let courses = parse_courses_text("CSC100 -> Computing; CSC101 -> Programming");
+        assert_eq!(courses.len(), 2);
+        assert_eq!(courses[0].code, "CSC100");
+        assert_eq!(courses[1].title, "Programming");
+    }
+
+    #[test]
+    fn parse_speakers_csv_and_text_split_on_their_separators() {
+        assert_eq!(
+            parse_speakers_csv("Alice; Bob"),
+            vec!["Alice".to_string(), "Bob".to_string()]
+        );
+        assert_eq!(
+            parse_speakers_text("Alice; Bob"),
+            vec!["Alice".to_string(), "Bob".to_string()]
+        );
+    }
+
+    #[test]
+    fn parse_event_text_reconstructs_the_event() {
+        let original = base_event("2026-10-12", "09:00");
+        let parsed = parse_event_text(&original.to_string()).unwrap();
+        assert_eq!(parsed, original);
+    }
+
+    #[test]
+    fn text_round_trip_preserves_speaker_names_containing_commas() {
+        // Speakers are joined with "; " in the text output, so a single
+        // speaker whose name contains ", " is preserved on a round trip.
+        let original = TimetableEvent {
+            speakers: vec!["Smith, John".to_string()],
+            ..base_event("2026-10-12", "09:00")
+        };
+        let parsed = parse_event_text(&original.to_string()).unwrap();
+        assert_eq!(parsed.speakers, vec!["Smith, John".to_string()]);
+    }
+
+    #[test]
+    fn write_json_emits_a_json_array() {
+        let mut out = Vec::new();
+        write_json(&mut out, &[base_event("2026-10-12", "09:00")]).unwrap();
+        let text = String::from_utf8(out).unwrap();
+        assert!(text.contains("\"room_url\": \"EIC317\""));
+        assert!(text.contains("\"event_type\": {"));
+    }
+
+    #[test]
+    fn json_round_trips_events() {
+        let events = vec![
+            base_event("2026-10-12", "09:00"),
+            non_teaching_event("2026-10-11", "10:00"),
+        ];
+        let mut out = Vec::new();
+        write_json(&mut out, &events).unwrap();
+        let parsed = read_events_json(&String::from_utf8(out).unwrap()).unwrap();
+        assert_eq!(parsed, events);
+    }
+
+    #[test]
+    fn write_csv_emits_header_and_one_row_per_event() {
+        let mut out = Vec::new();
+        write_csv(&mut out, &[base_event("2026-10-12", "09:00")]).unwrap();
+        let text = String::from_utf8(out).unwrap();
+        assert!(text.starts_with(
+            "room_url,building_url,day,date,start_time,end_time,duration_slots,event_type,courses,speakers\n"
+        ));
+        assert!(text.contains(
+            "EIC317,EIC,Mon,2026-10-12,09:00,10:00,2,Lecture (Seminar),CSC100 - Computing,Alice"
+        ));
+    }
+
+    #[test]
+    fn csv_round_trips_events() {
+        let events = vec![
+            base_event("2026-10-12", "09:00"),
+            non_teaching_event("2026-10-11", "10:00"),
+        ];
+        let mut out = Vec::new();
+        write_csv(&mut out, &events).unwrap();
+        let parsed = read_events_csv(&String::from_utf8(out).unwrap()).unwrap();
+        assert_eq!(parsed, events);
+    }
+
+    #[test]
+    fn write_text_emits_one_line_per_event() {
+        let mut out = Vec::new();
+        write_text(&mut out, &[base_event("2026-10-12", "09:00")]).unwrap();
+        let text = String::from_utf8(out).unwrap();
+        assert!(text.starts_with("Room: EIC317 - Building: EIC - Day: Mon"));
+        assert!(text.ends_with("- Speaker: Alice\n"));
+    }
+
+    #[test]
+    fn merge_events_drops_exact_duplicates_and_sorts_by_date() {
+        let earlier = non_teaching_event("2026-10-11", "10:00");
+        let later = base_event("2026-10-12", "09:00");
+        let merged = merge_events(
+            vec![later.clone(), earlier.clone()],
+            std::slice::from_ref(&later),
+        );
+        assert_eq!(merged, vec![earlier, later]);
+    }
+
+    #[test]
+    fn merge_events_text_round_trips_and_sorts_events() {
+        let later = base_event("2026-10-12", "09:00");
+        let earlier = non_teaching_event("2026-10-11", "10:00");
+        let merged = merge_events_text("", &[later.clone(), earlier.clone()]);
+        assert_eq!(merged, vec![earlier, later]);
+    }
+
+    #[test]
+    fn write_courses_csv_emits_code_title_rows() {
+        let mut courses = CourseMap::new();
+        courses.insert(
+            "CSC100".to_string(),
+            BTreeSet::from(["Computing".to_string()]),
+        );
+        let mut out = Vec::new();
+        write_courses_csv(&mut out, &courses).unwrap();
+        let text = String::from_utf8(out).unwrap();
+        assert!(text.starts_with("code,title\n"));
+        assert!(text.contains("CSC100,Computing"));
+    }
+
+    #[test]
+    fn write_courses_text_emits_code_title_lines() {
+        let mut courses = CourseMap::new();
+        courses.insert(
+            "CSC100".to_string(),
+            BTreeSet::from(["Computing".to_string()]),
+        );
+        let mut out = Vec::new();
+        write_courses_text(&mut out, &courses).unwrap();
+        let text = String::from_utf8(out).unwrap();
+        assert!(text.contains("CSC100  ---  Computing"));
+    }
 }

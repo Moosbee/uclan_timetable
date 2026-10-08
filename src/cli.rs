@@ -53,7 +53,7 @@ pub enum Command {
             JSON: an array of event objects. Each object has the string fields\n\
             room_url (e.g. EIC317), building_url (e.g. EIC), day (Mon..Sun),\n\
             date (YYYY-MM-DD), start_time (HH:MM), and end_time (HH:MM); the\n\
-            integer field duration_slots (event length in half-hour slots); an\n\
+            integer field duration_slots (event length in 15-minute slots); an\n\
             event_type that is either the string \"non-teaching\" or an object\n\
             { type, category, delivery }; a courses array of { code, title }\n\
             objects; and a speakers array of strings.\n\
@@ -223,4 +223,25 @@ pub enum WriteMode {
     Merge,
     /// Replace the output file's contents with the new data.
     Overwrite,
+}
+
+#[cfg(test)]
+mod tests {
+    use super::*;
+
+    #[test]
+    fn data_source_treats_scrape_keyword_as_scrape() {
+        assert!(matches!(
+            "scrape".parse::<DataSource>().unwrap(),
+            DataSource::Scrape
+        ));
+    }
+
+    #[test]
+    fn data_source_treats_any_other_value_as_a_file() {
+        let DataSource::File(path) = "timetable.json".parse::<DataSource>().unwrap() else {
+            panic!("expected a file data source");
+        };
+        assert_eq!(path, PathBuf::from("timetable.json"));
+    }
 }

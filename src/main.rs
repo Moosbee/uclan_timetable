@@ -54,7 +54,7 @@ pub(crate) fn fail(message: String) -> ! {
     std::process::exit(1);
 }
 
-/// Read the timetable from a file or by scraping, sorted by weekday and start time.
+/// Read the timetable from a file or by scraping, sorted by date and start time.
 fn load_events(source: &DataSource, cli: &Cli) -> Vec<TimetableEvent> {
     let mut events = match source {
         DataSource::Scrape => scrape::scrape_all_events(cli),

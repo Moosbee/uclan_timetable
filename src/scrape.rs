@@ -312,6 +312,18 @@ mod tests {
     }
 
     #[test]
+    fn parse_server_millis_returns_none_when_marker_is_missing() {
+        let html = r#"<script>var somethingElse = 123;</script>"#;
+        assert_eq!(parse_server_millis(html), None);
+    }
+
+    #[test]
+    fn parse_server_millis_returns_none_for_non_numeric_value() {
+        let html = r#"<script>var serverMillis = not-a-number;</script>"#;
+        assert_eq!(parse_server_millis(html), None);
+    }
+
+    #[test]
     fn computes_next_five_days_including_today() {
         // 2026-10-08 15:25:28 UTC is a Thursday.
         let millis = Some(1791473128246);
@@ -320,5 +332,45 @@ mod tests {
         assert_eq!(date_for_weekday(millis, Weekday::Sat), "2026-10-10");
         assert_eq!(date_for_weekday(millis, Weekday::Sun), "2026-10-11");
         assert_eq!(date_for_weekday(millis, Weekday::Mon), "2026-10-12");
+        assert_eq!(date_for_weekday(millis, Weekday::Tue), "2026-10-13");
+    }
+
+    #[test]
+    fn date_for_weekday_is_empty_without_server_millis() {
+        assert_eq!(date_for_weekday(None, Weekday::Mon), "");
+    }
+
+    #[test]
+    fn parses_timetable_event_from_html() {
+        let fragment = r#"<table><tbody><tr><td class="TimeTableEvent" colspan="3"><b>09:00 - 11:00</b><br>CSC100 - Computing<br><b>Smith, John</b><br>Lecture (Seminar)</td></tr></tbody></table>"#;
+        let document = scraper::Html::parse_fragment(fragment);
+        let selector = scraper::Selector::parse(".TimeTableEvent").unwrap();
+        let element = document.select(&selector).next().unwrap();
+
+        let event =
+            parse_timetable_event(element, "EIC317", "EIC", Weekday::Thu, "2026-10-08").unwrap();
+
+        assert_eq!(event.room_url, "EIC317");
+        assert_eq!(event.building_url, "EIC");
+        assert_eq!(event.day, Weekday::Thu);
+        assert_eq!(event.date, "2026-10-08");
+        assert_eq!(event.start_time, "09:00");
+        assert_eq!(event.end_time, "11:00");
+        assert_eq!(event.duration_slots, 3);
+        assert_eq!(
+            event.event_type,
+            EventType::Teaching {
+                category: "Lecture".to_string(),
+                delivery: Some("Seminar".to_string()),
+            }
+        );
+        assert_eq!(
+            event.courses,
+            vec![Course {
+                code: "CSC100".to_string(),
+                title: "Computing".to_string(),
+            }]
+        );
+        assert_eq!(event.speakers, vec!["Smith, John".to_string()]);
     }
 }

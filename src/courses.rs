@@ -91,3 +91,133 @@ fn read_courses_csv(content: &str) -> Option<CourseMap> {
     }
     Some(courses)
 }
+
+#[cfg(test)]
+mod tests {
+    use super::*;
+    use crate::model::Course;
+    use std::path::PathBuf;
+
+    fn event(code: &str, title: &str) -> TimetableEvent {
+        TimetableEvent {
+            room_url: "EIC317".to_string(),
+            building_url: "EIC".to_string(),
+            day: crate::model::Weekday::Mon,
+            date: "2026-10-05".to_string(),
+            start_time: "09:00".to_string(),
+            end_time: "10:00".to_string(),
+            duration_slots: 2,
+            event_type: crate::model::EventType::NonTeaching,
+            courses: vec![Course {
+                code: code.to_string(),
+                title: title.to_string(),
+            }],
+            speakers: vec![],
+        }
+    }
+
+    fn temp_path(name: &str) -> PathBuf {
+        let dir = std::env::temp_dir().join("uclan_timetable_courses_tests");
+        std::fs::create_dir_all(&dir).unwrap();
+        dir.join(name)
+    }
+
+    #[test]
+    fn collect_courses_groups_every_title_per_code() {
+        let events = vec![
+            event("AA100", "Title A"),
+            event("BB200", "Title B"),
+            event("AA100", "Title A2"),
+        ];
+        let courses = collect_courses(&events);
+        assert_eq!(courses.len(), 2);
+        let titles: Vec<&str> = courses["AA100"].iter().map(String::as_str).collect();
+        assert_eq!(titles, vec!["Title A", "Title A2"]);
+        assert_eq!(courses["BB200"].iter().collect::<Vec<_>>(), vec!["Title B"]);
+    }
+
+    #[test]
+    fn collect_courses_ignores_events_without_courses() {
+        assert!(collect_courses(&[]).is_empty());
+        let mut no_course = event("AA100", "Title A");
+        no_course.courses.clear();
+        assert!(collect_courses(&[no_course]).is_empty());
+    }
+
+    #[test]
+    fn read_courses_csv_parses_code_title_rows() {
+        let map = read_courses_csv("code,title\nAA100,Title A\nBB200,Title B\n").unwrap();
+        assert_eq!(map.len(), 2);
+        assert_eq!(map["AA100"].iter().collect::<Vec<_>>(), vec!["Title A"]);
+        assert_eq!(map["BB200"].iter().collect::<Vec<_>>(), vec!["Title B"]);
+    }
+
+    #[test]
+    fn read_courses_csv_returns_none_for_rows_with_missing_columns() {
+        // The first line is consumed as the header, so the malformed row is
+        // the one with a single column below it.
+        assert!(read_courses_csv("code,title\nonly-one-column\n").is_none());
+    }
+
+    #[test]
+    fn read_courses_csv_returns_empty_map_for_empty_input() {
+        let map = read_courses_csv("").unwrap();
+        assert!(map.is_empty());
+    }
+
+    #[test]
+    fn merge_courses_file_merges_json() {
+        let path = temp_path("courses.json");
+        std::fs::write(&path, r#"{"AA100": ["Existing Title"]}"#).unwrap();
+
+        let new = collect_courses(&[event("AA100", "New Title"), event("BB200", "Other")]);
+        let merged = merge_courses_file(&path, &OutputFormat::Json, &new);
+
+        assert_eq!(
+            merged["AA100"].iter().collect::<Vec<_>>(),
+            vec!["Existing Title", "New Title"]
+        );
+        assert_eq!(merged["BB200"].iter().collect::<Vec<_>>(), vec!["Other"]);
+        let _ = std::fs::remove_file(&path);
+    }
+
+    #[test]
+    fn merge_courses_file_merges_csv() {
+        let path = temp_path("courses.csv");
+        std::fs::write(&path, "code,title\nAA100,Existing Title\n").unwrap();
+
+        let new = collect_courses(&[event("AA100", "New Title"), event("BB200", "Other")]);
+        let merged = merge_courses_file(&path, &OutputFormat::Csv, &new);
+
+        assert_eq!(
+            merged["AA100"].iter().collect::<Vec<_>>(),
+            vec!["Existing Title", "New Title"]
+        );
+        assert_eq!(merged["BB200"].iter().collect::<Vec<_>>(), vec!["Other"]);
+        let _ = std::fs::remove_file(&path);
+    }
+
+    #[test]
+    fn merge_courses_file_merges_text() {
+        let path = temp_path("courses.txt");
+        std::fs::write(&path, "AA100  ---  Existing Title\n").unwrap();
+
+        let new = collect_courses(&[event("AA100", "New Title"), event("BB200", "Other")]);
+        let merged = merge_courses_file(&path, &OutputFormat::Text, &new);
+
+        assert_eq!(
+            merged["AA100"].iter().collect::<Vec<_>>(),
+            vec!["Existing Title", "New Title"]
+        );
+        assert_eq!(merged["BB200"].iter().collect::<Vec<_>>(), vec!["Other"]);
+        let _ = std::fs::remove_file(&path);
+    }
+
+    #[test]
+    fn merge_courses_file_starts_fresh_when_file_is_missing() {
+        let path = temp_path("does-not-exist.json");
+        let new = collect_courses(&[event("AA100", "Title A")]);
+        let merged = merge_courses_file(&path, &OutputFormat::Json, &new);
+        assert_eq!(merged["AA100"].iter().collect::<Vec<_>>(), vec!["Title A"]);
+    }
+}
