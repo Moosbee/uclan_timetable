@@ -8,6 +8,8 @@ pub struct TimetableEvent {
     pub room_url: String,
     pub building_url: String,
     pub day: Weekday,
+    #[serde(default)]
+    pub date: String,
     pub start_time: String,
     pub end_time: String,
     pub duration_slots: i32,
@@ -183,10 +185,11 @@ impl fmt::Display for TimetableEvent {
     fn fmt(&self, formatter: &mut fmt::Formatter<'_>) -> fmt::Result {
         write!(
             formatter,
-            "Room: {} - Building: {} - Day: {} - Start: {} - End: {} - Took: {} - Type: {} - Courses: {} - Speaker: {}",
+            "Room: {} - Building: {} - Day: {} - Date: {} - Start: {} - End: {} - Took: {} - Type: {} - Courses: {} - Speaker: {}",
             self.room_url,
             self.building_url,
             self.day,
+            self.date,
             self.start_time,
             self.end_time,
             self.duration_slots,

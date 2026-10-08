@@ -2,6 +2,8 @@ use scraper::selectable::Selectable;
 use std::collections::HashSet;
 use std::fs;
 
+use chrono::{DateTime, Datelike, Duration, Utc};
+
 use crate::cli::Cli;
 use crate::model::{Building, Cache, Course, EventType, Room, TimetableEvent, Weekday};
 
@@ -89,6 +91,8 @@ fn scrap_room_for_timetable(
     let document = scraper::Html::parse_document(&html_content);
     let time_table_selector = scraper::Selector::parse("table.TimeTableTable > tbody").unwrap();
 
+    let server_millis = parse_server_millis(&html_content);
+
     let time_table_day_selector = scraper::Selector::parse("tr:not(:first-child)").unwrap();
 
     let time_table_event_selector = scraper::Selector::parse(".TimeTableEvent").unwrap();
@@ -117,12 +121,15 @@ fn scrap_room_for_timetable(
             .map(|f| f.text().map(|f| f.trim()).collect::<Vec<_>>().join(""));
         let events = day.select(&time_table_event_selector).collect::<Vec<_>>();
 
-        for event in events {
-            let Some(day_name) = day_name.as_deref().and_then(Weekday::parse) else {
-                continue;
-            };
+        let Some(day_name) = day_name.as_deref().and_then(Weekday::parse) else {
+            continue;
+        };
+        let date = date_for_weekday(server_millis, day_name);
 
-            if let Some(event) = parse_timetable_event(event, room_url, building_url, day_name) {
+        for event in events {
+            if let Some(event) =
+                parse_timetable_event(event, room_url, building_url, day_name, &date)
+            {
                 timetable_events.push(event);
             }
         }
@@ -131,11 +138,38 @@ fn scrap_room_for_timetable(
     timetable_events
 }
 
+/// Extract the server-side epoch time (in milliseconds) from the room page.
+fn parse_server_millis(html: &str) -> Option<i64> {
+    let marker = "var serverMillis = ";
+    let start = html.find(marker)? + marker.len();
+    let rest = &html[start..];
+    let end = rest.find(';')?;
+    rest[..end].trim().parse().ok()
+}
+
+/// Compute the calendar date (YYYY-MM-DD) of a weekday shown on a room page.
+fn date_for_weekday(server_millis: Option<i64>, day: Weekday) -> String {
+    let Some(millis) = server_millis else {
+        return String::new();
+    };
+    let Some(today) = DateTime::<Utc>::from_timestamp_millis(millis) else {
+        return String::new();
+    };
+    let today = today.date_naive();
+    let today_index = today.weekday().num_days_from_monday() as i64;
+    let target_index = day as i64;
+    let offset = (target_index - today_index).rem_euclid(7);
+    (today + Duration::days(offset))
+        .format("%Y-%m-%d")
+        .to_string()
+}
+
 fn parse_timetable_event(
     event: scraper::ElementRef,
     room_url: &str,
     building_url: &str,
     day: Weekday,
+    date: &str,
 ) -> Option<TimetableEvent> {
     let duration_slots: i32 = event
         .value()
@@ -185,6 +219,7 @@ fn parse_timetable_event(
         room_url: room_url.to_string(),
         building_url: building_url.to_string(),
         day,
+        date: date.to_string(),
         start_time,
         end_time,
         duration_slots,
@@ -218,7 +253,10 @@ fn scrape_all_buildings() -> Vec<Building> {
             .select(&scraper::Selector::parse("td:last-child").unwrap())
             .next()
             .map(|f| f.text().map(|f| f.trim()).collect::<Vec<_>>().join(""));
-        eprintln!("Scraping building: {:?} - {:?}", building_url, building_name);
+        eprintln!(
+            "Scraping building: {:?} - {:?}",
+            building_url, building_name
+        );
         buildings.push(Building {
             url: building_url,
             name: building_name,
@@ -261,4 +299,26 @@ fn scrap_building_for_rooms(building_url: &str) -> Vec<Room> {
     }
 
     rooms
+}
+
+#[cfg(test)]
+mod tests {
+    use super::*;
+
+    #[test]
+    fn parses_server_millis_from_script_tag() {
+        let html = r#"<script>var serverMillis = 1791473128246;</script>"#;
+        assert_eq!(parse_server_millis(html), Some(1791473128246));
+    }
+
+    #[test]
+    fn computes_next_five_days_including_today() {
+        // 2026-10-08 15:25:28 UTC is a Thursday.
+        let millis = Some(1791473128246);
+        assert_eq!(date_for_weekday(millis, Weekday::Thu), "2026-10-08");
+        assert_eq!(date_for_weekday(millis, Weekday::Fri), "2026-10-09");
+        assert_eq!(date_for_weekday(millis, Weekday::Sat), "2026-10-10");
+        assert_eq!(date_for_weekday(millis, Weekday::Sun), "2026-10-11");
+        assert_eq!(date_for_weekday(millis, Weekday::Mon), "2026-10-12");
+    }
 }

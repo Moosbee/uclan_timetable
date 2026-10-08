@@ -8,7 +8,11 @@ use crate::model::TimetableEvent;
 
 /// Order events by weekday and start time.
 pub fn sort_events(events: &mut [TimetableEvent]) {
-    events.sort_by(|a, b| a.day.cmp(&b.day).then_with(|| a.start_time.cmp(&b.start_time)));
+    events.sort_by(|a, b| {
+        a.date
+            .cmp(&b.date)
+            .then_with(|| a.start_time.cmp(&b.start_time))
+    });
 }
 
 /// Keep only events whose building and room identifiers contain the given needles.
@@ -22,12 +26,18 @@ pub fn filter_events_by_location(
         .filter(|event| {
             let building_matches = buildings.is_empty()
                 || buildings.iter().any(|needle| {
-                    event.building_url.to_lowercase().contains(&needle.to_lowercase())
+                    event
+                        .building_url
+                        .to_lowercase()
+                        .contains(&needle.to_lowercase())
                 });
             let room_matches = rooms.is_empty()
-                || rooms
-                    .iter()
-                    .any(|needle| event.room_url.to_lowercase().contains(&needle.to_lowercase()));
+                || rooms.iter().any(|needle| {
+                    event
+                        .room_url
+                        .to_lowercase()
+                        .contains(&needle.to_lowercase())
+                });
             building_matches && room_matches
         })
         .collect()
@@ -49,7 +59,10 @@ pub fn apply_filters(events: Vec<TimetableEvent>, args: &FilterArgs) -> Vec<Time
                 return false;
             }
             if let Some(whitelist) = &whitelist
-                && !event.courses.iter().any(|course| whitelist.contains(&course.code))
+                && !event
+                    .courses
+                    .iter()
+                    .any(|course| whitelist.contains(&course.code))
             {
                 return false;
             }

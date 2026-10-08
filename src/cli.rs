@@ -8,7 +8,7 @@ use crate::model::Weekday;
 #[command(
     name = "uclan_timetable",
     version,
-    about = "Scrape or process the UCLan room timetable using the UCLan timetable website https://apps.uclan.ac.uk/MvcRoomTimetable/."
+    about = "Scrape or process the UCLan room timetable using the UCLan timetable website https://apps.uclan.ac.uk/MvcRoomTimetable/. Scraping fetches the next five days including today."
 )]
 pub struct Cli {
     /// Path to the buildings and rooms cache file (used when scraping).
@@ -26,6 +26,10 @@ pub struct Cli {
 #[derive(Subcommand)]
 pub enum Command {
     /// Generate a list of all timetable events, optionally restricted to certain buildings or rooms.
+    ///
+    /// Scraping always fetches the next five days including today. For example,
+    /// if today is Thursday, the scraper fetches Thursday (today), Friday
+    /// (tomorrow), Saturday, Sunday, and Monday (next week).
     Events(EventsArgs),
 
     /// Generate a list of all courses and their titles (one course may have several titles).
