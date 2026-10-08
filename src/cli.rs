@@ -72,8 +72,7 @@ pub enum Command {
     /// List every course code and its title(s).
     ///
     /// One course code may have several titles, so each distinct title seen is
-    /// listed. When writing to an existing file, the new courses are merged
-    /// with the file's existing courses instead of replacing them.
+    /// listed.
     #[command(
         after_help = "Output schema:\n\
             \n\
@@ -137,11 +136,18 @@ pub struct OutputArgs {
 
     /// Write output to this file instead of stdout.
     ///
-    /// For `courses`, an existing file is merged with the newly collected
-    /// courses instead of being overwritten. For `events` and `filter`, the
-    /// file is overwritten.
+    /// By default, an existing file is merged with the newly collected data.
+    /// Use `--write-mode overwrite` to replace the file instead.
     #[arg(short, long)]
     pub output: Option<PathBuf>,
+
+    /// Whether to merge with an existing output file or overwrite it.
+    ///
+    /// `merge` keeps the entries already in the file and adds the new ones;
+    /// `overwrite` replaces the file's contents. Applies to `events`,
+    /// `courses`, and `filter`.
+    #[arg(long, value_enum, default_value = "merge")]
+    pub write_mode: WriteMode,
 }
 
 #[derive(Args, Clone)]
@@ -209,4 +215,12 @@ pub enum OutputFormat {
     Json,
     Csv,
     Text,
+}
+
+#[derive(Debug, Clone, Copy, PartialEq, Eq, ValueEnum)]
+pub enum WriteMode {
+    /// Merge the new data with the entries already in the output file.
+    Merge,
+    /// Replace the output file's contents with the new data.
+    Overwrite,
 }

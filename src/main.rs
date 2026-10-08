@@ -18,7 +18,12 @@ fn main() {
         Command::Events(args) => {
             let events = load_events(&args.source.source, &cli);
             let events = filter::filter_events_by_location(events, &args.building, &args.room);
-            output::write_events_output(&args.output.format, args.output.output.as_deref(), &events);
+            output::write_events_output(
+                &args.output.format,
+                args.output.output.as_deref(),
+                &events,
+                args.output.write_mode,
+            );
         }
         Command::Courses(args) => {
             let events = load_events(&args.source.source, &cli);
@@ -27,12 +32,18 @@ fn main() {
                 &args.output.format,
                 args.output.output.as_deref(),
                 &courses,
+                args.output.write_mode,
             );
         }
         Command::Filter(args) => {
             let events = load_events(&args.source.source, &cli);
             let events = filter::apply_filters(events, args);
-            output::write_events_output(&args.output.format, args.output.output.as_deref(), &events);
+            output::write_events_output(
+                &args.output.format,
+                args.output.output.as_deref(),
+                &events,
+                args.output.write_mode,
+            );
         }
     }
 }
